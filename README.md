@@ -15,8 +15,8 @@ Download :
 
 Apply-it Manually :
 -------------------
-- Copy 'mozilla.cfg' to '/firefox-install-dir/' and 'local-settings.js' to '/firefox-install-dir/defaults/pref/' (if the directory does not exist create it)
-- Copy 'policies.json' to '/firefox-install-dir/distribution/' (if the directory does not exist create it)
+- Copy `mozilla.cfg` to `/firefox-install-dir/` and `local-settings.js` to `/firefox-install-dir/defaults/pref/` (if the directory does not exist create it)
+- Copy `policies.json` to `/firefox-install-dir/distribution/` (if the directory does not exist create it)
 
 Infos :
 -------
