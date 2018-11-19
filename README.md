@@ -5,9 +5,9 @@ This project aim to fix all security/privacy issues related to firefox and also 
 
 It uses `mozilla.cfg` and `policies.json` to have the changes applied to firefox...
 
-**mozilla.cfg :** Locking Firefox Settings For Security, Privacy & Prevent Settings Changes 
+**mozilla.cfg :** Locking firefox settings for security, privacy & prevent settings changes 
 
-**policies.json :** the policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems
+**policies.json :** The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems
 
 Download :
 ----------
