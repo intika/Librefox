@@ -23,7 +23,7 @@ Infos :
 
 **Site :** https://github.com/intika/privafox-firefox
 
-**Based on :** [User.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) thanks to : pyllyukko and honesty
+**Based on :** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) Big thanks to all of them
 
 Performances :
 --------------
