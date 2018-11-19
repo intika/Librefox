@@ -18,6 +18,7 @@ Apply-it Manually :
 -------------------
 - Copy `mozilla.cfg` to `/firefox-install-dir/` and `local-settings.js` to `/firefox-install-dir/defaults/pref/` (if the directory does not exist create it)
 - Copy `policies.json` to `/firefox-install-dir/distribution/` (if the directory does not exist create it)
+- Setup the rest of the settings as you wish in `about:preferences` page  
 
 Infos :
 -------
@@ -34,6 +35,16 @@ Performances :
 --------------
 
 Performance tests can be done here https://intika.github.io/octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
+
+Recommanded addons :
+--------------------
+- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- [uBlock IDCAC List](abp:subscribe?location=https%3A%2F%2Fwww.i-dont-care-about-cookies.eu%2Fabp%2F&title=I%20don%27t%20care%20about%20cookies)
+- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
+- [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
+- [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
+- [Browser Plugs PrivacyFirewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
+- [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
 
 Documentation :
 ---------------
