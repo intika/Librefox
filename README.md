@@ -7,13 +7,12 @@ It uses `mozilla.cfg` and `policies.json` to have the changes applied to firefox
 
 Download :
 ----------
-- [Release : Firefox v63.0.3](https://github.com/intika/privafox-firefox/releases)
+
+Official untouched mozilla builds with privafox integrated
 
 - [`privafox-firefox-linux-63.0.3.tar.gz 57.3 MB`](https://github.com/intika/privafox-firefox/releases/download/v63.0.3/privafox-firefox-linux-63.0.3.tar.gz)
 
 - [`privafox-firefox-windows-63.0.3.zip 61.2 MB`](https://github.com/intika/privafox-firefox/releases/download/v63.0.3/privafox-firefox-windows-63.0.3.zip)
-
-Note : Those are official untouched mozilla builds with privafox integrated
 
 Apply-it Manually :
 -------------------
