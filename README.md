@@ -1,7 +1,7 @@
 # Privafox-Firefox
 Tunning firefox settings (`about:config`) for a better security, privacy and performances.
 Firefox does not need to be rebuilt to be cleaned from privacy/security issues; as all settings can be changed in the `about:config` 
-This project aim to fix all security/privacy issues related to firefox and also tune it to gain some speed perfomances. 
+This project aim to fix security/privacy issues related to firefox and also tune it to gain some speed perfomances. 
 
 It uses `mozilla.cfg` and `policies.json` to have the changes applied to firefox...
 
