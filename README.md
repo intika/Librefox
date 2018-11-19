@@ -3,13 +3,11 @@ Tunning firefox settings (`about:config`) for a better security, privacy and per
 Firefox does not need to be rebuilt to be cleaned from privacy/security issues; as all settings can be changed in the `about:config` 
 This project aim to fix all security/privacy issues related to firefox and also tune it to gain some speed perfomances. 
 
-It uses `mozilla.cfg` and `policies.json` to have the changes applied to firefox... (`prefs.js` or `user.js` can be used intead of `mozilla.cfg` you will need to replace `lockPref` entries with `user_pref`)
+It uses `mozilla.cfg` and `policies.json` to have the changes applied to firefox...
 
 **mozilla.cfg :** Locking Firefox Settings For Security, Privacy & Prevent Settings Changes 
 
 **policies.json :** the policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems
-
-**prefs.js :** located in the user profile directory, it contains all the preferences applied to the `about:config` by the user  
 
 Download :
 ----------
