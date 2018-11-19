@@ -38,14 +38,14 @@ Performance tests can be done here https://intika.github.io/octane/ bench need t
 
 Recommanded addons :
 --------------------
-- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [uBlock IDCAC List](abp:subscribe?location=https%3A%2F%2Fwww.i-dont-care-about-cookies.eu%2Fabp%2F&title=I%20don%27t%20care%20about%20cookies)
-- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
-- [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
-- [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
-- [Browser Plugs PrivacyFirewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
-- [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
 
+- [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
+- [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
+- [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
+- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
+- [Browser Plugs PrivacyFirewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
+- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/)
+ 
 Documentation :
 ---------------
 
