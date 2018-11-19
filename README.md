@@ -29,6 +29,11 @@ Infos :
 
 **Based on :** [User.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) thanks to : pyllyukko and honesty
 
+Performances :
+--------------
+
+Performance tests can be done here https://intika.github.io/octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
+
 Documentation :
 ---------------
 
@@ -36,8 +41,6 @@ Documentation :
 
 "BENCH DIFF" : Impact on the performances of firefox can be a gain or loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
                
-Performance tests : can be done here https://intika.github.io/octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
-                                      
 "PREF" : Preference/Settings name
 
 "lockPref" : Locked preference can not be changed on firefox, nor by extensions, can only be changed here
