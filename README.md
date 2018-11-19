@@ -33,14 +33,14 @@ Performance tests can be done here https://intika.github.io/octane/ bench need t
 Documentation :
 ---------------
 
-**`Mozilla.cfg :`** Locking firefox settings for security, privacy & prevent settings changes 
+**`Mozilla.cfg`** : Locking firefox settings for security, privacy & prevent settings changes 
 
-**`Policies.json :`** The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems (the settings availables with `policies.json` are limited right now because this is a new feature of firefox)
+**`Policies.json`** : The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems (the settings availables with `policies.json` are limited right now because this is a new feature of firefox)
 
-**`Section :`** Description of the settings section separated by "----"
+**`Section`** : Description of the settings section separated by "----"
 
-**`Bench Diff :`** Impact on the performances of firefox can be a gain or loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
+**`Bench Diff`** : Impact on the performances of firefox can be a gain or loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
                
-**`Pref :`** Preference/Settings name
+**`Pref`** : Preference/Settings name
 
-**`lockPref :`** Locked preference can not be changed on firefox, nor by extensions, can only be changed here
+**`lockPref`** : Locked preference can not be changed on firefox, nor by extensions, can only be changed here
