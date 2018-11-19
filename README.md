@@ -42,9 +42,9 @@ Recommanded addons :
 - [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
 - [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
-- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/)
 - [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
 - [Browser Plugs PrivacyFirewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
+- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano Defender](https://github.com/LiCybora/NanoDefenderFirefox/releases/)
  
 Documentation :
 ---------------
