@@ -11,11 +11,7 @@ It uses `mozilla.cfg` and `policies.json` to have the changes applied to firefox
 
 Download :
 ----------
-- [Releases](https://github.com/intika/privafox-firefox/releases)
-
-Currrent Verion :
------------------
-**Firefox v63.0.3**
+- [Release : Firefox v63.0.3](https://github.com/intika/privafox-firefox/releases)
 
 Apply-it Manually :
 -------------------
