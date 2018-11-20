@@ -99,12 +99,11 @@ Settings Index (`mozilla.cfg`) :
 // Section : Microsoft Windows             // Bench Diff : ???/5000
 // ----------------------------------------
 // Section : Disabled                      // Bench Diff : ???/5000
-Documentation :
---------------- 
+//
 ```
 
-Documentations :
-----------------
+Documentation :
+---------------
 
 **`Mozilla.cfg`** : Locking firefox settings for security, privacy & prevent settings changes 
 
