@@ -31,7 +31,7 @@ Recommended addons :
 Performances :
 --------------
 
-Performance tests can be done here https://intika.github.io/octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
+Performance tests can be done here https://intika.github.io/lvp-octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
 
 Infos :
 -------
