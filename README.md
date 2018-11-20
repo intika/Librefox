@@ -29,7 +29,7 @@ Recommended addons :
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin)
 
-**Recommended `Browser Plugs Privacy Firewall` settings :**
+**`Browser Plugs Privacy Firewall` :**
 
 **`Note :`** Keep `Browser Plugs Privacy Firewall` settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting. (Normally nothing but the following settings is needed) 
 - Privacy / Font / Enable protection for font and glyph fingerprinting 
@@ -38,6 +38,10 @@ Recommended addons :
 - Privacy / Fingerprint / Randomize Canvas Fingerprint
 - Privacy / Fingerprint / 100% Randomize ALL Fingerprint Hash
 - Firewall / Experimental / Block SVG getBBox and getComputedTextLength 
+
+**`uBlock`** :
+
+Additional filter are available here https://filterlists.com/ (don't surcharge it to avoid performances loss)
 
 Edit locked settings :
 ----------------------
@@ -50,6 +54,8 @@ Browser Tests : Browser Security/Fingerprint :
 - [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
 - [AmiUnique](https://amiunique.org/fp)
 - [BrowserLeaks](https://browserleaks.com/)
+- [BrowserPlugs](https://www.browserplugs.com/fingerprint-test/index.html)
+- [FingerPrintJS2](https://valve.github.io/fingerprintjs2/)
 
 **`Note :`** `Firefox 60` and `privacy.resistFingerprinting` are relatively new give it sometimes to be more widely used and thus less finger-printable.
 
