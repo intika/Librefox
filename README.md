@@ -73,6 +73,7 @@ Infos :
 Settings Index (`mozilla.cfg`) :
 --------------------------------
 ```
+//
 // Index :
 // -------
 //
@@ -88,8 +89,8 @@ Settings Index (`mozilla.cfg`) :
 // Section : Locale/Time                   // Bench Diff : +0    / 5000
 // Section : Ghacks-user Select            // Bench Diff : +100  / 5000
 // ----------------------------------------
-// Section : General Settings 1/3          // Bench Diff : +0    / 5000
-// Section : General Settings 2/3          // Bench Diff : +100  / 5000
+// Section : General Settings 1/3          // Bench Diff : +100  / 5000
+// Section : General Settings 2/3          // Bench Diff : +0    / 5000
 // Section : General Settings 3/3          // Bench Diff : -40   / 5000
 // ----------------------------------------
 // Section : Security 1/3                  // Bench Diff : +0/5000
