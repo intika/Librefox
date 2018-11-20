@@ -30,8 +30,8 @@ Recommended addons :
 
 **Note :** Keep `Browser Plugs Privacy Firewall` settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting
 
-Browser Security/Fingerprint Test : 
------------------------------------
+Browser Tests : Browser Security/Fingerprint : 
+----------------------------------------------
 - [AmiUnique](https://amiunique.org/fp)
 - [BrowserLeaks](https://browserleaks.com/)
 - [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
@@ -40,10 +40,15 @@ Browser Security/Fingerprint Test :
 
 If you are using an other site to analyse your browser make sure to read and understand what the test is about, there is a lot of crap on test sites.
 
-Performances :
---------------
-
+Browser Tests : Performances :
+------------------------------
 Performance tests can be done here https://intika.github.io/lvp-octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
+
+Browser Tests : DNS/VPN/Proxy Leak :
+------------------------------------
+- [IP-Browserleaks](https://browserleaks.com/ip)
+- [Tenta-Test](https://tenta.com/test/)
+- [IPLeak](https://ipleak.net/)
 
 Infos :
 -------
