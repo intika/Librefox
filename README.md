@@ -37,9 +37,9 @@ TODO
 
 Browser Tests : Browser Security/Fingerprint : 
 ----------------------------------------------
+- [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
 - [AmiUnique](https://amiunique.org/fp)
 - [BrowserLeaks](https://browserleaks.com/)
-- [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
 
 **`Note :`** `Firefox 60` and `privacy.resistFingerprinting` are relatively new give it sometimes to be more widely used and thus less finger-printable.
 
@@ -51,9 +51,9 @@ Performance tests can be done here https://intika.github.io/lvp-octane/ bench ne
 
 Browser Tests : DNS/VPN/Proxy Leak :
 ------------------------------------
-- [IP-Browserleaks](https://browserleaks.com/ip)
-- [Tenta-Test](https://tenta.com/test/)
 - [IPLeak](https://ipleak.net/)
+- [Tenta-Test](https://tenta.com/test/)
+- [IP-Browserleaks](https://browserleaks.com/ip)
 
 Infos :
 -------
