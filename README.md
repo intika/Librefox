@@ -26,7 +26,7 @@ Recommended addons :
 - [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
 - [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
-- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano Defender](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin)
+- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin)
 
 **`Note :`** Keep `Browser Plugs Privacy Firewall` settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting
 
