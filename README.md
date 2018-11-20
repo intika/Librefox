@@ -8,9 +8,9 @@ Download :
 
 Official untouched mozilla builds with privafox integrated
 
-- [`privafox-firefox-linux-63.0.3.tar.gz 57.3 MB`](https://github.com/intika/privafox-firefox/releases/download/v63.0.3/privafox-firefox-linux-63.0.3.tar.gz)
+- [`privafox-1.2-firefox-linux-63.0.3.tar.gz 57.3 MB`](https://github.com/intika/privafox-firefox/releases/download/v63.0.3/privafox-1.2-firefox-linux-63.0.3.tar.gz)
 
-- [`privafox-firefox-windows-63.0.3.zip 61.2 MB`](https://github.com/intika/privafox-firefox/releases/download/v63.0.3/privafox-firefox-windows-63.0.3.zip)
+- [`privafox-1.2-firefox-windows-63.0.3.zip 61.2 MB`](https://github.com/intika/privafox-firefox/releases/download/v63.0.3/privafox-1.2-firefox-windows-63.0.3.zip)
 
 Apply-it Manually :
 -------------------
