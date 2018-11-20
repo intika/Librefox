@@ -70,8 +70,41 @@ Infos :
 
 **`Based on :`** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to all of them
 
+Settings Index (`mozilla.cfg`) :
+--------------------------------
+```
+// Index :
+// -------
+//
+// Section : Performances 1/5              // Bench Diff : +650  / 5000
+// Section : Performances 2/5              // Bench Diff : -800  / 5000
+// Section : Performances 3/5              // Bench Diff : -1720 / 5000
+// Section : Performances 4/5              // Bench Diff : -200  / 5000 
+// Section : Performances 5/5              // Bench Diff : -50   / 5000 
+// ----------------------------------------
+// Section : Controversial                 // Bench Diff : +0    / 5000
+// Section : Cookies Settings              // Bench Diff : +0    / 5000
+// Section : Firefox ResistFingerprinting  // Bench Diff : +0    / 5000
+// Section : Locale/Time                   // Bench Diff : +0    / 5000
+// Section : Ghacks-user Select            // Bench Diff : +100  / 5000
+// ----------------------------------------
+// Section : General Settings 1/3          // Bench Diff : +0    / 5000
+// Section : General Settings 2/3          // Bench Diff : +100  / 5000
+// Section : General Settings 3/3          // Bench Diff : -40   / 5000
+// ----------------------------------------
+// Section : Security 1/3                  // Bench Diff : +0/5000
+// Section : Security 2/3                  // Bench Diff : +0/5000
+// Section : Security 3/3 (Cipher)         // Bench Diff : +0/5000
+// ----------------------------------------
+// Section : Microsoft Windows             // Bench Diff : ???/5000
+// ----------------------------------------
+// Section : Disabled                      // Bench Diff : ???/5000
 Documentation :
 --------------- 
+```
+
+Documentations :
+----------------
 
 **`Mozilla.cfg`** : Locking firefox settings for security, privacy & prevent settings changes 
 
