@@ -14,6 +14,7 @@ Official untouched mozilla builds with privafox integrated
 
 Apply-it Manually :
 -------------------
+
 - Copy `mozilla.cfg` to `/firefox-install-dir/` and `local-settings.js` to `/firefox-install-dir/defaults/pref/` (if the directory does not exist create it)
 - Copy `policies.json` to `/firefox-install-dir/distribution/` (if the directory does not exist create it)
 - Setup the rest of the settings as you wish in `about:preferences` page  
@@ -32,11 +33,21 @@ Recommended addons :
 
 Recommended settings :
 ----------------------
-Along with the recommanded addons : ...
-TODO
+
+**`Along with the recommanded addons :`**
+
+- Disable firefox integrated content blocker and keep only `Do not track` (Under settings/privacy uncheck `All Detected...` and `Third-Party Cookies...`, `uBlock` will manage that more efficiently awaiting an advanced version from mozilla) 
+- Disable cookies under settings/privacy/block-cookies... (`Cookie Master` will take care of exceptions sites)
+- If you want to use saved passwords it's recommanded to use [KeepassXC](https://keepassxc.org/) instead of the integrated password manager
+
+Edit locked settings :
+----------------------
+
+Just edit `mozilla.cfg` save and restart firefox
 
 Browser Tests : Browser Security/Fingerprint : 
 ----------------------------------------------
+
 - [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
 - [AmiUnique](https://amiunique.org/fp)
 - [BrowserLeaks](https://browserleaks.com/)
@@ -47,10 +58,12 @@ If you are using an other site to analyse your browser make sure to read and und
 
 Browser Tests : Performances :
 ------------------------------
+
 Performance tests can be done here https://intika.github.io/lvp-octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
 
 Browser Tests : DNS/VPN/Proxy Leak :
 ------------------------------------
+
 - [IPLeak](https://ipleak.net/)
 - [Tenta-Test](https://tenta.com/test/)
 - [IP-Browserleaks](https://browserleaks.com/ip)
@@ -67,7 +80,7 @@ Infos :
 **`Based on :`** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to all of them
 
 Documentation :
----------------
+--------------- 
 
 **`Mozilla.cfg`** : Locking firefox settings for security, privacy & prevent settings changes 
 
