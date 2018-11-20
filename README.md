@@ -31,15 +31,6 @@ Recommended addons :
 
 **`Note :`** Keep `Browser Plugs Privacy Firewall` settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting
 
-Recommended settings :
-----------------------
-
-**`Along with the recommanded addons :`**
-
-- Disable firefox integrated content blocker and keep only `Do not track` (Under settings/privacy uncheck `All Detected...` and `Third-Party Cookies...`, `uBlock` will manage that more efficiently awaiting an advanced version from mozilla) 
-- Disable cookies under settings/privacy/block-cookies... (`Cookie Master` will take care of exceptions sites)
-- If you want to use saved passwords it's recommanded to use [KeepassXC](https://keepassxc.org/) instead of the integrated password manager
-
 Edit locked settings :
 ----------------------
 
