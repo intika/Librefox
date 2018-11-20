@@ -28,6 +28,18 @@ Recommended addons :
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano Defender](https://github.com/LiCybora/NanoDefenderFirefox/releases/)
 
+**Note :** Keep `Browser Plugs Privacy Firewall` settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting
+
+Browser Security/Fingerprint Test : 
+-----------------------------------
+- [AmiUnique](https://amiunique.org/fp)
+- [BrowserLeaks](https://browserleaks.com/)
+- [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
+
+**Note :** `Firefox 60` and `privacy.resistFingerprinting` are relatively new give it sometimes to be more widely used and thus less finger-printable.
+
+If you are using an other site to analyse your browser make sure to read and understand what the test is about, there is a lot of crap on test sites.
+
 Performances :
 --------------
 
