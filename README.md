@@ -29,7 +29,15 @@ Recommended addons :
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin)
 
-**`Note :`** Keep `Browser Plugs Privacy Firewall` settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting
+**Recommended `Browser Plugs Privacy Firewall` settings :**
+
+**`Note :`** Keep `Browser Plugs Privacy Firewall` settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting. (Normally nothing but the following settings is needed) 
+- Privacy / Font / Enable protection for font and glyph fingerprinting 
+- Privacy / Font / Randomize
+- Privacy / Fingerprint / Fake values for getClientRects
+- Privacy / Fingerprint / Randomize Canvas Fingerprint
+- Privacy / Fingerprint / 100% Randomize ALL Fingerprint Hash
+- Firewall / Experimental / Block SVG getBBox and getComputedTextLength 
 
 Edit locked settings :
 ----------------------
@@ -50,7 +58,7 @@ If you are using an other site to analyse your browser make sure to read and und
 Browser Tests : Performances :
 ------------------------------
 
-Performance tests can be done here https://intika.github.io/lvp-octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
+Performance tests can be done here https://intika.github.io/lvp-octane/ bench need to be launched with other applications closed and with no other activity but the benchmark, also the bunch need to be lunched at least 3 times (then make an average)
 
 Browser Tests : DNS/VPN/Proxy Leak :
 ------------------------------------
