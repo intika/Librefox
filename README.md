@@ -18,6 +18,21 @@ Apply-it Manually :
 - Copy `policies.json` to `/firefox-install-dir/distribution/` (if the directory does not exist create it)
 - Setup the rest of the settings as you wish in `about:preferences` page  
 
+Recommended addons :
+--------------------
+
+- [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
+- [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
+- [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
+- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
+- [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
+- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano Defender](https://github.com/LiCybora/NanoDefenderFirefox/releases/)
+
+Performances :
+--------------
+
+Performance tests can be done here https://intika.github.io/octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
+
 Infos :
 -------
 
@@ -29,21 +44,6 @@ Infos :
 
 **Based on :** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to all of them
 
-Performances :
---------------
-
-Performance tests can be done here https://intika.github.io/octane/ bench need to be launched with other applications closed and with no other activity but the bunchmark, also the bunch need to be lunched at least 3 times (then make an average)
-
-Recommanded addons :
---------------------
-
-- [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
-- [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
-- [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
-- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
-- [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
-- [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano Defender](https://github.com/LiCybora/NanoDefenderFirefox/releases/)
- 
 Documentation :
 ---------------
 
