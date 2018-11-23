@@ -19,7 +19,7 @@ Capture :
 Download :
 ----------
 
-Official untouched builds with privafox integrated
+Official builds with privafox integrated
 
 - [Privafox-1.4-Firefox-Linux-63.0.3.tar.gz](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-linux-63.0.3.tar.gz) - 57.3 MB - SHA1 : 004e2c3c9f03b00139e59a55f3b14565aa5e12d0 
 
