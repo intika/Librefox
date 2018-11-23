@@ -99,8 +99,6 @@ Infos :
 
 **Donation :** Paypal : intikadev (at) gmail.com
 
-**Site :** https://github.com/intika/privafox-firefox
-
 **Based on :** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to all of them
 
 Settings Index (`mozilla.cfg`) :
@@ -141,8 +139,8 @@ Documentation :
 
 **Policies.json** : The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems (the settings availables with `policies.json` are limited right now because this is a new feature of firefox)
 
-**Section** : Description of the settings section separated by "----"
-
 **Bench Diff** : Impact on the performances of firefox can be a gain or loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
                
 **lockPref** : Locked preference can not be changed on firefox, nor by extensions, can only be changed here
+
+**Section** : Description of the settings section separated by "----"
