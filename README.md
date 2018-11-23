@@ -38,12 +38,12 @@ Recommended addons settings :
 -----------------------------
 `Browser Plugs Privacy Firewall` : Keep  settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting. 
 ```
-  - Privacy / Font / Enable protection for font and glyph fingerprinting 
-  - Privacy / Font / Randomize
   - Privacy / Fingerprint / Fake values for getClientRects
   - Privacy / Fingerprint / Randomize Canvas Fingerprint
   - Privacy / Fingerprint / 100% Randomize ALL Fingerprint Hash
-  - Firewall / Experimental / Block SVG getBBox and getComputedTextLength 
+  - Firewall / Experimental / Block SVG getBBox and getComputedTextLength
+  - Privacy / Font / Randomize
+  - Privacy / Font / Enable protection for font and glyph fingerprinting
 ```
 
 `uBlock` : Additional filter are available here https://filterlists.com/ (don't surcharge it to avoid performances loss)
