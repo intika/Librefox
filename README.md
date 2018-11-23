@@ -3,6 +3,7 @@ This project aim to fix security and privacy issues related to firefox without l
 
 Features :
 ----------
+
 Privafox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional performances settings and a cleaned bundle of firefox to provide :
 
 - Performances 
@@ -27,17 +28,8 @@ Official builds with privafox integrated
 
 - [Privafox-1.4-Firefox-Mac-63.0.3.dmg](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-mac-63.0.3.dmg) - 60.5 MB - SHA1 : ee559f78a801826db433615f0a1fb0f955783801
 
-
-Apply-it Manually :
--------------------
-
-- Copy `mozilla.cfg` to `/firefox-install-dir/` and `local-settings.js` to `/firefox-install-dir/defaults/pref/` (if the directory does not exist create it)
-- Copy `policies.json` to `/firefox-install-dir/distribution/` (if the directory does not exist create it)
-- Setup the rest of the settings as you wish in `about:preferences` page  
-
 Recommended addons :
 --------------------
-
 - [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
 - [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
@@ -58,6 +50,28 @@ Recommended addons :
 **`uBlock`** :
 
 Additional filter are available here https://filterlists.com/ (don't surcharge it to avoid performances loss)
+
+Apply-it Manually :
+-------------------
+
+- Copy `mozilla.cfg` to `/firefox-install-dir/` 
+- Copy `local-settings.js` to `/firefox-install-dir/defaults/pref/`
+- Copy `policies.json` to `/firefox-install-dir/distribution/`
+- If destination directories does not exist create them
+- Setup the rest of the settings as you wish in `about:preferences`  
+- Delete the following files
+``` 
+    firefox/browser/features/aushelper@mozilla.org.xpi
+    firefox/browser/features/firefox@getpocket.com.xpi
+    firefox/browser/features/onboarding@mozilla.org.xpi
+    firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+    firefox/browser/features/webcompat@mozilla.org.xpi
+    firefox/update-settings.ini
+    firefox/updater.ini
+    firefox/updater
+    firefox/crashreporter.ini
+    firefox/crashreporter
+``` 
 
 Edit locked settings :
 ----------------------
