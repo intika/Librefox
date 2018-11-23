@@ -3,7 +3,6 @@ This project aim to fix security and privacy issues related to firefox without l
 
 Features :
 ----------
-
 Privafox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional performances settings and a cleaned bundle of firefox to provide :
 
 - Performances 
@@ -12,14 +11,12 @@ Privafox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings,
 
 Capture :
 ---------
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/intika/privafox-firefox/master/capture.png">
 </p>
 
 Download :
 ----------
-
 Official builds with privafox integrated
 
 - [Privafox-1.4-Firefox-Linux-63.0.3.tar.gz](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-linux-63.0.3.tar.gz) - 57.3 MB - SHA1 : 004e2c3c9f03b00139e59a55f3b14565aa5e12d0 
@@ -37,23 +34,22 @@ Recommended addons :
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin)
 
-**`Browser Plugs Privacy Firewall` :**
+Recommended addons settings :
+-----------------------------
+Browser Plugs Privacy Firewall : Keep  settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting. 
+```
+  - Privacy / Font / Enable protection for font and glyph fingerprinting 
+  - Privacy / Font / Randomize
+  - Privacy / Fingerprint / Fake values for getClientRects
+  - Privacy / Fingerprint / Randomize Canvas Fingerprint
+  - Privacy / Fingerprint / 100% Randomize ALL Fingerprint Hash
+  - Firewall / Experimental / Block SVG getBBox and getComputedTextLength 
+```
 
-**`Note :`** Keep `Browser Plugs Privacy Firewall` settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting. (Normally nothing but the following settings is needed) 
-- Privacy / Font / Enable protection for font and glyph fingerprinting 
-- Privacy / Font / Randomize
-- Privacy / Fingerprint / Fake values for getClientRects
-- Privacy / Fingerprint / Randomize Canvas Fingerprint
-- Privacy / Fingerprint / 100% Randomize ALL Fingerprint Hash
-- Firewall / Experimental / Block SVG getBBox and getComputedTextLength 
-
-**`uBlock`** :
-
-Additional filter are available here https://filterlists.com/ (don't surcharge it to avoid performances loss)
+uBlock : Additional filter are available here https://filterlists.com/ (don't surcharge it to avoid performances loss)
 
 Apply-it Manually :
 -------------------
-
 - Copy `mozilla.cfg` to `/firefox-install-dir/` 
 - Copy `local-settings.js` to `/firefox-install-dir/defaults/pref/`
 - Copy `policies.json` to `/firefox-install-dir/distribution/`
@@ -75,11 +71,11 @@ Apply-it Manually :
 
 Edit locked settings :
 ----------------------
-
 Just edit `mozilla.cfg` save and restart firefox
 
-Browser Tests : Browser Security/Fingerprint : 
+Browser Tests : Security/Fingerprint : 
 ----------------------------------------------
+Firefox 60 and `privacy.resistFingerprinting` are relatively new give it sometimes to be more widely used and thus less finger-printable; If you are using an other site to analyse your browser make sure to read and understand what the test is about.
 
 - [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
 - [AmiUnique](https://amiunique.org/fp)
@@ -87,31 +83,21 @@ Browser Tests : Browser Security/Fingerprint :
 - [BrowserPlugs](https://www.browserplugs.com/fingerprint-test/index.html)
 - [FingerPrintJS2](https://valve.github.io/fingerprintjs2/)
 
-**`Note :`** `Firefox 60` and `privacy.resistFingerprinting` are relatively new give it sometimes to be more widely used and thus less finger-printable.
-
-If you are using an other site to analyse your browser make sure to read and understand what the test is about, there is a lot of crap on test sites.
-
 Browser Tests : Performances :
 ------------------------------
-
-Performance tests can be done here https://intika.github.io/lvp-octane/ bench need to be launched with other applications closed and with no other activity but the benchmark, also the bunch need to be lunched at least 3 times (then make an average)
+Performance tests can be done here [LVP Octane](https://intika.github.io/lvp-octane/), it needs to be launched alone with other applications closed and with no other activity but the benchmark, also it's recommended to lunch it many times and then make an average.
 
 Browser Tests : DNS/VPN/Proxy Leak :
 ------------------------------------
-
 - [IPLeak](https://ipleak.net/)
 - [Tenta-Test](https://tenta.com/test/)
 - [IP-Browserleaks](https://browserleaks.com/ip)
 
 Infos :
 -------
-
 **`Autor :`** Intika - intikadev (at) gmail.com
-
 **`Donation :`** Paypal : intikadev (at) gmail.com
-
 **`Site :`** https://github.com/intika/privafox-firefox
-
 **`Based on :`** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to all of them
 
 Settings Index (`mozilla.cfg`) :
