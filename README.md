@@ -22,7 +22,7 @@ Official builds with privafox
 Capture :
 ---------
 <p align="center">
-  <img src="https://raw.githubusercontent.com/intika/privafox-firefox/master/capture.png">
+  <img width="650" src="https://raw.githubusercontent.com/intika/privafox-firefox/master/capture.png">
 </p>
 
 Recommended addons :
