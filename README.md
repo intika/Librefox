@@ -9,11 +9,17 @@ This project aim to fix security/privacy issues related to firefox and also tune
 Download :
 ----------
 
-Official untouched mozilla builds with privafox integrated
+Official untouched builds with privafox integrated
 
-- [Privafox-1.2-Firefox-Linux-63.0.3.tar.gz 57.3 MB](https://github.com/intika/privafox-firefox/releases/download/v63.0.3/privafox-1.2-firefox-linux-63.0.3.tar.gz)
+- [Privafox-1.4-Firefox-Linux-63.0.3.tar.gz 57.3 MB](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-linux-63.0.3.tar.gz)
+SHA1 : 004e2c3c9f03b00139e59a55f3b14565aa5e12d0
 
-- [Privafox-1.2-Firefox-Windows-63.0.3.zip 61.2 MB](https://github.com/intika/privafox-firefox/releases/download/v63.0.3/privafox-1.2-firefox-windows-63.0.3.zip)
+- [Privafox-1.4-Firefox-Windows-63.0.3.zip 63.2 MB](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-win-63.0.3.zip)
+SHA1 : d00539e04ef60082f57808cb79168b0f34f19186
+
+- [Privafox-1.4-Firefox-Mac-63.0.3.zip 60.5 MB](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-mac-63.0.3.dmg)
+SHA1 : ee559f78a801826db433615f0a1fb0f955783801
+
 
 Apply-it Manually :
 -------------------
