@@ -3,8 +3,20 @@ Tuning firefox settings (`about:config`) for a better security, privacy and perf
 
 This project aim to fix security/privacy issues related to firefox and also tune it to gain some speed performances. It uses `mozilla.cfg` and `policies.json` to have the changes applied to firefox...
 
+Features :
+----------
+Privafox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional performances settings and a cleaned bundle of firefox to provide :
 
-![capture](https://raw.githubusercontent.com/intika/privafox-firefox/master/capture.png)
+- Performances 
+- Security
+- Privacy
+
+Capture :
+---------
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/intika/privafox-firefox/master/capture.png">
+</p>
 
 Download :
 ----------
