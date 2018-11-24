@@ -13,11 +13,11 @@ Download :
 ----------
 Official builds with privafox
 
-- [Privafox-1.4-Firefox-Linux-63.0.3.tar.gz](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-linux-63.0.3.tar.gz) - 57.3 MB - SHA1 : 004e2c3c9f03b00139e59a55f3b14565aa5e12d0 
+- [Privafox-1.5-Firefox-Linux-63.0.3.tar.bz2](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 4295799cc3bbc809eaa56a6fe347f30c0af737c5 
 
-- [Privafox-1.4-Firefox-Windows-63.0.3.zip](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-win-63.0.3.zip) - 63.2 MB - SHA1 : d00539e04ef60082f57808cb79168b0f34f19186 
+- [Privafox-1.5-Firefox-Windows-63.0.3.zip](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-win-63.0.3.zip) - 60.3 MB - SHA1 : 89b0234770e60cbd9c41f0d59e42283e44d17d60 
 
-- [Privafox-1.4-Firefox-Mac-63.0.3.dmg](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.4-v63.0.3/privafox-1.4-firefox-mac-63.0.3.dmg) - 60.5 MB - SHA1 : ee559f78a801826db433615f0a1fb0f955783801
+- [Privafox-1.4-Firefox-Mac-63.0.3.dmg](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-mac-63.0.3.dmg) - 60.5 MB - SHA1 : 07180a899ed45d7211029f436abdb23588d17efb
 
 Capture :
 ---------
