@@ -4,7 +4,6 @@
     "DisableAppUpdate": true,
     "DisableFeedbackCommands": true,
     "DisableFirefoxAccounts": true,
-    "DisableFirefoxScreenshots": true,
     "DisableFirefoxStudies": true,
     "DisablePocket": true,
     "DisableProfileImport": true,
