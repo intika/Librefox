@@ -17,7 +17,7 @@ Official builds with privafox
 
 - [Privafox-1.5-Firefox-Windows-63.0.3.zip](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-win-63.0.3.zip) - 60.3 MB - SHA1 : 89b0234770e60cbd9c41f0d59e42283e44d17d60 
 
-- [Privafox-1.4-Firefox-Mac-63.0.3.dmg](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-mac-63.0.3.dmg) - 60.5 MB - SHA1 : 07180a899ed45d7211029f436abdb23588d17efb
+- [Privafox-1.4-Firefox-Mac-63.0.3.dmg]() back soon - 60.5 MB - SHA1 : 07180a899ed45d7211029f436abdb23588d17efb
 
 Capture :
 ---------
