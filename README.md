@@ -3,7 +3,7 @@ This project aim to fix security and privacy issues related to firefox without l
 
 Features :
 ----------
-Privafox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional performances settings and a cleaned bundle of firefox (updater, crashreporter and integrated addons are removed) to provide :
+Privafox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional performances settings and a cleaned bundle of firefox (updater, crashreporter and integrated addons that don't respect privacy are removed) to provide :
 
 - Performances 
 - Security
