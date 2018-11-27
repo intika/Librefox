@@ -144,3 +144,84 @@ Documentation :
 **lockPref** : Locked preference can not be changed on firefox, nor by extensions, can only be changed here
 
 **Section** : Description of the settings section separated by "----"
+
+
+Building and packaging :
+------------------------
+
+Privafox is applied to a built version of firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
+
+**Linux :**
+
+- Extract [firefox-63.0.3.tar.bz2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/linux-x86_64/en-US/firefox-63.0.3.tar.bz2)
+- `git clone https://github.com/intika/privafox-firefox.git`
+- Copy `mozilla.cfg` to `firefox/` 
+- Copy `local-settings.js` to `firefox/defaults/pref/`
+- Create a folder `firefox/distribution/`
+- Copy `policies.json` to `firefox/distribution/`
+- Delete the following files
+``` 
+    firefox/browser/features/aushelper@mozilla.org.xpi
+    firefox/browser/features/firefox@getpocket.com.xpi
+    firefox/browser/features/onboarding@mozilla.org.xpi
+    firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+    firefox/browser/features/webcompat@mozilla.org.xpi
+    firefox/update-settings.ini
+    firefox/updater.ini
+    firefox/updater
+    firefox/crashreporter.ini
+    firefox/crashreporter
+``` 
+- Compress the package (tar.bz2)
+
+**Windows :**
+
+- Extract [Firefox Setup 63.0.3.exe](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/win64/en-US/Firefox%20Setup%2063.0.3.exe) (Can be done by launching it, files are extracted to `%tmp%`)
+- `git clone https://github.com/intika/privafox-firefox.git`
+- Copy `mozilla.cfg` to `core/` 
+- Copy `local-settings.js` to `core/defaults/pref/`
+- Create a folder `core/distribution/` 
+- Copy `policies.json` to `core/distribution/`
+- Delete the following files
+``` 
+    core/browser/features/aushelper@mozilla.org.xpi
+    core/browser/features/firefox@getpocket.com.xpi
+    core/browser/features/onboarding@mozilla.org.xpi
+    core/browser/features/webcompat-reporter@mozilla.org.xpi
+    core/browser/features/webcompat@mozilla.org.xpi
+    core/update-settings.ini
+    core/updater.ini
+    core/updater.exe
+    core/crashreporter.ini
+    core/crashreporter.exe
+``` 
+- Compress the package (zip)
+
+**Mac :**
+
+- Require a mac
+- Decompressing [Firefox 63.0.3.dmg](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/mac/en-US/Firefox%2063.0.3.dmg) with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac)
+- `git clone https://github.com/intika/privafox-firefox.git`
+- Rename the decomrpessed Firefox-63.0.3.dmg to privafox-firefox-63.0.3.dmg
+- Mount privafox-firefox-63.0.3.dmg 
+- Replace `Firefox/Firefox.app/.background/background.png` with the one from this git
+- Remove the directory `Firefox/Firefox.app/Contents/_CodeSignature`
+- Remove the directory `Firefox/Firefox.app/Contents/MacOS/plugin-container.app/Contents/_CodeSignature` (this one does not seem to be required)
+- Run `codesign --remove-signature Firefox.app` (This basically remove the signature from `Firefox/Firefox.app/Contents/MacOS/firefox`)
+- Remove the directory `Firefox/Firefox.app/Contents/MacOS/crashreporter.app/`
+- Remove the directory `Firefox/Firefox.app/Contents/MacOS/updater.app/`
+- Remove `Firefox/Firefox.app/Contents/Library/LaunchServices/org.mozilla.updater`
+- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/aushelper@mozilla.org.xpi`
+- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/firefox@getpocket.com.xpi`
+- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/onboarding@mozilla.org.xpi`
+- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/webcompat-reporter@mozilla.org.xpi`
+- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/webcompat@mozilla.org.xpi`
+- Remove `Firefox/Firefox.app/Contents/Ressources/update-settings.ini`
+- Remove `Firefox/Firefox.app/Contents/Ressources/updater.ini`
+- Copy `mozilla.cfg` to `Firefox/Firefox.app/Contents/Ressources/` 
+- Copy `local-settings.js` to `Firefox/Firefox.app/Contents/Ressources/defaults/pref/`
+- Create a folder `Firefox/Firefox.app/Contents/Ressources/distribution/` 
+- Copy `policies.json` to `Firefox/Firefox.app/Contents/Ressources/distribution/`
+- Unmount the dmg file 
+- Compress it with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac) 
+
