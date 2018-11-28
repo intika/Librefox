@@ -1,5 +1,1 @@
-/* Intika MoD
-*/
-
-pref("general.config.filename", "mozilla.cfg");
-pref("general.config.obscure_value", 0);
+../../../../defaults/pref/local-settings.js

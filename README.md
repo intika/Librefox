@@ -1,5 +1,5 @@
 # Privafox-Firefox
-This project aim to fix security and privacy issues related to firefox without loosing speed performances. It uses `mozilla.cfg` and `policies.json`.
+This project aim to fix security and privacy issues related to firefox without loosing speed performances. It uses `local-settings.js`, `mozilla.cfg` and `policies.json`.
 
 Features :
 ----------
@@ -13,11 +13,11 @@ Download :
 ----------
 Official builds with privafox
 
-- [Privafox-1.5-Firefox-Linux-63.0.3.tar.bz2](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 4295799cc3bbc809eaa56a6fe347f30c0af737c5 
+- [Privafox-1.8-Firefox-Linux-63.0.3.tar.bz2](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 321152189184ca9e2b3500a0aa5c5c47aff5999f
 
-- [Privafox-1.5-Firefox-Windows-63.0.3.zip](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-win-63.0.3.zip) - 60.3 MB - SHA1 : 89b0234770e60cbd9c41f0d59e42283e44d17d60 
+- [Privafox-1.8-Firefox-Windows-63.0.3.zip](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Windows-63.0.3.zip) - 60.3 MB - SHA1 : 4dba7913435d5517f4e10f7b55aa395e5088b143
 
-- [Privafox-1.5-Firefox-Mac-63.0.3.dmg](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-mac-63.0.3.dmg) - 60.5 MB - SHA1 : 5b57e9996fb7017cb2444958bef8ac8338ac19a4
+- [Privafox-1.8-Firefox-Mac-63.0.3.dmg](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Mac-63.0.3.dmg) - 60.5 MB - SHA1 : e693b9141098456a419ed7fb71f4b8c42001cde9
 
 Capture :
 ---------
@@ -135,6 +135,8 @@ Settings Index (`mozilla.cfg`) :
 Documentation :
 ---------------
 
+**Local-settings.js** : Defaulting firefox settings 
+
 **Mozilla.cfg** : Locking firefox settings for security, privacy & prevent settings changes 
 
 **Policies.json** : The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems (the settings availables with `policies.json` are limited right now because this is a new feature of firefox)
@@ -143,8 +145,9 @@ Documentation :
                
 **lockPref** : Locked preference can not be changed on firefox, nor by extensions, can only be changed here
 
-**Section** : Description of the settings section separated by "----"
+**Section** : Description of the settings section separated by ">>>..."
 
+**Defaulting VS Enforcing** : Default settings value are changed in `local-settings.js` and enforced settings are changed in `mozilla.cfg`, defaulted setting can be changed by the user in the browser while enforced settings are locked and can not be changed
 
 Building and packaging :
 ------------------------
