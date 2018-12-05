@@ -1,1 +1,14 @@
-../../../../distribution/policies.json
+{
+  "policies": {
+    "AppUpdateURL": "",
+    "DisableAppUpdate": true,
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisablePocket": true,
+    "DisableProfileImport": true,
+    "DisableSetDesktopBackground": true,
+    "DisableSystemAddonUpdate": true,
+    "DisableTelemetry": true
+  }
+}

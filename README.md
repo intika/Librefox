@@ -46,13 +46,17 @@ Librefox addons :
 -----------------
 Librefox addons are not bundeled and need to be installed manually
 
-- [Librefox HTTP Watcher](https://github.com/intika/Librefox-HTTP-Watcher)
+- [Librefox HTTP Watcher](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-red-flag/)
 - [Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)
+- [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/)
 
 Recommended addons :
 --------------------
 - [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
+- [Google Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/)
+- [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)
+- [First Party Isolation](https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/)
 - [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin)
@@ -80,11 +84,16 @@ Key features version 2.0 beta :
 - Calculate settings impact on performances
 ...
 
+Reviewing Extensions Code :
+---------------------------
+Recommanded extensions code have been reviewed for potential unwanted behaviour... reviewed version are available under [extensions](https://github.com/intika/Librefox-Firefox/tree/master/extensions) directory
+
 Extensions Firewall :
 ---------------------
 *This is a test experimental feature !!!*
 
 A new section `Extensions Firewall` is added to block networking for extensions, only requested domain with specific permission are allowed, they could then be blocked with a host file or similar if the user want to block addons complitely. (if an addon does not ask for a specific domain he will be offline.)
+This is a test feature it could be abandoned.
 
 IJWY (I just want you to shut up) :
 -----------------------------------
@@ -225,6 +234,15 @@ One simple solution is to bookmark "about:profiles" ... when restart is needed o
 
 <a href="https://github.com/overdodactyl/ShadowFox" target="_blank"><img height=80px src="https://raw.githubusercontent.com/overdodactyl/ShadowFox/master/.github/Screenshots/header.png"></a>
 
+**Linux Fix White Text :**
+
+On linux when using a dark desktop theme firefox could display white text over white background on some site... to fix just use those values in `about:config` (you need to have Adwaita theme installed) [more details](https://github.com/DmitriK/darkContrast#text-contrast-for-dark-themes)
+```
+widget.content.allow-gtk-dark-theme;false
+widget.chrome.allow-gtk-dark-theme;false
+widget.content.gtk-theme-override;Adwaita:light
+```
+
 **Other addons :**
 
 - [Dormancy](https://addons.mozilla.org/en-US/firefox/addon/dormancy/) : Unload tab after a certain time, usefull for performances when opening a lot of tabs 
@@ -232,6 +250,7 @@ One simple solution is to bookmark "about:profiles" ... when restart is needed o
 - [ProxySwitcheroo](https://addons.mozilla.org/en-US/firefox/addon/proxyswitcheroo/) : Applying proxy settings in a click
 - [Advanced Github Notifier](https://addons.mozilla.org/en-US/firefox/addon/advanced-github-notifier/) : Github notifications
 - [UndoCloseTabButton](https://addons.mozilla.org/en-US/firefox/addon/undoclosetabbutton/) : Reopen last closed tab
+- [Request Blocker](https://addons.mozilla.org/en-US/firefox/addon/request-blocker-we/) : Host style blocking sites
 - [Shortkeys](https://addons.mozilla.org/en-US/firefox/addon/shortkeys/) : Add custom shortkeys
 - [Tabboo](https://addons.mozilla.org/en-US/firefox/addon/tabboo-session-manager/) : Session manager
 
