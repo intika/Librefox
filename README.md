@@ -234,7 +234,7 @@ One simple solution is to bookmark "about:profiles" ... when restart is needed o
 - [Shortkeys](https://addons.mozilla.org/en-US/firefox/addon/shortkeys/) : Add custom shortkeys
 - [Tabboo](https://addons.mozilla.org/en-US/firefox/addon/tabboo-session-manager/) : Session manager
 
-Building with tor :
+Tor compatibility :
 -------------------
 Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services.
 
