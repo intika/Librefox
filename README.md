@@ -1,9 +1,12 @@
-# Privafox-Firefox
-This project aim to fix security and privacy issues related to firefox without loosing speed performances. It uses `mozilla.cfg` and `policies.json`.
+<a href="https://github.com/intika/Librefox-Firefox/"><img width="500" src="https://img.shields.io/badge/Librefox-Firefox-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>                                                                                
+<a href="https://github.com/intika/Librefox-Firefox/releases"><img src="https://img.shields.io/badge/Version-2.0.b--63.0.3-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-+%20100-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/issues"><img src="https://img.shields.io/badge/Solved%20issues-5-yellow.svg"></a> <a href="http://perso.crans.org/besson/LICENSE.html"><img src="https://img.shields.io/badge/License-MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/"><img src="hhttps://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
+
+
+This project aim to fix security and privacy issues related to firefox without loosing speed performances. It uses `local-settings.js`, `mozilla.cfg` and `policies.json`.
 
 Features :
 ----------
-Privafox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional performances settings and a cleaned bundle of firefox (updater, crashreporter and integrated addons that don't respect privacy are removed) to provide :
+Librefox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional privacy, performances settings and a cleaned bundle of firefox (updater, crashreporter and integrated addons that don't respect privacy are removed) to provide :
 
 - Performances 
 - Security
@@ -11,31 +14,44 @@ Privafox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings,
 
 Download :
 ----------
-Official builds with privafox
+Official builds with librefox
 
-- [Privafox-1.5-Firefox-Linux-63.0.3.tar.bz2](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 4295799cc3bbc809eaa56a6fe347f30c0af737c5 
+- [Privafox-1.8-Firefox-Linux-63.0.3.tar.bz2](https://github.com/intika/Librefox-Firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 321152189184ca9e2b3500a0aa5c5c47aff5999f
 
-- [Privafox-1.5-Firefox-Windows-63.0.3.zip](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-win-63.0.3.zip) - 60.3 MB - SHA1 : 89b0234770e60cbd9c41f0d59e42283e44d17d60 
+- [Privafox-1.8-Firefox-Windows-63.0.3.zip](https://github.com/intika/Librefox-Firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Windows-63.0.3.zip) - 60.3 MB - SHA1 : 4dba7913435d5517f4e10f7b55aa395e5088b143
 
-- [Privafox-1.5-Firefox-Mac-63.0.3.dmg](https://github.com/intika/privafox-firefox/releases/download/Privafox-v1.5-v63.0.3/privafox-1.5-firefox-mac-63.0.3.dmg) - 60.5 MB - SHA1 : 5b57e9996fb7017cb2444958bef8ac8338ac19a4
+- [Privafox-1.8-Firefox-Mac-63.0.3.dmg](https://github.com/intika/Librefox-Firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Mac-63.0.3.dmg) - 60.5 MB - SHA1 : e693b9141098456a419ed7fb71f4b8c42001cde9
+
+Beta/alpha releases (soon)
+
+- Librefox-2.0B-Firefox-Linux-63.0.3.tar.bz2[](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.0B-v63.0.3/Librefox-2.0B-Firefox-Linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 321152189184ca9e2b3500a0aa5c5c47aff5999f
+
+- Librefox-2.0B-Firefox-Windows-63.0.3.zip[](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.0B-v63.0.3/Librefox-2.0B-Firefox-Windows-63.0.3.zip) - 60.3 MB - SHA1 : 4dba7913435d5517f4e10f7b55aa395e5088b143
+
+- Librefox-2.0B-Firefox-Mac-63.0.3.dmg[](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.0B-v63.0.3/Librefox-2.0B-Firefox-Mac-63.0.3.dmg) - 60.5 MB - SHA1 : e693b9141098456a419ed7fb71f4b8c42001cde9
 
 Capture :
 ---------
 <p align="center">
-  <img width="650" src="https://raw.githubusercontent.com/intika/privafox-firefox/master/capture.png">
+  <img width="650" src="https://raw.githubusercontent.com/intika/Librefox-Firefox/master/capture.png">
 </p>
+
+Librefox addons :
+-----------------
+- [Librefox HTTP Watcher](https://github.com/intika/Librefox-HTTP-Watcher)
 
 Recommended addons :
 --------------------
 - [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
-- [HTTP Says Insecure](https://addons.mozilla.org/en-US/firefox/addon/http-says-insecure)
 - [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/)
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin)
 
 Recommended addons settings :
 -----------------------------
+`uBlock` : Additional filter are available here https://filterlists.com/ (don't surcharge it to avoid performances loss)
+
 `Browser Plugs Privacy Firewall` : Keep  settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting. 
 ```
   - Privacy / Fingerprint / Fake values for getClientRects
@@ -45,11 +61,32 @@ Recommended addons settings :
   - Privacy / Font / Randomize
   - Privacy / Font / Enable protection for font and glyph fingerprinting
 ```
+Key features version 2.0 beta :
+-------------------------------
+- Updated [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings
+- Enforcing Settings (Can not be changed within firefox)
+- Defaulting Settings (Changing default value for some settings)
+- Limit internet access for extensions (details bellow)
+- "IJWY To Shut Up" settings (details bellow)
+- Calculate settings impact on performances
+...
 
-`uBlock` : Additional filter are available here https://filterlists.com/ (don't surcharge it to avoid performances loss)
+Extensions Firewall :
+---------------------
+*This is a test experimental feature !!!*
+A new section `Extensions Firewall` is added to block network for extensions, only requested domain with specific permission are allowed, they could then be blocked with a host file or similar if the user want to block addons complitely. (if an addon does not ask for a specific domain he will be offline.)
 
-Apply-it Manually :
--------------------
+IJWY (I just want you to shut up) :
+-----------------------------------
+*This is an experimental feature.* 
+This is a set of settings that aim to remove all the servers links embedded in firefox and other calling home functions in the purpose of blocking un-needed connections. Objective, zero unauthorized connection (ping/telemetry/mozilla/google...).
+
+Changelog :
+-----------
+Available in the [releases page](https://github.com/intika/Librefox-Firefox/releases)
+
+Apply Pivafox Manually :
+------------------------
 - Copy `mozilla.cfg` to `/firefox-install-dir/` 
 - Copy `local-settings.js` to `/firefox-install-dir/defaults/pref/`
 - Copy `policies.json` to `/firefox-install-dir/distribution/`
@@ -101,65 +138,86 @@ Infos :
 
 **Based on :** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to all of them
 
-Settings Index (`mozilla.cfg`) :
---------------------------------
+Settings Index :
+----------------
 ```
-// Index :
-// -------
+// ==============================
+// Index mozilla.cfg .......... :
+// ==============================
 //
+// --------------------------------------------------------------------
+// Section : User settings                 // Bench Diff : +0    / 5000
+// ----------------------------------------
+// Section : Controversial                 // Bench Diff : +0    / 5000
+// Section : Firefox Fingerprint           // Bench Diff : +0    / 5000
+// Section : Locale/Time                   // Bench Diff : +0    / 5000
+// Section : Ghacks-user Select            // Bench Diff : +100  / 5000
+// Section : IJWY To Shut Up               // Bench Diff : ???   / 5000
+// Section : Microsoft Windows             // Bench Diff : ???   / 5000
+// Section : Disabled                      // Bench Diff : ???   / 5000
+// ----------------------------------------
+// Section : Security 1/3                  // Bench Diff : +0    / 5000
+// Section : Security 2/3                  // Bench Diff : +0    / 5000
+// Section : Security 3/3 (Cipher)         // Bench Diff : +0    / 5000
+// ----------------------------------------
 // Section : Performances 1/5              // Bench Diff : +650  / 5000
 // Section : Performances 2/5              // Bench Diff : -800  / 5000
 // Section : Performances 3/5              // Bench Diff : -1720 / 5000
 // Section : Performances 4/5              // Bench Diff : -200  / 5000 
 // Section : Performances 5/5              // Bench Diff : -50   / 5000 
 // ----------------------------------------
-// Section : Controversial                 // Bench Diff : +0    / 5000
-// Section : Cookies Settings              // Bench Diff : +0    / 5000
-// Section : Firefox ResistFingerprinting  // Bench Diff : +0    / 5000
-// Section : Locale/Time                   // Bench Diff : +0    / 5000
-// Section : Ghacks-user Select            // Bench Diff : +100  / 5000
-// ----------------------------------------
 // Section : General Settings 1/3          // Bench Diff : +100  / 5000
 // Section : General Settings 2/3          // Bench Diff : +0    / 5000
 // Section : General Settings 3/3          // Bench Diff : -40   / 5000
+// --------------------------------------------------------------------
+
+// ==============================
+// Index local-settings.js .... :
+// ==============================
+//
+// --------------------------------------------------------------------
+// Section : General Settings              // Bench Diff : ++    / 5000
 // ----------------------------------------
-// Section : Security 1/3                  // Bench Diff : +0/5000
-// Section : Security 2/3                  // Bench Diff : +0/5000
-// Section : Security 3/3 (Cipher)         // Bench Diff : +0/5000
-// ----------------------------------------
-// Section : Microsoft Windows             // Bench Diff : ???/5000
-// ----------------------------------------
-// Section : Disabled                      // Bench Diff : ???/5000
+// Section : Defaulting Settings           // Bench Diff : ???   / 5000
+// --------------------------------------------------------------------
+
 ```
 
 Documentation :
 ---------------
 
+**Local-settings.js** : Defaulting firefox settings 
+
 **Mozilla.cfg** : Locking firefox settings for security, privacy & prevent settings changes 
 
 **Policies.json** : The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems (the settings availables with `policies.json` are limited right now because this is a new feature of firefox)
 
-**Bench diff** : Impact on the performances of firefox can be a gain or loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
+**Bench diff** : Impact on the performances of firefox can be a gain or a loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
                
 **lockPref** : Locked preference can not be changed on firefox, nor by extensions, can only be changed here
 
-**Section** : Description of the settings section separated by "----"
+**Section** : Description of the settings section separated by ">>>..."
 
+**Defaulting VS Enforcing** : Default settings value are changed in `local-settings.js` and enforced settings are changed in `mozilla.cfg`, defaulted setting can be changed by the user in the browser while enforced settings are locked and can not be changed within the browser.
+
+Building With Tor :
+-------------------
+Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services.
 
 Building and packaging :
 ------------------------
 
-Privafox is applied to a built version of firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
+Librefox is applied to a built version of firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
 
 **Linux :**
 
 - Extract [firefox-63.0.3.tar.bz2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/linux-x86_64/en-US/firefox-63.0.3.tar.bz2)
-- `git clone https://github.com/intika/privafox-firefox.git`
+- `git clone https://github.com/intika/Librefox-Firefox.git`
 - Copy `mozilla.cfg` to `firefox/` 
 - Copy `local-settings.js` to `firefox/defaults/pref/`
 - Create a folder `firefox/distribution/`
 - Copy `policies.json` to `firefox/distribution/`
-- Delete the following files
+- Delete the following files and then compress the package (tar.bz2)
 ``` 
     firefox/browser/features/aushelper@mozilla.org.xpi
     firefox/browser/features/firefox@getpocket.com.xpi
@@ -172,17 +230,16 @@ Privafox is applied to a built version of firefox, you can [build it](https://de
     firefox/crashreporter.ini
     firefox/crashreporter
 ``` 
-- Compress the package (tar.bz2)
 
 **Windows :**
 
 - Extract [Firefox Setup 63.0.3.exe](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/win64/en-US/Firefox%20Setup%2063.0.3.exe) (Can be done by launching it, files are extracted to `%tmp%`)
-- `git clone https://github.com/intika/privafox-firefox.git`
+- `git clone https://github.com/intika/Librefox-Firefox.git`
 - Copy `mozilla.cfg` to `core/` 
 - Copy `local-settings.js` to `core/defaults/pref/`
 - Create a folder `core/distribution/` 
 - Copy `policies.json` to `core/distribution/`
-- Delete the following files
+- Delete the following files and then compress the package (zip)
 ``` 
     core/browser/features/aushelper@mozilla.org.xpi
     core/browser/features/firefox@getpocket.com.xpi
@@ -195,15 +252,14 @@ Privafox is applied to a built version of firefox, you can [build it](https://de
     core/crashreporter.ini
     core/crashreporter.exe
 ``` 
-- Compress the package (zip)
 
 **Mac :**
 
 - Require a mac
 - Decompressing [Firefox 63.0.3.dmg](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/mac/en-US/Firefox%2063.0.3.dmg) with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac)
-- `git clone https://github.com/intika/privafox-firefox.git`
-- Rename the decomrpessed Firefox-63.0.3.dmg to privafox-firefox-63.0.3.dmg
-- Mount privafox-firefox-63.0.3.dmg 
+- `git clone https://github.com/intika/Librefox-Firefox.git`
+- Rename the decomrpessed Firefox-63.0.3.dmg to Librefox-Firefox-63.0.3.dmg
+- Mount Librefox-Firefox-63.0.3.dmg 
 - Replace `Firefox/Firefox.app/.background/background.png` with the one from this git
 - Remove the directory `Firefox/Firefox.app/Contents/_CodeSignature`
 - Remove the directory `Firefox/Firefox.app/Contents/MacOS/plugin-container.app/Contents/_CodeSignature` (this one does not seem to be required)
