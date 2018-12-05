@@ -47,7 +47,7 @@ Librefox addons :
 Librefox addons are not bundeled and need to be installed manually
 
 - [Librefox HTTP Watcher](https://github.com/intika/Librefox-HTTP-Watcher)
-- [Librefox Daek Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)
+- [Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)
 
 Recommended addons :
 --------------------
