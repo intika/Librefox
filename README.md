@@ -1,4 +1,4 @@
-<a href="https://github.com/intika/Librefox-Firefox/"><img width="725" src="https://img.shields.io/badge/Librefox-Firefox-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>                                                                                
+<a href="https://github.com/intika/Librefox-Firefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Firefox-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>                                                                                
 <a href="https://github.com/intika/Librefox-Firefox/releases"><img src="https://img.shields.io/badge/Version-2.0.b--63.0.3-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-+%20100-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20issues-6-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
 
 
@@ -38,6 +38,8 @@ Capture :
 
 Librefox addons :
 -----------------
+Librefox addons are not bundeled and need to be installed manually
+
 - [Librefox HTTP Watcher](https://github.com/intika/Librefox-HTTP-Watcher)
 
 Recommended addons :
@@ -74,19 +76,21 @@ Key features version 2.0 beta :
 Extensions Firewall :
 ---------------------
 *This is a test experimental feature !!!*
-A new section `Extensions Firewall` is added to block network for extensions, only requested domain with specific permission are allowed, they could then be blocked with a host file or similar if the user want to block addons complitely. (if an addon does not ask for a specific domain he will be offline.)
+
+A new section `Extensions Firewall` is added to block networking for extensions, only requested domain with specific permission are allowed, they could then be blocked with a host file or similar if the user want to block addons complitely. (if an addon does not ask for a specific domain he will be offline.)
 
 IJWY (I just want you to shut up) :
 -----------------------------------
 *This is an experimental feature.* 
+
 This is a set of settings that aim to remove all the servers links embedded in firefox and other calling home functions in the purpose of blocking un-needed connections. Objective, zero unauthorized connection (ping/telemetry/mozilla/google...).
 
 Changelog :
 -----------
 Available in the [releases page](https://github.com/intika/Librefox-Firefox/releases)
 
-Apply Pivafox Manually :
-------------------------
+Apply Librefox Manually :
+-------------------------
 - Copy `mozilla.cfg` to `/firefox-install-dir/` 
 - Copy `local-settings.js` to `/firefox-install-dir/defaults/pref/`
 - Copy `policies.json` to `/firefox-install-dir/distribution/`
@@ -200,7 +204,7 @@ Documentation :
 
 **Defaulting VS Enforcing** : Default settings value are changed in `local-settings.js` and enforced settings are changed in `mozilla.cfg`, defaulted setting can be changed by the user in the browser while enforced settings are locked and can not be changed within the browser.
 
-Building With Tor :
+Building with tor :
 -------------------
 Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services.
 
