@@ -1,0 +1,22 @@
+// Pref : 2803: set what history items to clear on shutdown
+// [SETTING] Privacy & Security>History>Custom Settings>Clear history when Firefox closes>Settings
+// [NOTE] If 'history' is true, downloads will also be cleared regardless of the value
+// but if 'history' is false, downloads can still be cleared independently
+// However, this may not always be the case. The interface combines and syncs these
+// prefs when set from there, and the sanitize code may change at any time 
+//defaultPref("privacy.clearOnShutdown.siteSettings", false); // Site Preferences
+defaultPref("privacy.clearOnShutdown.cache", true);
+defaultPref("privacy.clearOnShutdown.cookies", true);
+defaultPref("privacy.clearOnShutdown.downloads", true); // see note above
+defaultPref("privacy.clearOnShutdown.formdata", true); // Form & Search History
+defaultPref("privacy.clearOnShutdown.history", true); // Browsing & Download History
+defaultPref("privacy.clearOnShutdown.offlineApps", true); // Offline Website Data
+defaultPref("privacy.clearOnShutdown.sessions", true); // Active Logins
+
+// Pref : Defaulting Settings : Clear history when closing - Pref : 2803 : Duplicate ? 
+// "sessions" removed from cleaning list as its an important data to keep... 
+// user may add it back in the gui
+// This settings work only as string not as bool (This seems to be a bug in ffox) 
+// Also this settings seems to kill following settings so it should be the last
+defaultPref("privacy.sanitize.pending", '[{"id":"shutdown","itemsToClear":["cache","cookies","history","formdata","downloads"],"options":{}}]');
+defaultPref("privacy.sanitize.sanitizeOnShutdown", true);

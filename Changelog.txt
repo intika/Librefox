@@ -1,0 +1,61 @@
+Librefox Firefox - Chagelog :
+-----------------------------
+
+v2.0 :  Beta
+------  ----
+- Project renamed to Librefox
+- Reorganizing settings
+- Adding section "Extensions Firewall" (block internet for extensions) 
+  Only requested domain with permission are allowed 
+  This is an alpha test feature
+- Adding section "IJWY To Shut Up" (I Want You To Shut Up)
+  Objective, zero unauthorized connection (ping/telemetry/mozilla/google...)
+- Fix debugger disabled 
+- Added more documentations 
+- Defaulting moved to mozilla.cfg
+- Update safebrowsing list
+- Add ESR60x support and section
+- Remove duplicates
+- Update referer settings
+- Update gHacks
+
+v1.8 :
+------
+- Create new user section to easily disable/enable settings (User Settings)
+- Change history policy to give user more control in config panel
+- Reorganizing git repo
+- Limit policies.json action (migrate settings to mozilla.cfg)
+- Fix inaccessible proxy settings
+- Normalizing comment encoding
+- Locking mozilla.cfg settings itself
+- Creating defaulting feature (changing default settings)
+- Defaulting history (Setting default values for history)
+- Defaulting proxy (Setting default values for proxy)
+- Fixing mac build plugin container
+    
+v1.5 :
+------
+- Adding mac release
+- Update screenshot
+- Update notification
+- Update HTTP2
+- Update resistFingerprinting
+- Update donottrackheader
+- Remove blockDotOnion
+- Remove updater bin
+- Remove crashreporter bin
+- Remove integrated xpis
+- Cleaning settings
+    
+v1.2 :
+------
+- Partial settings cleaning
+- Delete some obsolete settings
+- Update ghacksuserjs/ghacks-user.js
+- Update readme.md
+- List some security sites
+- Added recommended settings under readme.md to block privacy tracking sites
+
+v1.0 :
+------
+- Privafox-v1.0-Firefox-v63.0.3

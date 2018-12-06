@@ -8,8 +8,6 @@
 ---
 This project aim to fix security and privacy issues related to firefox without loosing speed performances. It uses `local-settings.js`, `mozilla.cfg` and `policies.json`.
 
----
-
 Features :
 ----------
 Librefox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional privacy, performances settings and a cleaned bundle of firefox (updater, crashreporter and integrated addons that don't respect privacy are removed) to provide :
@@ -17,6 +15,61 @@ Librefox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings,
 - Performances 
 - Security
 - Privacy
+
+---
+
+Index :
+-------
+<pre>
+<a href="https://github.com/intika/Librefox-Firefox/#features-"
+>> Librefox : Features ............................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#key-features-v2.x-"
+>> Librefox : Key Features v2.x ...................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#download-"
+>> Librefox : Download ............................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#capture-"
+>> Librefox : Capture ................................................................ </a>
+<a href="https://github.com/intika/Librefox-Firefox/#librefox-addons-"
+>> Addons : Librefox Addons .......................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#recommended-addons-"
+>> Addons : Recommended Addons ....................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#recommended-addons-settings-"
+>> Addons : Recommended Settings ..................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#reviewing-extensions-code-"
+>> Addons : Reviewing Extensions Code ................................................ </a>
+<a href="https://github.com/intika/Librefox-Firefox/#extensions-firewall-"
+>> Wiki : Extensions Firewall ........................................................ </a>
+<a href="https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-"
+>> Wiki : IJWY (I Just Want You To Shut Up) .......................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#apply-librefox-manually-"
+>> Wiki : Apply Librefox Manually .................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#edit-locked-settings-"
+>> Wiki : Edit Locked Settings ....................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#settings-index-"
+>> Wiki : Settings Index ............................................................. </a>
+<a href="https://github.com/intika/Librefox-Firefox/#comparing-changes-and-updates-"
+>> Wiki : Comparing Changes And Updates .............................................. </a>
+<a href="https://github.com/intika/Librefox-Firefox/#documentation-"
+>> Wiki : Documentation .............................................................. </a>
+<a href="https://github.com/intika/Librefox-Firefox/#tuning-librefox--"
+>> Wiki : Tuning Librefox ............................................................ </a>
+<a href="https://github.com/intika/Librefox-Firefox/#librefox-version-"
+>> Wiki : Librefox ESR ............................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#tor-compatibility-"
+>> Wiki : Tor Compatibility .......................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#building-and-packaging-"
+>> Wiki : Building And Packaging ..................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#browser-tests--securityfingerprint-"
+>> Browser Tests : Security/Fingerprint .............................................. </a>
+<a href="https://github.com/intika/Librefox-Firefox/#browser-tests--performances-"
+>> Browser Tests : Performances ...................................................... </a>
+<a href="https://github.com/intika/Librefox-Firefox/#browser-tests--dnsvpnproxy-leak-"
+>> Browser Tests : DNS/VPN/Proxy Leak ................................................ </a>
+<a href="https://github.com/intika/Librefox-Firefox/#changelog-"
+>> Infos : Changelog ................................................................. </a>
+<a href="https://github.com/intika/Librefox-Firefox/#about-"
+>> Infos : About ..................................................................... </a>
+</pre>
 
 Download :
 ----------
@@ -42,7 +95,7 @@ Capture :
   <img width="650" src="https://raw.githubusercontent.com/intika/Librefox-Firefox/master/capture.png">
 </p>
 
-Librefox addons :
+Librefox Addons :
 -----------------
 Librefox addons are not bundeled and need to be installed manually
 
@@ -50,7 +103,7 @@ Librefox addons are not bundeled and need to be installed manually
 - [Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)
 - [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/)
 
-Recommended addons :
+Recommended Addons :
 --------------------
 - [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp)
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/)
@@ -61,7 +114,7 @@ Recommended addons :
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/)
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin)
 
-Recommended addons settings :
+Recommended Addons Settings :
 -----------------------------
 `uBlock` : Additional filter are available here https://filterlists.com/ (don't surcharge it to avoid performances loss)
 
@@ -74,13 +127,13 @@ Recommended addons settings :
   - Privacy / Font / Randomize
   - Privacy / Font / Enable protection for font and glyph fingerprinting
 ```
-Key features version 2.0 beta :
--------------------------------
+Key Features v2.x :
+-------------------
 - Updated [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings
 - Enforcing Settings (Can not be changed within firefox)
 - Defaulting Settings (Changing default value for some settings)
-- Limit internet access for extensions (details bellow)
-- "IJWY To Shut Up" settings (details bellow)
+- Limit internet access for extensions ([details](https://github.com/intika/Librefox-Firefox/#extensions-firewall-))
+- "IJWY To Shut Up" settings ([details](https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-))
 - Calculate settings impact on performances
 ...
 
@@ -95,7 +148,7 @@ Extensions Firewall :
 A new section `Extensions Firewall` is added to block networking for extensions, only requested domain with specific permission are allowed, they could then be blocked with a host file or similar if the user want to block addons complitely. (if an addon does not ask for a specific domain he will be offline.)
 This is a test feature it could be abandoned.
 
-IJWY (I just want you to shut up) :
+IJWY (I Just Want You To Shut Up) :
 -----------------------------------
 *This is an experimental feature.* 
 
@@ -126,7 +179,7 @@ Apply Librefox Manually :
     firefox/crashreporter
 ``` 
 
-Edit locked settings :
+Edit Locked Settings :
 ----------------------
 Just edit `mozilla.cfg` save and restart firefox
 
@@ -150,7 +203,7 @@ Browser Tests : DNS/VPN/Proxy Leak :
 - [Tenta-Test](https://tenta.com/test/)
 - [IP-Browserleaks](https://browserleaks.com/ip)
 
-Infos :
+About :
 -------
 **Autor :** Intika - intikadev (at) gmail.com
 
@@ -165,43 +218,53 @@ Settings Index :
 // Index mozilla.cfg .......... :
 // ==============================
 //
-// --------------------------------------------------------------------
-// Section : User settings                 // Bench Diff : +0    / 5000
-// ----------------------------------------
-// Section : Controversial                 // Bench Diff : +0    / 5000
-// Section : Firefox Fingerprint           // Bench Diff : +0    / 5000
-// Section : Locale/Time                   // Bench Diff : +0    / 5000
-// Section : Ghacks-user Select            // Bench Diff : +100  / 5000
-// Section : IJWY To Shut Up               // Bench Diff : ???   / 5000
-// Section : Microsoft Windows             // Bench Diff : ???   / 5000
-// Section : Disabled                      // Bench Diff : ???   / 5000
-// ----------------------------------------
-// Section : Security 1/3                  // Bench Diff : +0    / 5000
-// Section : Security 2/3                  // Bench Diff : +0    / 5000
-// Section : Security 3/3 (Cipher)         // Bench Diff : +0    / 5000
-// ----------------------------------------
-// Section : Performances 1/5              // Bench Diff : +650  / 5000
-// Section : Performances 2/5              // Bench Diff : -800  / 5000
-// Section : Performances 3/5              // Bench Diff : -1720 / 5000
-// Section : Performances 4/5              // Bench Diff : -200  / 5000 
-// Section : Performances 5/5              // Bench Diff : -50   / 5000 
-// ----------------------------------------
-// Section : General Settings 1/3          // Bench Diff : +100  / 5000
-// Section : General Settings 2/3          // Bench Diff : +0    / 5000
-// Section : General Settings 3/3          // Bench Diff : -40   / 5000
-// --------------------------------------------------------------------
+// -----------------------------------------------------------------------
+// Section : User settings                    // Bench Diff : +0    / 5000
+// Section : Defaulting Settings              // Bench Diff : ???   / 5000
+// -------------------------------------------
+// Section : Controversial                    // Bench Diff : +0    / 5000
+// Section : Firefox Fingerprint              // Bench Diff : +0    / 5000
+// Section : Locale/Time                      // Bench Diff : +0    / 5000
+// Section : Ghacks-user Selection            // Bench Diff : +100  / 5000
+// Section : Extensions Firewall              // Bench Diff : ???   / 5000
+// Section : IJWY To Shut Up                  // Bench Diff : ???   / 5000
+// Section : Microsoft Windows                // Bench Diff : ???   / 5000
+// Section : Firefox ESR60.x                  // Bench Diff : ???   / 5000
+// -------------------------------------------
+// Section : Security 1/3                     // Bench Diff : +0    / 5000
+// Section : Security 2/3                     // Bench Diff : +0    / 5000
+// Section : Security 3/3 (Cipher)            // Bench Diff : +0    / 5000
+// -------------------------------------------
+// Section : Performances 1/5                 // Bench Diff : +650  / 5000
+// Section : Performances 2/5                 // Bench Diff : -800  / 5000
+// Section : Performances 3/5                 // Bench Diff : -1720 / 5000
+// Section : Performances 4/5                 // Bench Diff : -200  / 5000 
+// Section : Performances 5/5                 // Bench Diff : -50   / 5000 
+// -------------------------------------------
+// Section : General Settings 1/3             // Bench Diff : +100  / 5000
+// Section : General Settings 2/3             // Bench Diff : +0    / 5000
+// Section : General Settings 3/3             // Bench Diff : -40   / 5000
+// -------------------------------------------
+// Section : Disabled - ON/OFF                // Bench Diff : ???   / 5000
+// Section : Disabled - Deprecated Active     // Bench Diff : ???   / 5000
+// Section : Disabled - Deprecated Inactive   // Bench Diff : +0    / 5000
+// -----------------------------------------------------------------------
 
 // ==============================
 // Index local-settings.js .... :
 // ==============================
 //
-// --------------------------------------------------------------------
-// Section : General Settings              // Bench Diff : ++    / 5000
-// ----------------------------------------
-// Section : Defaulting Settings           // Bench Diff : ???   / 5000
-// --------------------------------------------------------------------
+// -----------------------------------------------------------------------
+// Section : General Settings                 // Bench Diff : ++    / 5000
+// -----------------------------------------------------------------------
 
 ```
+
+Comparing Changes And Updates :
+-------------------------------
+If you want to compare changes over updates or if you already have a `user.js`/`mozilla.cfg`/`policies.json`. consider using [Compare-UserJS](https://github.com/claustromaniac/Compare-UserJS), an amazing tool to compare user.js files and output the diffs in detailed breakdown, developed by gHack's very own resident cat, [claustromaniac](https://github.com/claustromaniac) :cat:
+
+Usage : If not on windows install [PowerShell](https://github.com/PowerShell/PowerShell) then for example `pwsh Compare-UserJS.ps1 mozilla.cfg user.js` (Warning that PowerShell connect to MS sometimes)
 
 Documentation :
 ---------------
@@ -225,7 +288,7 @@ Tuning Librefox  :
 
 **Restart Button :**
 
-One simple solution is to bookmark "about:profiles" ... when restart is needed open that page and click "normal restart"
+One simple solution is to bookmark `about:profiles` ... when restart is needed open that page and click "normal restart". You can even go further and add the bookmarks links to your icons bar and rename the link to an emty text (you will then have a direct icon to `about:profiles` and a 2 clicks reboot)
 
 ![capture](https://user-images.githubusercontent.com/6892180/48963055-bd914000-ef82-11e8-8ea4-a58e56f5c4a4.png)
 ... 
@@ -248,19 +311,28 @@ widget.content.gtk-theme-override;Adwaita:light
 - [Dormancy](https://addons.mozilla.org/en-US/firefox/addon/dormancy/) : Unload tab after a certain time, usefull for performances when opening a lot of tabs 
 - [Add Custom Search Engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/) : Cutomize your search engine 
 - [ProxySwitcheroo](https://addons.mozilla.org/en-US/firefox/addon/proxyswitcheroo/) : Applying proxy settings in a click
-- [Advanced Github Notifier](https://addons.mozilla.org/en-US/firefox/addon/advanced-github-notifier/) : Github notifications
 - [UndoCloseTabButton](https://addons.mozilla.org/en-US/firefox/addon/undoclosetabbutton/) : Reopen last closed tab
+- [Advanced Github Notifier](https://addons.mozilla.org/en-US/firefox/addon/advanced-github-notifier/) : Github notifications
 - [Request Blocker](https://addons.mozilla.org/en-US/firefox/addon/request-blocker-we/) : Host style blocking sites
 - [Shortkeys](https://addons.mozilla.org/en-US/firefox/addon/shortkeys/) : Add custom shortkeys
 - [Tabboo](https://addons.mozilla.org/en-US/firefox/addon/tabboo-session-manager/) : Session manager
 
-Tor compatibility :
+Tor Compatibility :
 -------------------
-Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services.
+Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled in v2 for user toriffying/proxifying their whole connection).
 
-Building and packaging :
+Tor compatibility may change.
+
+**Librefox Addons For Tor Version :**
+- [Librefox HTTP Watcher ESR - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-tor-mod/)
+- [Librefox NoHTTP - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/nohttp-librefox-mod-for-tor/)
+
+Librefox ESR :
+--------------
+For ESR users if you opt for `Librefox HTTP Watcher` you need to use this version [Librefox HTTP Watcher ESR - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-tor-mod/)
+
+Building And Packaging :
 ------------------------
-
 Librefox is applied to a built version of firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
 
 **Linux :**

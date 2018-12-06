@@ -1,0 +1,959 @@
+::::::::::::::: { Compare-UserJS Report } ::::::::::::::: v1.18.4
+
+06/12/2018 10:02:06
+
+Summary:                                                                    Reviewed ?
+
+  784 unique prefs in mozilla.cfg                                           Yes it's ok
+  605 unique prefs in user.js                                               Yes it's ok
+
+  426 matching prefs, both value and state (active/inactive)                Alringht
+   17 prefs with different values but matching state                        Yes it's intended check the cfg file to know why
+    1 prefs not declared in mozilla.cfg                                     Yes it's ok
+  180 prefs not declared in user.js                                         We are different right ? :) (important thing are present in gHacks)
+                                                                            gHacks is perfect it's just that this project have a different scope
+                                                                            a lot of settings present here are already covered in gHacks
+                                                                            and important settings are reported back ;) 
+   40 prefs with matching values but inactive in mozilla.cfg                Yes it's ok (Most are disabled for perfs and enforced with extensions)
+  117 prefs with matching values but inactive in user.js 
+    4 prefs with both mismatching values and states                         It's normal...
+ ----
+  785 combined unique prefs                                                 Alright
+
+    6 duplicated prefs in mozilla.cfg                                       Not real duplicate
+    1 duplicated prefs in user.js                                           Not real duplicate
+
+ Reference:  [i] inactive pref (commented-out)
+
+------------------------------------------------------------------------------
+ The following 426 prefs match in both values and states:
+
+    accessibility.force_disabled                                            1
+    alerts.showFavicons                                                     false
+    app.normandy.api_url                                                    ""
+    app.normandy.enabled                                                    false
+    app.shield.optoutstudies.enabled                                        false
+    app.update.auto                                                         false
+    app.update.service.enabled                                              false
+    app.update.silent                                                       false
+    app.update.staging.enabled                                              false
+    beacon.enabled                                                          false
+    breakpad.reportURL                                                      ""
+    browser.aboutHomeSnippets.updateUrl                                     "data:,"
+[i] browser.backspace_action                                                2
+[i] browser.bookmarks.showRecentlyBookmarked                                false
+[i] browser.cache.frecency_experiment                                       -1
+[i] browser.cache.memory.capacity                                           0
+[i] browser.cache.memory.enable                                             false
+    browser.cache.offline.enable                                            false
+    browser.cache.offline.insecure.enable                                   false
+    browser.chrome.errorReporter.enabled                                    false
+    browser.chrome.errorReporter.submitUrl                                  ""
+[i] browser.chrome.favicons                                                 false
+[i] browser.chrome.site_icons                                               false
+    browser.contentblocking.enabled                                         true
+[i] browser.crashReports.unsubmittedCheck.autoSubmit                        false
+    browser.crashReports.unsubmittedCheck.autoSubmit2                       false
+    browser.crashReports.unsubmittedCheck.enabled                           false
+[i] browser.ctrlTab.previews                                                true
+    browser.download.hide_plugins_without_extensions                        false
+    browser.download.manager.addToRecentDocs                                false
+    browser.fixup.alternate.enabled                                         false
+    browser.fixup.hide_user_pass                                            true
+[i] browser.formautofill.enabled                                            false
+    browser.formfill.enable                                                 false
+[i] browser.formfill.saveHttpsForms                                         false
+[i] browser.fullscreen.animate                                              false
+    browser.helperApps.deleteTempFileOnExit                                 true
+[i] browser.history.allowPopState                                           false
+[i] browser.history.allowPushState                                          false
+[i] browser.history.allowReplaceState                                       false
+[i] browser.library.activity-stream.enabled                                 false
+    browser.link.open_newwindow                                             3
+    browser.link.open_newwindow.restriction                                 0
+    browser.newtab.preload                                                  false
+    browser.newtabpage.activity-stream.disableSnippets                      true
+    browser.newtabpage.activity-stream.feeds.section.topstories             false
+    browser.newtabpage.activity-stream.feeds.snippets                       false
+    browser.newtabpage.activity-stream.feeds.telemetry                      false
+    browser.newtabpage.activity-stream.section.highlights.includePocket     false
+    browser.newtabpage.activity-stream.showSponsored                        false
+    browser.newtabpage.activity-stream.telemetry                            false
+    browser.newtabpage.activity-stream.telemetry.ping.endpoint              ""
+[i] browser.newtabpage.introShown                                           true
+    browser.onboarding.enabled                                              false
+    browser.pagethumbnails.capturing_disabled                               true
+    browser.ping-centre.telemetry                                           false
+[i] browser.pocket.api                                                      ""
+[i] browser.pocket.oAuthConsumerKey                                         ""
+[i] browser.pocket.site                                                     ""
+[i] browser.polaris.enabled                                                 false
+[i] browser.privatebrowsing.autostart                                       true
+    browser.safebrowsing.downloads.remote.enabled                           false
+    browser.safebrowsing.downloads.remote.url                               ""
+    browser.safebrowsing.provider.google.reportMalwareMistakeURL            ""
+    browser.safebrowsing.provider.google.reportPhishMistakeURL              ""
+    browser.safebrowsing.provider.google.reportURL                          ""
+    browser.safebrowsing.provider.google4.dataSharing.enabled               false
+    browser.safebrowsing.provider.google4.dataSharingURL                    ""
+    browser.safebrowsing.provider.google4.reportMalwareMistakeURL           ""
+    browser.safebrowsing.provider.google4.reportPhishMistakeURL             ""
+    browser.safebrowsing.provider.google4.reportURL                         ""
+    browser.safebrowsing.reportPhishURL                                     ""
+    browser.search.geoip.url                                                ""
+    browser.search.geoSpecificDefaults                                      false
+    browser.search.geoSpecificDefaults.url                                  ""
+    browser.search.region                                                   "US"
+[i] browser.search.showOneOffButtons                                        false
+    browser.search.suggest.enabled                                          false
+    browser.search.update                                                   false
+[i] browser.selfsupport.enabled                                             false
+    browser.send_pings                                                      false
+    browser.send_pings.require_same_host                                    true
+    browser.sessionhistory.max_entries                                      10
+[i] browser.sessionhistory.max_total_viewers                                0
+    browser.sessionstore.privacy_level                                      2
+[i] browser.sessionstore.privacy_level_deferred                             2
+    browser.shell.checkDefaultBrowser                                       false
+    browser.shell.shortcutFavicons                                          false
+    browser.ssl_override_behavior                                           1
+    browser.startup.blankWindow                                             false
+    browser.tabs.crashReporting.sendReport                                  false
+[i] browser.tabs.warnOnClose                                                false
+[i] browser.tabs.warnOnCloseOtherTabs                                       false
+[i] browser.tabs.warnOnOpen                                                 false
+    browser.taskbar.lists.enabled                                           false
+    browser.taskbar.lists.frequent.enabled                                  false
+    browser.taskbar.lists.recent.enabled                                    false
+    browser.taskbar.lists.tasks.enabled                                     false
+    browser.taskbar.previews.enable                                         false
+[i] browser.trackingprotection.gethashURL                                   ""
+[i] browser.trackingprotection.updateURL                                    ""
+    browser.uitour.enabled                                                  false
+    browser.uitour.url                                                      ""
+[i] browser.urlbar.decodeURLsOnCopy                                         true
+    browser.urlbar.filter.javascript                                        true
+    browser.urlbar.maxHistoricalSearchSuggestions                           0
+[i] browser.urlbar.maxRichResults                                           0
+    browser.urlbar.oneOffSearches                                           false
+    browser.urlbar.speculativeConnect.enabled                               false
+    browser.urlbar.suggest.searches                                         false
+    browser.urlbar.trimURLs                                                 false
+[i] browser.urlbar.unifiedcomplete                                          false
+    browser.urlbar.usepreloadedtopurls.enabled                              false
+    browser.urlbar.userMadeSearchSuggestionsChoice                          true
+[i] browser.usedOnWindows10.introURL                                        ""
+    browser.xul.error_pages.expert_bad_cert                                 true
+[i] browser.zoom.siteSpecific                                               false
+[i] camera.control.autofocus_moving_callback.enabled                        false
+    canvas.capturestream.enabled                                            false
+    captivedetect.canonicalURL                                              ""
+[i] datareporting.healthreport.about.reportUrlUnified                       "data:text/plain,"
+[i] datareporting.healthreport.documentServerURI                            ""
+    datareporting.healthreport.uploadEnabled                                false
+    datareporting.policy.dataSubmissionEnabled                              false
+[i] datareporting.policy.dataSubmissionEnabled.v2                           false
+    devtools.chrome.enabled                                                 false
+    devtools.debugger.remote-enabled                                        false
+    devtools.webide.autoinstallADBHelper                                    false
+    devtools.webide.enabled                                                 false
+[i] dom.archivereader.enabled                                               false
+[i] dom.beforeAfterKeyboardEvent.enabled                                    false
+[i] dom.disable_image_src_set                                               true
+    dom.disable_open_during_load                                            true
+    dom.disable_window_move_resize                                          true
+    dom.disable_window_open_feature.close                                   true
+    dom.disable_window_open_feature.location                                true
+    dom.disable_window_open_feature.menubar                                 true
+    dom.disable_window_open_feature.minimizable                             true
+    dom.disable_window_open_feature.personalbar                             true
+    dom.disable_window_open_feature.resizable                               true
+[i] dom.disable_window_open_feature.scrollbars                              true
+    dom.disable_window_open_feature.status                                  true
+    dom.disable_window_open_feature.titlebar                                true
+    dom.disable_window_open_feature.toolbar                                 true
+[i] dom.disable_window_status_change                                        true
+    dom.event.clipboardevents.enabled                                       false
+    dom.event.highrestimestamp.enabled                                      true
+    dom.forms.datetime                                                      false
+[i] dom.idle-observers-api.enabled                                          false
+    dom.imagecapture.enabled                                                false
+    dom.IntersectionObserver.enabled                                        false
+    dom.ipc.plugins.flash.subprocess.crashreporter.enabled                  false
+    dom.ipc.plugins.reportCrashURL                                          false
+[i] dom.keyboardevent.code.enabled                                          false
+[i] dom.network.enabled                                                     false
+    dom.push.connection.enabled                                             false
+    dom.push.enabled                                                        false
+    dom.push.serverURL                                                      ""
+    dom.push.userAgentID                                                    ""
+    dom.serviceWorkers.enabled                                              false
+[i] dom.storage.enabled                                                     false
+[i] dom.storageManager.enabled                                              false
+    dom.vibrator.enabled                                                    false
+[i] dom.vr.oculus050.enabled                                                false
+    dom.w3c_pointer_events.enabled                                          false
+[i] dom.w3c_touch_events.enabled                                            0
+    dom.webaudio.enabled                                                    false
+[i] dom.workers.enabled                                                     false
+[i] dom.workers.sharedWorkers.enabled                                       false
+    extensions.autoDisableScopes                                            15
+    extensions.enabledScopes                                                1
+    extensions.formautofill.addresses.enabled                               false
+    extensions.formautofill.available                                       "off"
+    extensions.formautofill.creditCards.enabled                             false
+[i] extensions.formautofill.experimental                                    false
+    extensions.formautofill.heuristics.enabled                              false
+    extensions.getAddons.cache.enabled                                      false
+    extensions.getAddons.showPane                                           false
+    extensions.pocket.enabled                                               false
+[i] extensions.screenshots.disabled                                         true
+[i] extensions.screenshots.system-disabled                                  true
+[i] extensions.shield-recipe-client.api_url                                 ""
+    extensions.update.autoUpdateDefault                                     false
+    extensions.webcompat-reporter.enabled                                   false
+[i] extensions.webextensions.restrictedDomains                              ""
+    extensions.webservice.discoverURL                                       ""
+    font.blacklist.underline_offset                                         ""
+[i] font.name.monospace.x-unicode                                           "Lucida Console"
+[i] font.name.monospace.x-western                                           "Lucida Console"
+[i] font.name.sans-serif.x-unicode                                          "Arial"
+[i] font.name.sans-serif.x-western                                          "Arial"
+[i] font.name.serif.x-unicode                                               "Georgia"
+[i] font.name.serif.x-western                                               "Georgia"
+[i] font.system.whitelist                                                   ""
+[i] full-screen-api.approval-required                                       false
+[i] full-screen-api.enabled                                                 false
+[i] full-screen-api.warning.delay                                           0
+[i] full-screen-api.warning.timeout                                         0
+[i] general.useragent.locale                                                "en-US"
+[i] general.warnOnAboutConfig                                               false
+[i] geo.security.allowinsecure                                              false
+[i] gfx.direct2d.disabled                                                   true
+[i] gfx.downloadable_fonts.enabled                                          false
+[i] gfx.downloadable_fonts.fallback_delay                                   -1
+    gfx.font_rendering.graphite.enabled                                     false
+    gfx.font_rendering.opentype_svg.enabled                                 false
+    gfx.offscreencanvas.enabled                                             false
+    intl.accept_languages                                                   "en-US, en"
+[i] intl.locale.matchOS                                                     false
+    intl.locale.requested                                                   "en-US"
+    intl.regional_prefs.use_os_locales                                      false
+[i] javascript.options.baselinejit                                          false
+[i] javascript.options.ion                                                  false
+    javascript.options.shared_memory                                        false
+    javascript.use_us_english_locale                                        true
+    keyword.enabled                                                         false
+    layout.css.visited_links_enabled                                        false
+    lightweightThemes.update.enabled                                        false
+[i] loop.enabled                                                            false
+[i] loop.facebook.appId                                                     ""
+[i] loop.facebook.enabled                                                   false
+[i] loop.facebook.fallbackUrl                                               ""
+[i] loop.facebook.shareUrl                                                  ""
+[i] loop.feedback.formURL                                                   ""
+[i] loop.feedback.manualFormURL                                             ""
+[i] loop.server                                                             ""
+[i] media.autoplay.enabled                                                  false
+[i] media.block-play-until-visible                                          true
+[i] media.eme.apiVisible                                                    false
+[i] media.eme.chromium-api.enabled                                          false
+    media.eme.enabled                                                       false
+    media.getusermedia.audiocapture.enabled                                 false
+    media.getusermedia.browser.enabled                                      false
+[i] media.getusermedia.screensharing.allow_on_old_platforms                 false
+[i] media.getusermedia.screensharing.allowed_domains                        ""
+    media.getusermedia.screensharing.enabled                                false
+[i] media.gmp-eme-adobe.autoupdate                                          false
+[i] media.gmp-eme-adobe.visible                                             false
+    media.gmp-gmpopenh264.autoupdate                                        false
+    media.gmp-gmpopenh264.enabled                                           false
+    media.gmp-manager.updateEnabled                                         false
+    media.gmp-manager.url                                                   "data:text/plain,"
+    media.gmp-manager.url.override                                          "data:text/plain,"
+    media.gmp-provider.enabled                                              false
+    media.gmp-widevinecdm.autoupdate                                        false
+    media.gmp-widevinecdm.enabled                                           false
+    media.gmp-widevinecdm.visible                                           false
+    media.gmp.trial-create.enabled                                          false
+[i] media.media-capabilities.enabled                                        false
+    media.navigator.enabled                                                 false
+    media.navigator.video.enabled                                           false
+[i] media.ondevicechange.enabled                                            false
+    media.peerconnection.enabled                                            false
+    media.peerconnection.ice.default_address_only                           true
+    media.peerconnection.ice.no_host                                        true
+    media.peerconnection.ice.tcp                                            false
+    media.peerconnection.identity.enabled                                   false
+    media.peerconnection.identity.timeout                                   1
+    media.peerconnection.turn.disable                                       true
+    media.peerconnection.use_document_iceservers                            false
+    media.peerconnection.video.enabled                                      false
+[i] media.webspeech.synth.enabled                                           false
+    middlemouse.contentLoadURL                                              false
+    network.allow-experiments                                               false
+    network.auth.subresource-img-cross-origin-http-auth-allow               false
+    network.captive-portal-service.enabled                                  false
+    network.cookie.cookieBehavior                                           1
+    network.cookie.leave-secure-alone                                       true
+[i] network.cookie.lifetime.days                                            90
+    network.cookie.thirdparty.nonsecureSessionOnly                          true
+    network.cookie.thirdparty.sessionOnly                                   true
+    network.dns.disableIPv6                                                 true
+    network.dns.disablePrefetch                                             true
+    network.dns.disablePrefetchFromHTTPS                                    true
+[i] network.dnsCacheEntries                                                 400
+[i] network.dnsCacheExpiration                                              60
+    network.file.disable_unc_paths                                          true
+[i] network.ftp.enabled                                                     false
+    network.gio.supported-protocols                                         ""
+    network.http.altsvc.enabled                                             false
+    network.http.altsvc.oe                                                  false
+    network.http.redirection-limit                                          10
+    network.http.referer.defaultPolicy                                      3
+    network.http.referer.defaultPolicy.pbmode                               2
+    network.http.referer.hideOnionSource                                    true
+    network.http.referer.spoofSource                                        false
+    network.http.referer.trimmingPolicy                                     0
+[i] network.http.referer.userControlPolicy                                  3
+    network.http.referer.XOriginPolicy                                      1
+    network.http.referer.XOriginTrimmingPolicy                              0
+    network.http.sendRefererHeader                                          2
+[i] network.http.sendSecureXSiteReferrer                                    false
+[i] network.http.spdy.enabled.http2draft                                    false
+[i] network.http.spdy.enabled.v3-1                                          false
+    network.http.speculative-parallel-limit                                 0
+    network.IDN_show_punycode                                               true
+    network.predictor.enable-prefetch                                       false
+    network.predictor.enabled                                               false
+    network.prefetch-next                                                   false
+    network.protocol-handler.external.ms-windows-store                      false
+    network.proxy.autoconfig_url.include_path                               false
+    network.proxy.socks_remote_dns                                          true
+    offline-apps.allow_by_default                                           false
+[i] pageThumbs.enabled                                                      false
+    pdfjs.disabled                                                          false
+    pdfjs.enableWebGL                                                       false
+[i] permissions.default.camera                                              2
+[i] permissions.default.desktop-notification                                2
+[i] permissions.default.microphone                                          2
+[i] permissions.default.shortcuts                                           2
+    permissions.manager.defaultsUrl                                         ""
+[i] pfs.datasource.url                                                      ""
+[i] plugin.scan.Acrobat                                                     "99999"
+    plugin.scan.plid.all                                                    false
+[i] plugin.scan.Quicktime                                                   "99999"
+[i] plugin.scan.WindowsMediaPlayer                                          "99999"
+    plugin.sessionPermissionNow.intervalInMinutes                           0
+    plugin.state.flash                                                      0
+    plugins.click_to_play                                                   true
+[i] plugins.enumerable_names                                                ""
+[i] plugins.update.notifyUser                                               false
+[i] plugins.update.url                                                      ""
+    privacy.clearOnShutdown.cache                                           true
+    privacy.clearOnShutdown.cookies                                         true
+    privacy.clearOnShutdown.downloads                                       true
+    privacy.clearOnShutdown.formdata                                        true
+    privacy.clearOnShutdown.history                                         true
+    privacy.clearOnShutdown.offlineApps                                     true
+[i] privacy.clearOnShutdown.passwords                                       false
+    privacy.clearOnShutdown.sessions                                        true
+    privacy.clearOnShutdown.siteSettings                                    false
+    privacy.cpd.cache                                                       true
+    privacy.cpd.cookies                                                     true
+[i] privacy.cpd.downloads                                                   true
+    privacy.cpd.formdata                                                    true
+    privacy.cpd.history                                                     true
+    privacy.cpd.offlineApps                                                 true
+    privacy.cpd.passwords                                                   false
+    privacy.cpd.sessions                                                    true
+    privacy.cpd.siteSettings                                                false
+    privacy.donottrackheader.enabled                                        true
+[i] privacy.firstparty.isolate.block_post_message                           true
+    privacy.firstparty.isolate.restrict_opener_access                       true
+    privacy.resistFingerprinting                                            true
+    privacy.resistFingerprinting.block_mozAddonManager                      true
+    privacy.sanitize.sanitizeOnShutdown                                     true
+    privacy.sanitize.timeSpan                                               0
+[i] privacy.trackingprotection.enabled                                      true
+    privacy.usercontext.about_newtab_segregation.enabled                    true
+    privacy.userContext.enabled                                             true
+    privacy.userContext.longPressBehavior                                   2
+    privacy.userContext.ui.enabled                                          true
+[i] privacy.window.maxInnerHeight                                           900
+[i] privacy.window.maxInnerWidth                                            1600
+    security.cert_pinning.enforcement_level                                 2
+    security.csp.enable                                                     true
+    security.csp.enable_violation_events                                    false
+    security.csp.experimentalEnabled                                        true
+    security.data_uri.block_toplevel_data_uri_navigations                   true
+    security.dialog_enable_delay                                            700
+    security.family_safety.mode                                             0
+    security.insecure_connection_icon.enabled                               true
+    security.insecure_connection_text.enabled                               true
+[i] security.insecure_connection_text.pbmode.enabled                        true
+    security.insecure_field_warning.contextual.enabled                      true
+    security.insecure_password.ui.enabled                                   true
+    security.mixed_content.block_active_content                             true
+    security.mixed_content.block_display_content                            true
+    security.mixed_content.block_object_subrequest                          true
+[i] security.mixed_content.send_hsts_priming                                false
+[i] security.mixed_content.use_hsts                                         true
+[i] security.nocertdb                                                       true
+    security.pki.sha1_enforcement_level                                     1
+    security.ssl.disable_session_identifiers                                true
+    security.ssl.enable_ocsp_stapling                                       true
+    security.ssl.errorReporting.automatic                                   false
+    security.ssl.errorReporting.enabled                                     false
+    security.ssl.errorReporting.url                                         ""
+    security.ssl.require_safe_negotiation                                   true
+    security.ssl.treat_unsafe_negotiation_as_broken                         true
+[i] security.ssl3.dhe_rsa_aes_128_sha                                       false
+[i] security.ssl3.dhe_rsa_aes_256_sha                                       false
+[i] security.ssl3.ecdhe_ecdsa_aes_128_sha                                   false
+[i] security.ssl3.ecdhe_rsa_aes_128_sha                                     false
+    security.tls.enable_0rtt_data                                           false
+[i] security.tls.insecure_fallback_hosts.use_static_list                    false
+    security.tls.version.max                                                4
+    signon.autofillForms                                                    false
+    signon.autofillForms.http                                               false
+    signon.formlessCapture.enabled                                          false
+    signon.storeWhenAutocompleteOff                                         true
+[i] social.enabled                                                          false
+[i] social.share.activationPanelEnabled                                     false
+[i] social.shareDirectory                                                   ""
+[i] social.toast-notifications.enabled                                      false
+[i] startup.homepage_override_url                                           ""
+[i] startup.homepage_welcome_url                                            ""
+[i] startup.homepage_welcome_url.additional                                 ""
+[i] svg.disabled                                                            true
+[i] toolkit.cosmeticAnimations.enabled                                      false
+    toolkit.telemetry.archive.enabled                                       false
+    toolkit.telemetry.bhrPing.enabled                                       false
+    toolkit.telemetry.cachedClientID                                        ""
+    toolkit.telemetry.enabled                                               false
+    toolkit.telemetry.firstShutdownPing.enabled                             false
+    toolkit.telemetry.hybridContent.enabled                                 false
+    toolkit.telemetry.newProfilePing.enabled                                false
+    toolkit.telemetry.server                                                "data:,"
+    toolkit.telemetry.shutdownPingSender.enabled                            false
+    toolkit.telemetry.unified                                               false
+[i] toolkit.telemetry.unifiedIsOptIn                                        true
+    toolkit.telemetry.updatePing.enabled                                    false
+    toolkit.winRegisterApplicationRestart                                   false
+[i] ui.key.menuAccessKey                                                    0
+    ui.use_standins_for_native_colors                                       true
+[i] urlclassifier.trackingTable                                             "test-track-simple,base-track-digest256"
+[i] view_source.tab                                                         false
+    webchannel.allowObject.urlWhitelist                                     ""
+    webgl.disable-extensions                                                true
+    webgl.disable-fail-if-major-performance-caveat                          true
+    webgl.disabled                                                          true
+    webgl.dxgl.enabled                                                      false
+    webgl.enable-webgl2                                                     false
+    webgl.min_capability_mode                                               true
+[i] xpinstall.signatures.required                                           false
+    xpinstall.whitelist.required                                            true
+
+------------------------------------------------------------------------------
+ The following 17 prefs have different values, but matching states:
+
+    browser.sessionstore.interval
+        mozilla.cfg     60000
+        user.js         30000
+
+    dom.indexedDB.enabled
+        mozilla.cfg     false
+        user.js         true
+
+[i] dom.maxHardwareConcurrency
+        mozilla.cfg     8
+        user.js         2
+
+    dom.popup_maximum
+        mozilla.cfg     4
+        user.js         3
+
+    extensions.blocklist.enabled
+        mozilla.cfg     false
+        user.js         true
+
+    extensions.blocklist.url
+        mozilla.cfg     ""
+        user.js         "https://blocklists.settings.services.mozilla.com/v1/blocklist/3/%APP_ID%/%APP_VERSION%/"
+
+[i] general.appname.override
+        mozilla.cfg     "Netscape"
+        user.js         ""
+
+[i] general.appversion.override
+        mozilla.cfg     "5.0 (Windows)"
+        user.js         ""
+
+[i] general.oscpu.override
+        mozilla.cfg     "Windows NT 6.1"
+        user.js         ""
+
+[i] general.platform.override
+        mozilla.cfg     "Win32"
+        user.js         ""
+
+[i] general.useragent.override
+        mozilla.cfg     "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0, 45"
+        user.js         ""
+
+    geo.wifi.uri
+        mozilla.cfg     ""
+        user.js         "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%"
+
+    media.autoplay.default
+        mozilla.cfg     2
+        user.js         1
+
+    plugin.default.state
+        mozilla.cfg     1
+        user.js         0
+
+    plugin.defaultXpi.state
+        mozilla.cfg     1
+        user.js         0
+
+    security.OCSP.enabled
+        mozilla.cfg     0
+        user.js         1
+
+    security.OCSP.require
+        mozilla.cfg     false
+        user.js         true
+
+
+------------------------------------------------------------------------------
+ The following 1 prefs are not declared in mozilla.cfg:
+
+    _user.js.parrot                                                         "SUCCESS: No no he's not dead, he's, he's restin'!"
+
+------------------------------------------------------------------------------
+ The following 180 prefs are not declared in user.js:
+
+    app.feedback.baseURL                                                    ""
+    app.normandy.first_run                                                  false
+    app.normandy.user_id                                                    ""
+    app.releaseNotesURL                                                     ""
+    app.update.lastUpdateTime.telemetry_modules_ping                        0
+    app.update.url                                                          ""
+    app.update.url.details                                                  ""
+    app.update.url.manual                                                   ""
+    app.vendorURL                                                           ""
+    browser.bookmarks.restore_default_bookmarks                             false
+    browser.contentblocking.reportBreakage.url                              ""
+[i] browser.download.animateNotifications                                   false
+    browser.formfill.expire_days                                            0
+    browser.newtabpage.activity-stream.aboutHome.enabled                    false
+    browser.newtabpage.activity-stream.asrouter.messageProviders            ""
+    browser.newtabpage.activity-stream.feeds.section.highlights             false
+    browser.newtabpage.activity-stream.prerender                            false
+    browser.newtabpage.activity-stream.section.highlights.includeBookmarks  false
+    browser.newtabpage.activity-stream.section.highlights.includeDownloads  false
+    browser.newtabpage.activity-stream.section.highlights.includeVisited    false
+[i] browser.offline-apps.notify                                             true
+    browser.onboarding.notification.finished                                true
+    browser.onboarding.tour.onboarding-tour-customize.completed             true
+    browser.onboarding.tour.onboarding-tour-performance.completed           true
+    browser.ping-centre.staging.endpoint                                    ""
+    browser.safebrowsing.passwords.enabled                                  false
+    browser.safebrowsing.provider.google.advisoryURL                        ""
+    browser.safebrowsing.provider.google.lastupdatetime                     ""
+    browser.safebrowsing.provider.google.lists                              ""
+    browser.safebrowsing.provider.google.nextupdatetime                     ""
+    browser.safebrowsing.provider.google.pver                               ""
+    browser.safebrowsing.provider.google4.advisoryURL                       ""
+    browser.safebrowsing.provider.google4.lastupdatetime                    ""
+    browser.safebrowsing.provider.google4.lists                             ""
+    browser.safebrowsing.provider.google4.nextupdatetime                    ""
+    browser.safebrowsing.provider.mozilla.lastupdatetime                    ""
+    browser.safebrowsing.provider.mozilla.nextupdatetime                    ""
+    browser.shell.didSkipDefaultBrowserCheckOnFirstRun                      true
+    browser.startup.homepage_override.buildID                               "20100101"
+    browser.tabs.closeTabByDblclick                                         true
+    browser.uidensity                                                       1
+[i] browser.urlbar.autoFill.typed                                           false
+    browser.urlbar.daysBeforeHidingSuggestionsPrompt                        0
+    browser.urlbar.searchSuggestionsChoice                                  false
+    browser.urlbar.timesBeforeHidingSuggestionsHint                         0
+    datareporting.healthreport.infoURL                                      ""
+    datareporting.policy.firstRunURL                                        ""
+    devtools.debugger.force-local                                           true
+    devtools.devedition.promo.url                                           ""
+    devtools.devices.url                                                    ""
+    devtools.gcli.imgurUploadURL                                            ""
+    devtools.gcli.jquerySrc                                                 ""
+    devtools.gcli.underscoreSrc                                             ""
+    devtools.onboarding.telemetry.logged                                    false
+    devtools.telemetry.supported_performance_marks                          ""
+    devtools.telemetry.tools.opened.version                                 ""
+    dom.enable_performance_navigation_timing                                false
+    dom.indexedDB.logging.details                                           false
+    dom.indexedDB.logging.enabled                                           false
+    dom.mozTCPSocket.enabled                                                false
+    dom.permissions.enabled                                                 false
+    dom.registerProtocolHandler.insecure.enabled                            true
+    extensions.blocklist.detailsURL                                         ""
+    extensions.blocklist.itemURL                                            ""
+    extensions.pocket.api                                                   ""
+    extensions.pocket.oAuthConsumerKey                                      ""
+    extensions.pocket.site                                                  ""
+[i] extensions.ui.dictionary.hidden                                         false
+    extensions.ui.experiment.hidden                                         false
+[i] extensions.ui.locale.hidden                                             false
+    extensions.update.background.url                                        ""
+    gecko.handlerService.schemes.mailto.0.uriTemplate                       ""
+    gecko.handlerService.schemes.mailto.1.uriTemplate                       ""
+    gecko.handlerService.schemes.webcal.0.uriTemplate                       ""
+    general.config.filename                                                 "mozilla.cfg"
+    general.useragent.site_specific_overrides                               false
+    html5.offmainthread                                                     true
+    identity.fxaccounts.auth.uri                                            ""
+    identity.fxaccounts.remote.oauth.uri                                    ""
+    identity.fxaccounts.remote.profile.uri                                  ""
+    identity.mobilepromo.android                                            ""
+    identity.mobilepromo.ios                                                ""
+[i] javascript.options.mem.high_water_mark                                  96
+    layers.acceleration.force-enabled                                       true
+    layers.async-video.enabled                                              true
+    layers.offmainthreadcomposition.async-animations                        true
+    layers.offmainthreadcomposition.enabled                                 true
+    layout.frame_rate.precise                                               true
+    lightweightThemes.persisted.footerURL                                   false
+    lightweightThemes.persisted.headerURL                                   false
+    lpbmode.enabled                                                         true
+    mailnews.messageid_browser.url                                          ""
+    mailnews.mx_service_url                                                 ""
+    media.webspeech.recognition.enable                                      false
+    network.dns.blockDotOnion                                               true
+    network.negotiate-auth.allow-insecure-ntlm-v1                           false
+    network.negotiate-auth.allow-insecure-ntlm-v1-https                     false
+    network.predictor.cleaned-up                                            true
+    network.protocol-handler.expose-all                                     false
+    network.protocol-handler.expose.about                                   true
+    network.protocol-handler.expose.blob                                    true
+    network.protocol-handler.expose.chrome                                  true
+    network.protocol-handler.expose.data                                    true
+    network.protocol-handler.expose.file                                    true
+    network.protocol-handler.expose.ftp                                     true
+    network.protocol-handler.expose.http                                    true
+    network.protocol-handler.expose.https                                   true
+    network.protocol-handler.expose.javascript                              true
+    network.protocol-handler.expose.moz-extension                           true
+    network.protocol-handler.external.about                                 false
+    network.protocol-handler.external.blob                                  false
+    network.protocol-handler.external.chrome                                false
+    network.protocol-handler.external.data                                  false
+    network.protocol-handler.external.file                                  false
+    network.protocol-handler.external.ftp                                   false
+    network.protocol-handler.external.http                                  false
+    network.protocol-handler.external.https                                 false
+    network.protocol-handler.external.javascript                            false
+    network.protocol-handler.external.moz-extension                         false
+    network.protocol-handler.warn-external-default                          true
+    network.proxy.autoconfig_url                                            ""
+    network.proxy.socks_version                                             5
+    network.stricttransportsecurity.preloadlist                             false
+    pdfjs.enabledCache.state                                                false
+    pdfjs.previousHandler.alwaysAskBeforeHandling                           true
+    plugin.state.libgnome-shell-browser-plugin                              0
+    plugins.crash.supportUrl                                                ""
+    pref.general.disable_button.default_browser                             false
+    pref.privacy.disable_button.cookie_exceptions                           false
+    pref.privacy.disable_button.tracking_protection_exceptions              false
+    pref.privacy.disable_button.view_passwords                              false
+    privacy.history.custom                                                  true
+    privacy.sanitize.pending                                                '[{"id":"shutdown","itemsToClear":["cache","cookies","history","formdata","downloads"],"options":{}}]'
+    privacy.trackingprotection.introURL                                     ""
+    security.disable_button.openCertManager                                 false
+    security.disable_button.openDeviceManager                               false
+    security.fileuri.strict_origin_policy                                   true
+    security.mixed_content.upgrade_display_content                          true
+[i] security.sri.enable                                                     true
+    security.ssl3.ecdh_ecdsa_rc4_128_sha                                    false
+    security.ssl3.ecdh_rsa_rc4_128_sha                                      false
+[i] security.ssl3.ecdhe_ecdsa_aes_128_gcm_sha256                            true
+[i] security.ssl3.ecdhe_ecdsa_aes_256_sha                                   true
+[i] security.ssl3.ecdhe_ecdsa_chacha20_poly1305_sha256                      true
+[i] security.ssl3.ecdhe_rsa_aes_128_gcm_sha256                              true
+[i] security.ssl3.ecdhe_rsa_aes_256_sha                                     true
+[i] security.ssl3.ecdhe_rsa_chacha20_poly1305_sha256                        true
+    security.ssl3.rsa_seed_sha                                              false
+    security.tls.version.fallback-limit                                     3
+    services.sync.clients.lastSync                                          "0"
+    services.sync.clients.lastSyncLocal                                     "0"
+    services.sync.declinedEngines                                           ""
+    services.sync.enabled                                                   false
+    services.sync.engine.addresses.available                                false
+    services.sync.globalScore                                               0
+    services.sync.jpake.serverURL                                           ""
+    services.sync.migrated                                                  true
+    services.sync.nextSync                                                  0
+    services.sync.prefs.sync.browser.safebrowsing.downloads.enabled         false
+    services.sync.prefs.sync.browser.safebrowsing.malware.enabled           false
+    services.sync.prefs.sync.browser.safebrowsing.passwords.enabled         false
+    services.sync.prefs.sync.browser.safebrowsing.phishing.enabled          false
+    services.sync.prefs.sync.signon.rememberSignons                         false
+    services.sync.serverURL                                                 ""
+    services.sync.tabs.lastSync                                             "0"
+    services.sync.tabs.lastSyncLocal                                        "0"
+    shumway.disabled                                                        true
+    sync.enabled                                                            false
+    sync.jpake.serverURL                                                    ""
+    sync.serverURL                                                          ""
+    toolkit.crashreporter.infoURL                                           ""
+    toolkit.telemetry.coverage.opt-out                                      true
+    toolkit.telemetry.infoURL                                               ""
+    toolkit.telemetry.previousBuildID                                       ""
+    toolkit.telemetry.prompted                                              2
+    toolkit.telemetry.rejected                                              true
+    toolkit.telemetry.reportingpolicy.firstRun                              false
+    toolkit.telemetry.server_owner                                          ""
+    webextensions.storage.sync.serverURL                                    ""
+    webgl.force-enabled                                                     true
+
+------------------------------------------------------------------------------
+ The following 40 prefs match but are inactive in mozilla.cfg:
+
+    browser.cache.disk_cache_ssl                                            false
+    browser.cache.disk.capacity                                             0
+    browser.cache.disk.enable                                               false
+    browser.cache.disk.smart_size.enabled                                   false
+    browser.cache.disk.smart_size.first_run                                 false
+    browser.display.use_document_fonts                                      0
+    browser.download.folderList                                             2
+    browser.download.forbid_open_with                                       true
+    browser.download.useDownloadDir                                         false
+    browser.newtabpage.enabled                                              false
+    browser.sessionstore.max_tabs_undo                                      0
+    browser.sessionstore.max_windows_undo                                   0
+    browser.sessionstore.resume_from_crash                                  false
+    browser.startup.homepage                                                "about:blank"
+    browser.startup.page                                                    0
+    browser.tabs.remote.allowLinkedWebInFileUriProcess                      false
+    browser.urlbar.autocomplete.enabled                                     false
+    browser.urlbar.autoFill                                                 false
+    browser.urlbar.suggest.bookmark                                         false
+    browser.urlbar.suggest.history                                          false
+    browser.urlbar.suggest.openpage                                         false
+    dom.allow_cut_copy                                                      false
+    dom.caches.enabled                                                      false
+    dom.disable_beforeunload                                                true
+    dom.popup_allowed_events                                                "click dblclick"
+    dom.webnotifications.enabled                                            false
+    dom.webnotifications.serviceworker.enabled                              false
+    gfx.downloadable_fonts.woff2.enabled                                    false
+    javascript.options.asmjs                                                false
+    javascript.options.wasm                                                 false
+    layers.acceleration.disabled                                            true
+    layout.css.font-loading-api.enabled                                     false
+    mathml.disabled                                                         true
+    media.block-autoplay-until-in-foreground                                true
+    network.http.spdy.enabled                                               false
+    network.http.spdy.enabled.deps                                          false
+    network.http.spdy.enabled.http2                                         false
+    privacy.firstparty.isolate                                              true
+    security.ask_for_password                                               2
+    security.password_lifetime                                              5
+
+------------------------------------------------------------------------------
+ The following 117 prefs match but are inactive in user.js:
+
+    accessibility.typeaheadfind                                             true
+    app.update.enabled                                                      false
+    browser.bookmarks.max_backups                                           2
+    browser.casting.enabled                                                 false
+    browser.download.autohideButton                                         false
+    browser.newtabpage.activity-stream.enabled                              false
+    browser.newtabpage.directory.ping                                       "data:text/plain,"
+    browser.newtabpage.directory.source                                     "data:text/plain,"
+    browser.newtabpage.enhanced                                             false
+    browser.pocket.enabled                                                  false
+    browser.safebrowsing.allowOverride                                      false
+    browser.safebrowsing.appRepURL                                          ""
+    browser.safebrowsing.blockedURIs.enabled                                false
+    browser.safebrowsing.downloads.enabled                                  false
+    browser.safebrowsing.downloads.remote.block_dangerous                   false
+    browser.safebrowsing.downloads.remote.block_dangerous_host              false
+    browser.safebrowsing.downloads.remote.block_potentially_unwanted        false
+    browser.safebrowsing.downloads.remote.block_uncommon                    false
+    browser.safebrowsing.enabled                                            false
+    browser.safebrowsing.gethashURL                                         ""
+    browser.safebrowsing.malware.enabled                                    false
+    browser.safebrowsing.malware.reportURL                                  ""
+    browser.safebrowsing.phishing.enabled                                   false
+    browser.safebrowsing.provider.google.appRepURL                          ""
+    browser.safebrowsing.provider.google.gethashURL                         ""
+    browser.safebrowsing.provider.google.updateURL                          ""
+    browser.safebrowsing.provider.google4.gethashURL                        ""
+    browser.safebrowsing.provider.google4.updateURL                         ""
+    browser.safebrowsing.provider.mozilla.gethashURL                        ""
+    browser.safebrowsing.provider.mozilla.updateURL                         ""
+    browser.safebrowsing.reportErrorURL                                     ""
+    browser.safebrowsing.reportGenericURL                                   ""
+    browser.safebrowsing.reportMalwareErrorURL                              ""
+    browser.safebrowsing.reportMalwareMistakeURL                            ""
+    browser.safebrowsing.reportMalwareURL                                   ""
+    browser.safebrowsing.reportPhishMistakeURL                              ""
+    browser.safebrowsing.reportURL                                          ""
+    browser.safebrowsing.updateURL                                          ""
+    browser.search.countryCode                                              "US"
+    browser.selfsupport.url                                                 ""
+    browser.startup.homepage_override.mstone                                "ignore"
+    browser.tabs.animate                                                    false
+    browser.tabs.closeWindowWithLastTab                                     false
+    browser.tabs.loadBookmarksInTabs                                        true
+    camera.control.face_detection.enabled                                   false
+    clipboard.autocopy                                                      false
+    datareporting.healthreport.about.reportUrl                              "data:text/plain,"
+    datareporting.healthreport.service.enabled                              false
+    device.sensors.enabled                                                  false
+    devtools.webide.autoinstallFxdtAdapters                                 false
+    dom.battery.enabled                                                     false
+    dom.enable_performance                                                  false
+    dom.enable_resource_timing                                              false
+    dom.enable_user_timing                                                  false
+    dom.event.contextmenu.enabled                                           false
+    dom.flyweb.enabled                                                      false
+    dom.gamepad.enabled                                                     false
+    dom.netinfo.enabled                                                     false
+    dom.push.udp.wakeupEnabled                                              false
+    dom.telephony.enabled                                                   false
+    dom.vr.enabled                                                          false
+    experiments.activeExperiment                                            false
+    experiments.enabled                                                     false
+    experiments.manifest.uri                                                ""
+    experiments.supported                                                   false
+    extensions.screenshots.upload-disabled                                  true
+    extensions.shield-recipe-client.enabled                                 false
+    extensions.systemAddon.update.enabled                                   false
+    extensions.systemAddon.update.url                                       ""
+    extensions.update.enabled                                               false
+    general.autoScroll                                                      false
+    geo.enabled                                                             false
+    geo.wifi.logging.enabled                                                true
+    identity.fxaccounts.enabled                                             false
+    layout.spellcheckDefault                                                2
+    loop.logDomains                                                         false
+    media.gmp-eme-adobe.enabled                                             false
+    media.video_stats.enabled                                               false
+    network.cookie.same-site.enabled                                        true
+    network.jar.block-remote-files                                          true
+    network.jar.open-unsafe-types                                           false
+    network.manage-offline-status                                           false
+    network.trr.bootstrapAddress                                            ""
+    network.trr.mode                                                        0
+    network.trr.uri                                                         ""
+    network.websocket.enabled                                               false
+    permissions.default.geo                                                 2
+    permissions.memory_only                                                 true
+    places.history.enabled                                                  false
+    plugin.state.java                                                       0
+    privacy.clearOnShutdown.openWindows                                     true
+    privacy.cpd.openWindows                                                 true
+    privacy.donottrackheader.value                                          1
+    privacy.trackingprotection.annotate_channels                            false
+    privacy.trackingprotection.lower_network_priority                       false
+    privacy.trackingprotection.pbmode.enabled                               true
+    reader.parse-on-load.enabled                                            false
+    security.insecure_connection_icon.pbmode.enabled                        true
+    security.ssl3.ecdhe_ecdsa_rc4_128_sha                                   false
+    security.ssl3.ecdhe_rsa_rc4_128_sha                                     false
+    security.ssl3.rsa_aes_128_sha                                           false
+    security.ssl3.rsa_aes_256_sha                                           false
+    security.ssl3.rsa_des_ede3_sha                                          false
+    security.ssl3.rsa_rc4_128_md5                                           false
+    security.ssl3.rsa_rc4_128_sha                                           false
+    security.tls.unrestricted_rc4_fallback                                  false
+    security.xpconnect.plugin.unrestricted                                  false
+    services.blocklist.addons.collection                                    ""
+    services.blocklist.gfx.collection                                       ""
+    services.blocklist.onecrl.collection                                    ""
+    services.blocklist.plugins.collection                                   ""
+    shield.savant.enabled                                                   false
+    signon.rememberSignons                                                  false
+    social.directories                                                      ""
+    social.remote-install.enabled                                           false
+    social.whitelist                                                        ""
+    webgl.enable-debug-renderer-info                                        false
+
+------------------------------------------------------------------------------
+ The following 4 prefs have both mismatching values and states:
+
+    general.buildID.override
+        mozilla.cfg     "20100101"
+[i]     user.js         ""
+
+    network.cookie.lifetimePolicy
+        mozilla.cfg     2
+[i]     user.js         0
+
+    security.tls.version.min
+        mozilla.cfg     2
+[i]     user.js         3
+
+    services.blocklist.update_enabled
+        mozilla.cfg     false
+[i]     user.js         true
+
+
+------------------------------------------------------------------------------
+ The following 6 prefs have duplicate entries in mozilla.cfg:
+
+[i] network.proxy.autoconfig_url.include_path                               false
+    network.proxy.autoconfig_url.include_path                               false
+
+[i] network.proxy.socks_remote_dns                                          true
+    network.proxy.socks_remote_dns                                          true
+
+[i] places.history.enabled                                                  false
+    places.history.enabled                                                  false
+
+[i] privacy.sanitize.sanitizeOnShutdown                                     true
+    privacy.sanitize.sanitizeOnShutdown                                     true
+
+[i] security.OCSP.enabled                                                   1
+    security.OCSP.enabled                                                   0
+
+[i] security.OCSP.require                                                   true
+    security.OCSP.require                                                   false
+
+------------------------------------------------------------------------------
+ The following 1 prefs have duplicate entries in user.js:
+
+    _user.js.parrot                                                         "START: Oh yes, the Norwegian Blue... what's wrong with it?"
+    _user.js.parrot                                                         "0100 syntax error: the parrot's dead!"
+    _user.js.parrot                                                         "0200 syntax error: the parrot's definitely deceased!"
+    _user.js.parrot                                                         "0300 syntax error: the parrot's not pinin' for the fjords!"
+    _user.js.parrot                                                         "0400 syntax error: the parrot's passed on!"
+    _user.js.parrot                                                         "0500 syntax error: the parrot's cashed in 'is chips!"
+    _user.js.parrot                                                         "0600 syntax error: the parrot's no more!"
+    _user.js.parrot                                                         "0700 syntax error: the parrot's given up the ghost!"
+    _user.js.parrot                                                         "0800 syntax error: the parrot's ceased to be!"
+    _user.js.parrot                                                         "0900 syntax error: the parrot's expired!"
+    _user.js.parrot                                                         "1000 syntax error: the parrot's gone to meet 'is maker!"
+    _user.js.parrot                                                         "1200 syntax error: the parrot's a stiff!"
+    _user.js.parrot                                                         "1400 syntax error: the parrot's bereft of life!"
+    _user.js.parrot                                                         "1600 syntax error: the parrot rests in peace!"
+    _user.js.parrot                                                         "1700 syntax error: the parrot's bit the dust!"
+    _user.js.parrot                                                         "1800 syntax error: the parrot's pushing up daisies!"
+    _user.js.parrot                                                         "2000 syntax error: the parrot's snuffed it!"
+    _user.js.parrot                                                         "2200 syntax error: the parrot's 'istory!"
+    _user.js.parrot                                                         "2300 syntax error: the parrot's off the twig!"
+    _user.js.parrot                                                         "2400 syntax error: the parrot's kicked the bucket!"
+    _user.js.parrot                                                         "2500 syntax error: the parrot's shuffled off 'is mortal coil!"
+    _user.js.parrot                                                         "2600 syntax error: the parrot's run down the curtain!"
+    _user.js.parrot                                                         "2700 syntax error: the parrot's joined the bleedin' choir invisible!"
+    _user.js.parrot                                                         "2800 syntax error: the parrot's bleedin' demised!"
+    _user.js.parrot                                                         "4000 syntax error: the parrot's pegged out"
+    _user.js.parrot                                                         "4500 syntax error: the parrot's popped 'is clogs"
+    _user.js.parrot                                                         "4600 syntax error: the parrot's crossed the Jordan"
+    _user.js.parrot                                                         "4700 syntax error: the parrot's taken 'is last bow"
+    _user.js.parrot                                                         "5000 syntax error: this is an ex-parrot!"
+    _user.js.parrot                                                         "9999 syntax error: the parrot's deprecated!"
+    _user.js.parrot                                                         "SUCCESS: No no he's not dead, he's, he's restin'!"
+

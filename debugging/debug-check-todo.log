@@ -1,0 +1,17 @@
+Todo Checks :
+-------------
+
+- reopen closed tab cursor location/scroll
+
+- check url keyword
+  lockPref("keyword.enabled", false); 
+
+- check notification
+  lockPref("dom.push.enabled", false);
+  lockPref("dom.push.connection.enabled", false);
+  lockPref("dom.push.serverURL", "");
+  lockPref("dom.push.userAgentID", "");
+
+- lockPref("ui.use_standins_for_native_colors", true); // (hidden pref)
+  // May be fix for widget.content.gtk-theme-override;Adwaita:light
+  
