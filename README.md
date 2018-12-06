@@ -23,7 +23,7 @@ Index :
 <pre>
 <a href="https://github.com/intika/Librefox-Firefox/#features-"
 >> Librefox : Features ............................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#key-features-v2.x-"
+<a href="https://github.com/intika/Librefox-Firefox/#key-features-v2x-"
 >> Librefox : Key Features v2.x ...................................................... </a>
 <a href="https://github.com/intika/Librefox-Firefox/#download-"
 >> Librefox : Download ............................................................... </a>
@@ -53,7 +53,7 @@ Index :
 >> Wiki : Documentation .............................................................. </a>
 <a href="https://github.com/intika/Librefox-Firefox/#tuning-librefox--"
 >> Wiki : Tuning Librefox ............................................................ </a>
-<a href="https://github.com/intika/Librefox-Firefox/#librefox-version-"
+<a href="https://github.com/intika/Librefox-Firefox/#librefox-esr-"
 >> Wiki : Librefox ESR ............................................................... </a>
 <a href="https://github.com/intika/Librefox-Firefox/#tor-compatibility-"
 >> Wiki : Tor Compatibility .......................................................... </a>
