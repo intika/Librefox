@@ -7,7 +7,7 @@
 
 ---
 
-Librefox : Official Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20official%20firefox%20set%20for%20a%20better%20privacy%2C%20security%20and%20performance&url=https://github.com/intika/Librefox-Firefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
+Librefox : Official Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20official%20firefox%20set%20for%20a%20better%20privacy%2C%20security%20and%20performance&url=https://github.com/intika/Librefox-Firefox&hashtags=firefox,librefox,browser,privacy,developers)
 ----------------------------------------
 
 This project aim to fix privacy and security issues related to firefox without loosing performances nor forking the project. It uses `local-settings.js`, `mozilla.cfg` and `policies.json`.
