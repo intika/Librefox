@@ -7,7 +7,8 @@
 
 ---
 
-**Librefox : Official Firefox With Freedom**
+Librefox : Official Firefox With Freedom
+----------------------------------------
 
 This project aim to fix privacy and security issues related to firefox without loosing performances nor forking the project. It uses `local-settings.js`, `mozilla.cfg` and `policies.json`.
 
