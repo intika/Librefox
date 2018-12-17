@@ -1,0 +1,48 @@
+// https://github.com/mozilla/policy-templates/blob/master/README.md
+
+// Extensions
+
+// This policy controls the installation, uninstallation and locking of extensions. 
+// Locked extensions cannot be disabled or uninstalled. For Install, you specify a 
+// list of URLs or paths. For Uninstall and Locked, you specify extension IDs.
+
+
+"policies": {
+    "Extensions": {
+          "Install": ["https://addons.mozilla.org/firefox/downloads/somefile.xpi", "//path/to/xpi"],
+          "Uninstall": ["addon_id@mozilla.org"],
+          "Locked":  ["addon_id@mozilla.org"]
+    }
+}
+
+"policies": {
+    "WebsiteFilter": {
+          "Block": ["<all_urls>"],
+          "Exceptions": ["http://example.org/*"]
+    }
+}
+
+"policies": {
+    "SanitizeOnShutdown": [true|false]
+}
+
+// Does not seems to work to remove engines
+"policies": {
+    "SearchEngines": {
+        "Add": [
+        {
+            "Name": "",
+            "URLTemplate": "URL including {searchTerms} to substitute for the terms",
+            "Method": ["GET", "POST"],
+            "IconURL": "URL to icon",
+            "Alias": "Alias that can be used to access the engine",
+            "Description": "Description",
+            "SuggestURLTemplate": "URL for suggestions using {searchTerms}"
+        }
+        ],
+        "Default": "Name of engine",
+        "PreventInstalls": [true|false],
+        "Remove": ["Twitter", "Wikipedia (en)"]
+    }
+}
+  

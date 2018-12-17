@@ -2,26 +2,34 @@
 
 06/12/2018 10:02:06
 
-Summary:                                                                    Reviewed ?
+Summary:                                                                    Review
 
-  784 unique prefs in mozilla.cfg                                           Yes it's ok
-  605 unique prefs in user.js                                               Yes it's ok
-
-  426 matching prefs, both value and state (active/inactive)                Alringht
-   17 prefs with different values but matching state                        Yes it's intended check the cfg file to know why
-    1 prefs not declared in mozilla.cfg                                     Yes it's ok
-  180 prefs not declared in user.js                                         We are different right ? :) (important thing are present in gHacks)
-                                                                            gHacks is perfect it's just that this project have a different scope
-                                                                            a lot of settings present here are already covered in gHacks
-                                                                            and important settings are reported back ;) 
-   40 prefs with matching values but inactive in mozilla.cfg                Yes it's ok (Most are disabled for perfs and enforced with extensions)
-  117 prefs with matching values but inactive in user.js 
-    4 prefs with both mismatching values and states                         It's normal...
- ----
   785 combined unique prefs                                                 Alright
-
-    6 duplicated prefs in mozilla.cfg                                       Not real duplicate
-    1 duplicated prefs in user.js                                           Not real duplicate
+  784 unique prefs in mozilla.cfg                                           Alright
+  605 unique prefs in user.js                                               Alright
+  426 matching prefs, both value and state (active/inactive)                Alringht
+  
+   17 prefs with different values but matching state                        Yes it's intended check the cfg file to know why
+   
+    1 prefs not declared in mozilla.cfg                                     False positive (_user.js.parrot)
+    
+  180 prefs not declared in user.js                                         We are different right ? :) (important thing are 
+                                                                            already covered in gHacks) gHacks is perfect 
+                                                                            it's just that this project have a different scope
+                                                                            a lot of settings present here are already covered 
+                                                                            in gHacks and important difference are reported back ;) 
+                                                                            check userJS_diff_upstream.log.
+                                                                            
+   40 prefs with matching values but inactive in mozilla.cfg                Yes it's ok, most settings are disabled for performances 
+                                                                            and enforced with extensions for flexibility. 
+  117 prefs with matching values but inactive in user.js                    Same as section "not declared in ghacks" 
+    4 prefs with both mismatching values and states                         It's normal...
+    
+ ----
+ 
+    6 duplicated prefs in mozilla.cfg                                       False positive (commented prefs)
+    
+    1 duplicated prefs in user.js                                           False positive (_user.js.parrot)
 
  Reference:  [i] inactive pref (commented-out)
 

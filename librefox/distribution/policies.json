@@ -2,6 +2,7 @@
   "policies": {
     "AppUpdateURL": "",
     "DisableAppUpdate": true,
+    "DisableMasterPasswordCreation": true,
     "DisableFeedbackCommands": true,
     "DisableFirefoxAccounts": true,
     "DisableFirefoxStudies": true,

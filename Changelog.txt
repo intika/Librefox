@@ -1,8 +1,8 @@
 Librefox Firefox - Chagelog :
 -----------------------------
 
-v2.0 :  Beta
-------  ----
+v2.1 :  
+------
 - Project renamed to Librefox
 - Reorganizing settings
 - Adding section "Extensions Firewall" (block internet for extensions) 
@@ -17,7 +17,40 @@ v2.0 :  Beta
 - Add ESR60x support and section
 - Remove duplicates
 - Update referer settings
-- Update gHacks
+- Update gHacks v63.0.3 08.12.2018
+- Update gHacks v64.0.0 17.12.2018
+- Lock tracking feature
+- Remove false search engine
+- Fix firefox bug not locking safesearch settings
+- Fix and adapt history settings
+- Fix sites settings not saved
+- Update disabled sync services
+- Fix certificate button
+- Fix security device button
+- Fix dark theme history dialog
+- Fixing twitter and some extensions not working
+- Defaulting offline website data on clear dialog
+- Defaulting HW Settings instead of enforcing them
+- Improve HD Video playback 
+- Gathering infos/code for firewalling extensions 
+- Correct some grammar mistakes
+- Update to firefox v64 
+- Adding extension firewall feature 
+- Fix referer blocking twitter and many other sites
+- Adding IJWY v64 settings
+- Moving some debug notes from mozilla.cfg to debug-check-todo.log
+- Fix incompatibility with Compare-UserJS.ps1
+- Cleanning with Compare-UserJS.ps1
+- Adding 15 differents releases
+- Adding release x32/x64 linux 
+- Adding release x32/x64 esr linux 
+- Adding release x32/x64 tor linux 
+- Adding release x32/x64 windows 
+- Adding release x32/x64 esr windows 
+- Adding release x32/x64 tor windows 
+- Adding release x64 mac
+- Adding release x64 esr mac
+- Adding release x64 esr mac
 
 v1.8 :
 ------

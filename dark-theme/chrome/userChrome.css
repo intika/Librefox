@@ -1,0 +1,629 @@
+/*! =============
+@name             ShadowFox Intika Librefox MoD
+@description      A universal dark theme for Firefox 57+
+@version          1.6.0
+@author           overdodactyl
+@lastUpdated      October 7, 2018
+@homepageURL      https://overdodactyl.github.io/ShadowFox/
+@sourceCode       https://github.com/overdodactyl/ShadowFox
+================= */
+
+/* Default blank page avoid blinking white (displayed for
+   example on new tab before disaplaying newtab content) */
+#browser vbox#appcontent tabbrowser,
+#content,
+#tabbrowser-tabpanels,
+browser[type=content-primary],
+browser[type=content] > html {
+  background: var(--in-content-page-background)!important
+}
+
+/* Other imported from ShadowFox */
+@-moz-document url-prefix(chrome://),
+url-prefix(about:),
+url-prefix(moz-extension),
+url-prefix(view-source),
+regexp(".*\\.(p|P)(d|D)(f|F).*") {
+  :root {
+    --magenta-50: #ff1ad9;
+    --magenta-60: #ed00b5;
+    --magenta-70: #b5007f;
+    --magenta-80: #7d004f;
+    --magenta-90: #440027;
+    --purple-50: #9400ff;
+    --purple-60: #8000d7;
+    --purple-70: #6200a4;
+    --purple-80: #440071;
+    --purple-90: #25003e;
+    --blue-40: #45a1ff;
+    --blue-50: #0a84ff;
+    --blue-60: #0060df;
+    --blue-70: #003eaa;
+    --blue-80: #002275;
+    --blue-90: #000f40;
+    --teal-50: #00feff;
+    --teal-60: #00c8d7;
+    --teal-70: #008ea4;
+    --teal-80: #005a71;
+    --teal-90: #002d3e;
+    --green-50: #30e60b;
+    --green-60: #12bc00;
+    --green-70: #058b00;
+    --green-80: #006504;
+    --green-90: #003706;
+    --yellow-50: #ffe900;
+    --yellow-60: #d7b600;
+    --yellow-70: #a47f00;
+    --yellow-80: #715100;
+    --yellow-90: #3e2800;
+    --red-50: #ff0039;
+    --red-60: #d70022;
+    --red-70: #a4000f;
+    --red-80: #5a0002;
+    --red-90: #3e0200;
+    --orange-50: #ff9400;
+    --orange-60: #d76e00;
+    --orange-70: #a44900;
+    --orange-80: #712b00;
+    --orange-90: #3e1300;
+    --grey-10: #f9f9fa;
+    --grey-20: #ededf0;
+    --grey-30: #d7d7db;
+    --grey-40: #b1b1b3;
+    --grey-50: #737373;
+    --grey-60: #4a4a4f;
+    --grey-70: #38383d;
+    --grey-80: #2a2a2e;
+    --grey-90: #0c0c0d;
+    --code-green: #86de74!important;
+    --warning-color: #FCE19F;
+    --warning-background-color: #44391F;
+    --theme-highlight-green: #86DE74;
+    --theme-highlight-blue: #75BFFF;
+    --theme-highlight-purple: #B98EFF;
+    --theme-highlight-red: #FF7DE9;
+    --theme-highlight-yellow: #FFF89E;
+    --theme-highlight-bluegrey: #5e88b0;
+    --theme-highlight-lightorange: #d99b28;
+    --theme-highlight-orange: #d96629;
+    --theme-highlight-pink: #df80ff;
+    --tone-1: var(--grey-10);
+    --tone-2: var(--grey-20);
+    --tone-3: var(--grey-30);
+    --tone-4: var(--grey-40);
+    --tone-5: var(--grey-50);
+    --tone-6: var(--grey-60);
+    --tone-7: var(--grey-70);
+    --tone-8: var(--grey-80);
+    --tone-9: var(--grey-90);
+    --accent-1: var(--blue-40);
+    --accent-2: var(--blue-50);
+    --accent-3: var(--blue-60);
+    --in-content-page-color: var(--tone-4)!important;
+    --in-content-page-background: var(--tone-7)!important;
+    --in-content-text-color: var(--tone-3)!important;
+    --in-content-selected-text: var(--tone-1)!important;
+    --in-content-selected-text-background: #5675b9;
+    --in-content-box-background: var(--tone-6)!important;
+    --in-content-box-background-odd: #f3f6fa;
+    --in-content-box-background-hover: var(--tone-6)!important;
+    --in-content-box-background-active: var(--tone-6)!important;
+    --in-content-box-border-color: var(--tone-5)!important;
+    --in-content-item-hover: rgba(0,149,221,0.25);
+    --in-content-item-selected: var(--tone-8)!important;
+    --in-content-border-highlight: var(--accent-1)!important;
+    --in-content-border-focus: var(--accent-1)!important;
+    --in-content-border-color: var(--tone-6)!important;
+    --in-content-category-outline-focus: 1px dotted #0a84ff;
+    --in-content-category-text: var(--tone-4)!important;
+    --in-content-category-text-active: #0c0c0d;
+    --in-content-category-text-selected: var(--accent-1)!important;
+    --in-content-category-text-selected-active: #0060df;
+    --in-content-category-background-hover: rgba(12,12,13,0.1);
+    --in-content-category-background-active: rgba(12,12,13,0.15);
+    --in-content-category-background-selected-hover: rgba(12,12,13,0.15);
+    --in-content-category-background-selected-active: rgba(12,12,13,0.2);
+    --in-content-tab-color: #424f5a;
+    --in-content-link-color: var(--accent-1)!important;
+    --in-content-link-color-hover: var(--accent-2)!important;
+    --in-content-link-color-active: #003eaa;
+    --in-content-link-color-visited: #0a8dff;
+    --in-content-primary-button-background: var(--accent-2)!important;
+    --in-content-primary-button-background-hover: var(--accent-3)!important;
+    --in-content-primary-button-background-active: var(--accent-3)!important;
+    --in-content-table-border-dark-color: var(--tone-7)!important;
+    --in-content-table-header-background: var(--accent-2)!important;
+    --theme-selection-background: var(--accent-2)!important;
+    --theme-selection-background-hover: var(--accent-1)!important;
+    --in-content-category-header-background: var(--tone-8)!important;
+    --selected-icon-fill-color: var(--tone-2)!important;
+    --in-content-dark-header-background: var(--tone-9)!important;
+    --tab-line-selected-color: var(--accent-2)!important;
+    --secure-connection-color: var(--accent-1);
+    --theme-sidebar-background: #1B1B1D!important;
+    --card-outline-color: var(--in-content-box-border-color)!important;
+    --cm-background: var(--tone-8)!important;
+    --cm-selection: #353b48!important;
+    --cm-marker: #555!important;
+    --cm-linenumber: #58575c!important;
+    --cm-cursor: #fff!important;
+    --cm-active-line-background: rgba(185,215,253,.15)!important;
+    --cm-matching-bracket: rgba(255,255,255,.25)!important;
+    --cm-search-background: rgba(24,29,32,1)!important;
+    --cm-red: #de7474!important;
+    --start-indicator-for-updater-scripts: black;
+    --end-indicator-for-updater-scripts: black;
+    --dummy-variable-for-updater-scripys: black
+  }
+}
+@-moz-document url(chrome://browser/content/places/places.xul) {
+  toolbar {
+    -moz-appearance: none!important;
+    background-color: var(--in-content-category-header-background)!important;
+    border: none!important
+  }
+  listbox,
+  textbox {
+    -moz-appearance: none!important;
+    background-color: var(--in-content-box-background)!important;
+    color: var(--in-content-page-color)!important;
+    min-height: 20px!important;
+    padding: 0 0 0 4px!important;
+    border: 1px solid!important;
+    border-color: var(--in-content-box-border-color)!important;
+    border-radius: 3px!important
+  }
+  #editBMPanel_rows > row > hbox > textbox,
+  #editBMPanel_rows > row > textbox,
+  #editBMPanel_tagsSelector {
+    background: var(--in-content-box-background)!important
+  }
+  #placesToolbar > toolbarbutton {
+    margin: 6px 4px 5px!important;
+    -moz-appearance: none!important;
+    background-color: var(--tone-4)!important;
+    border-radius: 5px!important;
+    filter: invert(100%)!important
+  }
+  #placesList {
+    -moz-appearance: none!important;
+    color: var(--in-content-page-color)!important;
+    background-color: var(--in-content-page-background)!important
+  }
+  #placesView > splitter {
+    border-color: var(--in-content-border-color)!important
+  }
+  #places #downloadsRichListBox {
+    -moz-appearance: none!important;
+    color: var(--in-content-page-color)!important;
+    background-color: var(--in-content-box-background)!important
+  }
+  #detailsDeck {
+    border: none!important;
+    background-color: var(--in-content-page-background)!important;
+    color: var(--in-content-page-color)!important
+  }
+  .expander-down,
+  .expander-up {
+    filter: invert(77%)!important
+  }
+  #placeContent treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text() {
+    color: var(--in-content-text-color)!important
+  }
+  #places treechildren:not(.autocomplete-treebody)::-moz-tree-row(selected),
+  #placesList > treechildren::-moz-tree-row(selected) {
+    -moz-appearance: none!important;
+    -moz-font-smoothing-background-color: none!important;
+    border-top: none!important;
+    background: var(--theme-selection-background)!important;
+    color: var(--in-content-text-color)!important
+  }
+  #placeContent treechildren:not(.autocomplete-treebody)::-moz-tree-cell-text(selected),
+  #placesList > treechildren::-moz-tree-cell-text(selected) {
+    color: var(--in-content-text-color)!important
+  }
+  #places treechildren::-moz-tree-row {
+    background-color: transparent!important
+  }
+  #places treechildren::-moz-tree-image {
+    fill: var(--in-content-page-color)!important
+  }
+  #places treechildren::-moz-tree-image(selected) {
+    fill: var(--selected-icon-fill-color)!important
+  }
+  #placeContent > treechildren::-moz-tree-cell,
+  #placeContent > treechildren::-moz-tree-column {
+    border-color: var(--in-content-box-border-color)!important
+  }
+  #contentView treecol {
+    -moz-appearance: none!important;
+    border: none!important;
+    background: var(--in-content-category-header-background)!important;
+    color: var(--in-content-text-color)!important;
+    border-right: 1px solid!important;
+    border-color: var(--in-content-box-border-color)!important
+  }
+  tree {
+    background-color: var(--in-content-box-background)!important
+  }
+  #editBMPanel_tagsSelectorExpander.expander-down {
+    -moz-appearance: -moz-mac-disclosure-button-closed!important;
+    filter: invert(79%)!important
+  }
+  #editBMPanel_tagsSelectorExpander.expander-up {
+    -moz-appearance: -moz-mac-disclosure-button-open!important;
+    filter: invert(79%)!important
+  }
+  #main-menubar {
+    background-color: var(--in-content-category-header-background)!important
+  }
+  #main-menubar > * {
+    color: var(--in-content-page-color)!important
+  }
+  #main-menubar > :hover,
+  menubar > menu[_moz-menuactive=true][open=true] {
+    -moz-appearance: none!important;
+    background: var(--in-content-page-background)!important
+  }
+  @media screen and (-moz-windows-theme),
+  screen and (-moz-windows-classic),
+  screen and (-moz-windows-default-theme),
+  screen and (-moz-os-version:windows-win7),
+  screen and (-moz-os-version:windows-win8),
+  screen and (-moz-os-version:windows-win10) {
+    #metaTagsCaption,
+    #security-identity,
+    #security-identity-groupbox,
+    #security-privacy,
+    #security-privacy-groupbox,
+    #security-technical,
+    #security-technical-groupbox {
+      -moz-appearance: none!important;
+      background-color: var(--in-content-page-background)!important;
+      border: none!important;
+      color: var(--in-content-selected-text)!important
+    }
+    #placesMenu > menu {
+      color: var(--in-content-page-color)!important
+    }
+    #security-identity-groupbox,
+    #security-privacy-groupbox,
+    #security-technical-groupbox {
+      -moz-appearance: none!important;
+      background-color: var(--in-content-category-header-background)!important
+    }
+    #places treechildren:not(.autocomplete-treebody)::-moz-tree-row(hover):not(.autocomplete-treebody)::-moz-tree-cell-text(selected) {
+      background: 0 0!important;
+      -moz-border-top-colors: transparent!important;
+      -moz-border-right-colors: transparent!important;
+      -moz-border-left-colors: transparent!important;
+      -moz-border-bottom-colors: transparent!important
+    }
+  }
+  @media screen and (-moz-os-version:windows-win7) {
+    treechildren {
+      --treechildren-outline: none!important
+    }
+  }
+}
+@-moz-document url-prefix(about:),
+url-prefix(chrome://browser) {
+  .checkbox-check,
+  .prefs-pane [type=checkbox]:checked + label::before,
+  .prefs-pane [type=checkbox]:not(:checked) + label::before,
+  .radio-check,
+  input[type=checkbox] {
+    -moz-appearance: none!important;
+    border: 1px solid!important;
+    background-color: var(--in-content-box-background)!important;
+    background-image: none!important;
+    box-shadow: none!important;
+    border-color: var(--in-content-box-border-color)!important
+  }
+  radio[disabled=true] {
+    color: var(--in-content-box-border-color)!important
+  }
+  .radio-check[selected] {
+    list-style-image: url(chrome://global/skin/in-content/radio.svg);
+    fill: var(--in-content-border-highlight)!important;
+    -moz-context-properties: fill,stroke;
+    stroke: none;
+    border-radius: 50%!important
+  }
+  .checkbox-check[checked] {
+    list-style-image: url(data:image/svg+xml;base64,PCEtLSBUaGlzIFNvdXJjZSBDb2RlIEZvcm0gaXMgc3ViamVjdCB0byB0aGUgdGVybXMgb2YgdGhlIE1vemlsbGEgUHVibGljCiAgIC0gTGljZW5zZSwgdi4gMi4wLiBJZiBhIGNvcHkgb2YgdGhlIE1QTCB3YXMgbm90IGRpc3RyaWJ1dGVkIHdpdGggdGhpcwogICAtIGZpbGUsIFlvdSBjYW4gb2J0YWluIG9uZSBhdCBodHRwOi8vbW96aWxsYS5vcmcvTVBMLzIuMC8uIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjIxIiBoZWlnaHQ9IjIxIiB2aWV3Qm94PSIwIDAgMjEgMjEiPgogIDxwYXRoIGZpbGw9ImNvbnRleHQtZmlsbCIgc3Ryb2tlPSJjb250ZXh0LXN0cm9rZSIgc3Ryb2tlLXdpZHRoPSIwLjUiIGQ9Ik0gOS4zOSwxNi41IDE2LjI4LDYgMTQuNzcsNC41IDkuMzcsMTIuNyA2LjI4LDkuMiA0LjcsMTAuNyB6Ii8+Cjwvc3ZnPg==);
+    fill: var(--in-content-border-highlight)!important;
+    -moz-context-properties: fill,stroke!important;
+    stroke: none
+  }
+  html body div.ancillary div div.opsRow div.opsRowLabel label input,
+  html body div.ancillary div div.opsRow div.opsRowLabel label input#verbose {
+    -moz-appearance: checkbox!important;
+    min-height: 10px!important;
+    min-width: 10px!important;
+    margin-top: -5px;
+    margin-bottom: -1px
+  }
+}
+@-moz-document url-prefix(about:),
+url-prefix(chrome://browser/content/preferences/),
+url(chrome://passwordmgr/content/passwordManager.xul),
+url(chrome://formautofill/content/manageAddresses.xhtml),
+url-prefix(chrome://pippki),
+url(chrome://browser/content/pageinfo/pageInfo.xul) {
+  ::-moz-tree-row(selected) {
+    -moz-appearance: none!important;
+    background-color: red!important
+  }
+  treechildren::-moz-tree-row,
+  treechildren:not(.autocomplete-treebody)::-moz-tree-row(multicol,odd) {
+    background-color: var(--in-content-box-background)!important
+  }
+  treechildren:not(.autocomplete-treebody)::-moz-tree-row(hover) {
+    background-color: var(--theme-selection-background-hover)!important
+  }
+  tree {
+    background-color: var(--in-content-box-background)!important;
+    color: var(--in-content-page-color)!important
+  }
+  treechildren::-moz-tree-cell-text(hover),
+  treechildren::-moz-tree-cell-text(selected) {
+    color: var(--in-content-text-color)!important
+  }
+  treechildren:not(.autocomplete-treebody)::-moz-tree-row(selected) {
+    background-color: var(--theme-selection-background)!important
+  }
+  treecol:not([hideheader=true]):not(:first-child),
+  treecolpicker {
+    border-image: linear-gradient(transparent 0,transparent 20%,var(--tone-5) 20%,var(--tone-5) 80%,transparent 80%,transparent 100%) 1 1!important
+  }
+  menulist:not([editable=true]) > .menulist-dropmarker,
+  treecol:not([hideheader=true]) > .treecol-sortdirection[sortDirection] {
+    fill: var(--in-content-category-text)!important
+  }
+  fieldset > legend,
+  treecol:not([hideheader=true]),
+  treecolpicker {
+    background-color: var(--in-content-category-header-background)!important;
+    color: var(--in-content-page-color)!important
+  }
+  prefpane#mainPrefPane groupbox#applicationsGroup richlistbox#handlersView richlistitem[selected=true] {
+    background: var(--in-content-page-background)!important;
+    color: var(--in-content-page-color)!important
+  }
+  tab {
+    color: var(--in-content-page-color)!important
+  }
+  tab:hover {
+    color: var(--in-content-selected-text)!important
+  }
+  tab[selected] {
+    color: var(--in-content-link-color)!important
+  }
+  textbox[type=search] > moz-input-box > .textbox-search-sign {
+    filter: invert(65%)
+  }
+  @media screen and (-moz-os-version:windows-win7) {
+    treechildren {
+      --treechildren-outline: none!important
+    }
+  }
+}
+@-moz-document url(chrome://browser/content/aboutDialog.xul) {
+  #clientBox {
+    color: var(--in-content-page-color)!important;
+    background-color: var(--in-content-page-background)!important
+  }
+  #bottomBox {
+    background: var(--in-content-category-header-background)!important
+  }
+}
+@-moz-document url(chrome://browser/content/sanitize.xul) {
+  #SanitizeDialog {
+    -moz-appearance: none!important;
+    background: var(--in-content-category-header-background)!important;
+    color: var(--in-content-page-color)!important
+  }
+  .checkbox-check{
+    margin: 6px 8px 5px!important;
+    -moz-appearance: checkbox;
+    -moz-image-region:rect(0,14px,14px,0)!important
+  }
+  .checkbox-check[checked] {
+    list-style-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8dGl0bGU+Y2hlY2tib3ggYmx1ZSBmaXJlZm94PC90aXRsZT4KIDxnPgogIDx0aXRsZT5MYXllciAxPC90aXRsZT4KICA8cGF0aCBpZD0ic3ZnXzEiIGQ9Im02LjE0LDEyLjUzMTI1bDYuODksLTEwLjVsLTEuNTEsLTEuNWwtNS40LDguMmwtMy4wOSwtMy41bC0xLjU4LDEuNWw0LjY5LDUuOHoiIHN0cm9rZS13aWR0aD0iMC41IiBzdHJva2U9ImNvbnRleHQtc3Ryb2tlIiBmaWxsPSIjMDA3ZmZmIi8+CiA8L2c+Cjwvc3ZnPg==);
+  }
+}
+@-moz-document url("chrome://global/content/commonDialog.xul") {
+  #commonDialog {
+    -moz-appearance: none!important;
+    background: var(--in-content-page-background)!important;
+    color: var(--in-content-page-color)!important
+  }
+}
+@-moz-document url(chrome://browser/content/pageinfo/pageInfo.xul) {
+  #topBar {
+    -moz-appearance: none!important;
+    background: var(--in-content-category-header-background)!important
+  }
+  #mainDeck {
+    background: var(--in-content-page-background)!important;
+    color: var(--in-content-page-color)!important
+  }
+  textbox {
+    color: var(--in-content-page-color)!important
+  }
+  .text-link {
+    color: var(--in-content-link-color)!important
+  }
+  button {
+    -moz-appearance: none!important;
+    background-color: var(--in-content-page-background)!important;
+    border: 1px solid!important;
+    border-radius: 3px!important;
+    color: var(--in-content-page-color)!important;
+    border-color: var(--in-content-box-border-color)!important
+  }
+  button:hover {
+    background-color: var(--in-content-box-background)!important
+  }
+  #feedListbox,
+  #feedListbox > richlistitem,
+  #imagecontainerbox,
+  .groupbox-body,
+  .permission {
+    -moz-appearance: none!important;
+    background: var(--in-content-box-background)!important;
+    color: var(--in-content-page-color)!important;
+    border-color: var(--in-content-box-border-color)!important
+  }
+  #feedListbox richlistitem {
+    border-color: var(--in-content-box-border-color)!important
+  }
+  #permPluginTemplate {
+    color: var(--in-content-page-color)!important
+  }
+  #feedListbox,
+  #imagecontainerbox,
+  #permList,
+  .groupbox-body {
+    border: 1px solid!important
+  }
+  #permList {
+    -moz-appearance: none!important
+  }
+  groupbox.collapsable caption .caption-icon {
+    filter: invert(65%)!important
+  }
+  tree {
+    -moz-appearance: none!important;
+    color: var(--in-content-page-color)!important
+  }
+  treecol {
+    -moz-appearance: none!important;
+    border: 0 solid!important;
+    border-color: var(--in-content-box-background)!important
+  }
+  treecolpicker {
+    -moz-appearance: none;
+    border: none!important;
+    filter: invert(84%)
+  }
+  .checkbox-check[checked] {
+    list-style-image: url(chrome://global/skin/icons/check.svg);
+    -moz-context-properties: fill;
+    fill: var(--in-content-border-highlight)!important
+  }
+  #imagetree,
+  #metatree {
+    border: 1px solid!important
+  }
+  #viewGroup > radio {
+    -moz-appearance: none!important;
+    background-color: var(--in-content-box-background)!important;
+    text-shadow: none!important;
+    padding: 0 8px!important;
+    color: var(--in-content-page-color);
+    border-right: 1px solid!important;
+    border-color: var(--in-content-box-border-color)!important
+  }
+  #viewGroup > radio[selected=true] {
+    color: var(--in-content-selected-text)!important
+  }
+  #viewGroup > radio:first-of-type {
+    border-top-left-radius: 4px!important;
+    border-bottom-left-radius: 4px!important
+  }
+  #viewGroup > radio:last-of-type {
+    border: none!important;
+    border-top-right-radius: 4px!important;
+    border-bottom-right-radius: 4px!important
+  }
+  @media screen and (-moz-windows-theme),
+  screen and (-moz-windows-classic),
+  screen and (-moz-windows-default-theme),
+  screen and (-moz-os-version:windows-win7),
+  screen and (-moz-os-version:windows-win8),
+  screen and (-moz-os-version:windows-win10) {
+    #topBar {
+      -moz-appearance: none!important;
+      background-color: var(--in-content-category-header-background)!important;
+      border: none!important;
+      padding-top: 5px!important;
+      padding-bottom: 5px!important;
+      color: var(--selected-icon-fill-color)!important
+    }
+    #metaTagsCaption,
+    #security-identity,
+    #security-identity-groupbox,
+    #security-privacy,
+    #security-privacy-groupbox,
+    #security-technical,
+    #security-technical-groupbox {
+      -moz-appearance: none!important;
+      background-color: var(--in-content-page-background)!important;
+      border: none!important;
+      color: var(--in-content-selected-text)!important
+    }
+    #security-identity-groupbox,
+    #security-privacy-groupbox,
+    #security-technical-groupbox {
+      -moz-appearance: none!important;
+      background-color: var(--in-content-category-header-background)!important
+    }
+  }
+}
+@-moz-document url-prefix(chrome://browser/content/preferences/cookies.xul) {
+  #CookiesDialog {
+    -moz-appearance: none!important;
+    background-color: var(--in-content-page-background)!important
+  }
+  #domainCol,
+  #nameCol {
+    -moz-appearance: none!important;
+    border: none!important
+  }
+  #domainCol {
+    border-right: 1px solid!important;
+    border-color: var(--in-content-box-border-color)!important
+  }
+  .windowDialog,
+  textbox {
+    color: var(--in-content-page-color)!important
+  }
+  textbox[type=search] {
+    -moz-appearance: none!important;
+    background-color: var(--in-content-box-background)!important;
+    border: 1px solid;
+    border-color: var(--in-content-box-border-color)!important;
+    border-radius: 3px!important;
+    padding: 2px 4px 2px 2px!important
+  }
+  #cookiesList {
+    -moz-appearance: none!important;
+    border: 1px solid!important;
+    border-color: var(--in-content-box-border-color)!important
+  }
+  button {
+    -moz-appearance: none!important;
+    background-color: var(--in-content-page-background)!important;
+    border: 1px solid!important;
+    border-radius: 3px!important;
+    color: var(--in-content-page-color)!important;
+    border-color: var(--in-content-box-border-color)!important
+  }
+  button:hover {
+    background-color: var(--in-content-box-background)!important
+  }
+}
+#sidebar,
+#sidebar-box,
+#template-container,
+#webext-panels-browser,
+#webextpanels-window {
+  background: var(--in-content-page-background)!important
+}
+.sidebar-placesTree {
+  -moz-appearance: none!important;
+  color: var(--in-content-page-color)!important;
+  background-color: var(--in-content-page-background)!important;
+}

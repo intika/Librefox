@@ -18,5 +18,30 @@ defaultPref("privacy.clearOnShutdown.sessions", true); // Active Logins
 // user may add it back in the gui
 // This settings work only as string not as bool (This seems to be a bug in ffox) 
 // Also this settings seems to kill following settings so it should be the last
-defaultPref("privacy.sanitize.pending", '[{"id":"shutdown","itemsToClear":["cache","cookies","history","formdata","downloads"],"options":{}}]');
 defaultPref("privacy.sanitize.sanitizeOnShutdown", true);
+
+// Pref : Prefered lang for displaying websites... 
+// The first settings overflow the second one
+defaultPref("privacy.spoof_english", 2);
+//defaultPref("intl.accept_languages", "en-US, en");
+
+// Should be false
+/* 0906: disable websites' autocomplete="off" (FF30+)
+ * Don't let sites dictate use of saved logins and passwords. Increase security through
+ * stronger password use. The trade-off is the convenience. Some sites should never be
+ * saved (such as banking sites). Set at true, informed users can make their own choice. ***/
+user_pref("signon.storeWhenAutocompleteOff", true); // default: true
+
+lockPref("privacy.trackingprotection.pbmode.enabled", false);
+
+// Pref : Allow extensions access to list of sites
+// https://github.com/mozilla/gecko/blob/central/toolkit/mozapps/extensions/AddonManagerWebAPI.cpp
+lockPref("extensions.webapi.testing", false); // hidden prefs // default false
+
+// Pref : Disabling performance addon url [FF64+]
+lockPref("devtools.performance.recording.ui-base-url", "");
+// Default Value : https://perf-html.io
+
+network.cookie.thirdparty.nonsecureSessionOnly
+mozilla.cfg                   false
+gHacks.user.17.12.2018.js     true
