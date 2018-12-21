@@ -7,16 +7,16 @@
 
 ---
 
-Librefox : Modifications to Official Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20official%20firefox%20with%20a%20better%20privacy%2C%20security%20and%20performance&url=https://github.com/intika/Librefox-Firefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
+Librefox : Official Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20official%20firefox%20with%20a%20better%20privacy%2C%20security%20and%20performance&url=https://github.com/intika/Librefox-Firefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
 ----------------------------------------
 
-This project aim to fix privacy and security issues related to firefox without losing performances nor forking the project. It uses `local-settings.js`, `mozilla.cfg` and `policies.json`.
+This project aims to fix privacy and security issues related to Firefox without losing performance nor forking the project. It uses `local-settings.js`, `mozilla.cfg` and `policies.json`.
 
 Features :
 ----------
-Librefox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional privacy, performance settings and a cleaned bundle of firefox (updater, crashreporter and integrated addons that don't respect privacy are removed) to provide :
+Librefox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional privacy, performance settings and a cleaned bundle of Firefox (updater, crashreporter and integrated addons that don't respect privacy are removed) to provide:
 
-- Performances 
+- Performance
 - Security
 - Privacy
 
@@ -76,7 +76,7 @@ Index :
 <a href="https://github.com/intika/Librefox-Firefox/#browser-tests--securityfingerprint-"
 >> Browser Tests : Security/Fingerprint .............................................. </a>
 <a href="https://github.com/intika/Librefox-Firefox/#browser-tests--performances-"
->> Browser Tests : Performances ...................................................... </a>
+>> Browser Tests : Performance ....................................................... </a>
 <a href="https://github.com/intika/Librefox-Firefox/#browser-tests--dnsvpnproxy-leak-"
 >> Browser Tests : DNS/VPN/Proxy Leak ................................................ </a>
 <a href="https://github.com/intika/Librefox-Firefox/#librefox-roadmap-"
@@ -89,9 +89,9 @@ Index :
 
 Download :
 ----------
-Official builds with librefox
+Official builds with Librefox.
 
-(Project was renamed to librefox on v2)
+(Project was renamed to Librefox on v2)
 
 - [Privafox-1.8-Firefox-Linux-63.0.3.tar.bz2](https://github.com/intika/Librefox-Firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 321152189184ca9e2b3500a0aa5c5c47aff5999f
 
@@ -115,27 +115,27 @@ Capture :
 
 Librefox Addons :
 -----------------
-Librefox addons are not bundeled and need to be installed manually
+Librefox addons are not bundled and need to be installed manually
 
 - [Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/) : Dark theme
-- [Librefox HTTP Watcher](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-red-flag/) : Change the url bar color on http sites  
-- [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/) : Add a reload button to url bar
+- [Librefox HTTP Watcher](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-red-flag/) : Change the url bar color on HTTP sites  
+- [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/) : Add a reload button to the URL bar
 
 Recommended Addons :
 --------------------
 Recommended addons are not bundeled and need to be installed manually
 
-- [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/) : Block all cookies and only allow authorised sites 
-- [First Party Isolation](https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/) : Enable/Disable FPI with a button
-- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/) : Invert UserAgent OS Linux/Windows/Mac
-- [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/) : Sets of settings to prevent fingerprintings and security issues
+- [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/) : Block all cookies and only allow authorized sites 
+- [First Party Isolation](https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/) : Enable/Disable FPI with the click of a button
+- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/) : Spoof UserAgent OS (Linux/Windows/Mac)
+- [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/) : Sets of settings to prevent fingerprinting and security issues
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin) : Block web advertisement and tracking 
 
 Recommended Addons Settings :
 -----------------------------
-`uBlock` : Additional filters are availables here https://filterlists.com/ (don't surcharge it to avoid performances loss)
+`uBlock` : Additional filters are available here: https://filterlists.com/ (don't surcharge it to avoid performance loss)
 
-`Browser Plugs Privacy Firewall` : Keep  settings light to make `privacy.resistFingerprinting` efficient because too much customization lead to uniqueness thus easy fingerprinting. 
+`Browser Plugs Privacy Firewall` : Keep settings light to make `privacy.resistFingerprinting` efficient because too much customization will lead to uniqueness and therefore easy fingerprinting. 
 ```
   - Privacy / Fingerprint / Fake values for getClientRects
   - Privacy / Fingerprint / Randomize Canvas Fingerprint
@@ -148,33 +148,33 @@ Key Features v2.x :
 -------------------
 - Updated [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings
 - Enforcing/Defaulting Settings (Cannot/Can be changed within firefox)
-- "IJWY To Shut Up" settings ([details](https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-))
+- "IJWY To Shut Up" Settings ([details](https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-))
 - Limit internet access for extensions ([test-feature](https://github.com/intika/Librefox-Firefox/#extensions-firewall-))
-- Performances aware settings
-- Disabling telemetry 
-- Disabling call 
+- Performance aware settings
+- Disable telemetry 
+- Disable call 
 ...
 
 Reviewing Extensions Code :
 ---------------------------
-Recommended extensions code have been reviewed for potential unwanted behaviour... reviewed version are available under [extensions](https://github.com/intika/Librefox-Firefox/tree/master/extensions) directory
+Recommended extensions code have been reviewed for potential unwanted behaviour... reviewed version are available under [extensions](https://github.com/intika/Librefox-Firefox/tree/master/extensions) directory.
 
 Extensions Firewall :
 ---------------------
 **Description :**
 
-*This is a test experiment feature and it is disabled by default !!!* A new section `Extensions Manager` is added to mange addons globally (and addons networking in the subsection `Extensions Firewalling`). Firewalling the network for addons is doable, but it require a considerable additional work in Librefox to make it usable through a button or in a per addon basis (this may or may not be added in a future version, it also could be abandoned as it is a test feature). Currently you can block a list of domains or block the whole network for all the extensions.
+*This is a test experiment feature and it is disabled by default !!!* A new section `Extensions Manager` is added to manage addons globally (and addons networking in the subsection `Extensions Firewalling`). Firewalling the network for addons is doable, but it requires a considerable amount of additional work in Librefox to make it usable through a button or in a per addon basis (this may or may not be added in a future version, it also could be abandoned as it is a test feature). Currently you can block a list of domains or block the whole network for all the extensions.
 
 **Quickly Enable It :**
 
-To enable the feature and block the network for all the extensions open `mozilla.cfg` search for `Enable-Firewall-Feature-In-The-Next-Line` en remove the `//` in the next line
+To enable the feature and block the network for all the extensions open `mozilla.cfg` search for `Enable-Firewall-Feature-In-The-Next-Line` and remove the `//` in the next line
 
 **The Settings :**
 
 Available native network restriction settings for addons :
 
-- Restricted domains list : `extensions.webextensions.restrictedDomains` this is a list of restricted domains that will be used to block some hosts for all the extensions, firefox uses this setting to block extensions from accessing mozilla's domains/sites, by default in Librefox this setting is set to allow extensions to access all the web (You can edit that list to match your needs or to block a specific domain, note that the domain name have to be 'exact' for instance facebook.com will only block facebook.com not mobile.fabcebook.com) 
-- Content security policy : `extensions.webextensions.base-content-security-policy` and `extensions.webextensions.default-content-security-policy` the later settings can be redefined/changed within an extension so it's not efficient for a firewalling purpose. CSP settings are used in firefox as an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware; In short words CSP settings block and allow certain domains under certain circumstances and thus could be used to firewall the extensions ([CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp))
+- Restricted domains list : `extensions.webextensions.restrictedDomains` this is a list of restricted domains that will be used to block some hosts for all the extensions, firefox uses this setting to block extensions from accessing mozilla's domains/sites, by default in Librefox this setting is set to allow extensions to access all the web (You can edit that list to match your needs or to block a specific domain, note that the domain name has to be 'exact' (for instance facebook.com will only block facebook.com not mobile.facebook.com) 
+- Content security policy : `extensions.webextensions.base-content-security-policy` and `extensions.webextensions.default-content-security-policy` the later settings can be redefined/changed within an extension so it's not efficient for firewall purposes. CSP settings are used in firefox as an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware; In short: CSP settings block and allow certain domains under certain circumstances and thus could be used to firewall the extensions ([CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp))
 
 **Wiki - Blocking a domain :**
 
@@ -184,7 +184,7 @@ Edit the restricted domains setting as follow under the `about:config` page :
     
 **Wiki - Blocking the network :**
 
-Note that this will block the network access for all the extensions and a lot of extensions needs to be connected to work. In the current version of Librefox you can block the network for all the extensions or allow it for all of them, a future version may provide additional features like "per addon" setting (By default Librefox allow networking for extensions).
+Note that this will block the network access for all the extensions and a lot of extensions needs to be connected in order to work. In the current version of Librefox you can block the network for all the extensions or allow it for all of them, a future version may provide additional features like "per addon" setting (By default Librefox allows networking for extensions).
 
 To block or allow the network access for the extensions change the following settings according to your needs in `about:config` :
 
@@ -193,11 +193,11 @@ To block or allow the network access for the extensions change the following set
 
 **Wiki - More infos :**
 
-Check `debug-check-todo.log` for additional infos about future version and researches about the subject. Also check [CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp)
+Check `debug-check-todo.log` for additional info about future version and researches about the subject. Also check [CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp)
 
 IJWY (I Just Want You To Shut Up) :
 -----------------------------------
-This is a set of settings that aim to remove all the servers links embedded in firefox and other calling home functions in the purpose of blocking un-needed connections. The objective is zero unauthorized connection (ping/telemetry/mozilla/google...).
+This is a set of settings that aim to remove all the server links embedded in Firefox and other calling home functions in the purpose of blocking un-needed connections. The objective is zero unauthorized connections (ping/telemetry/Mozilla/Google...).
 
 Changelog :
 -----------
@@ -210,7 +210,7 @@ Apply Librefox Manually :
 - Copy `policies.json` to `/firefox-install-dir/distribution/`
 - If destination directories does not exist create them
 - Setup the rest of the settings as you wish in `about:preferences`  
-- Delete the following files
+- Delete the following files:
 ``` 
     firefox/browser/features/aushelper@mozilla.org.xpi
     firefox/browser/features/firefox@getpocket.com.xpi
@@ -226,11 +226,11 @@ Apply Librefox Manually :
 
 Edit Locked Settings :
 ----------------------
-Just edit `mozilla.cfg` save and restart firefox
+Just edit `mozilla.cfg`, save and restart Firefox.
 
 Browser Tests : Security/Fingerprint : 
 ----------------------------------------------
-Firefox 60 and `privacy.resistFingerprinting` are relatively new give it sometimes to be more widely used and thus less finger-printable; If you are using an other site to analyse your browser make sure to read and understand what the test is about.
+Firefox 60 and `privacy.resistFingerprinting` are relatively new, please give it some time to be more widely used and thus less finger-printable; If you are using a different site to analyze your browser make sure to read and understand what the test is about.
 
 - [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
 - [AmiUnique](https://amiunique.org/fp)
@@ -244,7 +244,7 @@ Firefox 60 and `privacy.resistFingerprinting` are relatively new give it sometim
 
 Browser Tests : Performances :
 ------------------------------
-Performance tests can be done here [LVP Octane](https://intika.github.io/lvp-octane/), it needs to be launched alone with other applications closed and with no other activity but the benchmark, also it's recommended to lunch it many times and then make an average.
+Performance tests can be done here [LVP Octane](https://intika.github.io/lvp-octane/), it needs to be launched alone with other applications closed and with no other activity but the benchmark, also it's recommended to launch it many times and then calculate the average.
 
 Browser Tests : DNS/VPN/Proxy Leak :
 ------------------------------------
@@ -254,7 +254,7 @@ Browser Tests : DNS/VPN/Proxy Leak :
 
 About :
 -------
-**Autor :** Intika - intikadev (at) gmail.com
+**Author :** Intika - intikadev (at) gmail.com
 
 **Donation :** Paypal : intikadev (at) gmail.com
 
@@ -262,14 +262,14 @@ About :
 
 Librefox Roadmap : 
 ------------------
-**Objectives for future versions of librefox (this may change) :**
+**Objectives for future versions of Librefox (this may change) :**
 - Develop an all-in-one Librefox addon to rule them all ? (Normal & Tor Version… this would simplify Librefox)
 - Develop an easy to use firewall system for extensions (button/hosts/allow/deny/per-addon)
 - Update checker extension (feature in the full extension ?)
-- Advert for the project to reach more users ?
+- Advertisement for the project to reach more users ?
 
-**Todo for future versions of librefox (this may change) :**
-- Improve hd-video playback performances
+**Todo for future versions of Librefox (this may change) :**
+- Improve HD-video playback performance.
 - Testing compatibility on those [sites](https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies) and adjust the related settings.
 - Review un-reviewed addons code (dont-track-me-google/decentraleyes/canvasblocker/temporary-containers/switch-container/smart-referer)
 
@@ -297,11 +297,11 @@ Settings Index :
 // Section : Security 2/3                     // Bench Diff : +0    / 5000
 // Section : Security 3/3 (Cipher)            // Bench Diff : +0    / 5000
 // -------------------------------------------
-// Section : Performances 1/5                 // Bench Diff : +650  / 5000
-// Section : Performances 2/5                 // Bench Diff : -800  / 5000
-// Section : Performances 3/5                 // Bench Diff : -1720 / 5000
-// Section : Performances 4/5                 // Bench Diff : -200  / 5000 
-// Section : Performances 5/5                 // Bench Diff : -50   / 5000 
+// Section : Performance 1/5                  // Bench Diff : +650  / 5000
+// Section : Performance 2/5                  // Bench Diff : -800  / 5000
+// Section : Performance 3/5                  // Bench Diff : -1720 / 5000
+// Section : Performance 4/5                  // Bench Diff : -200  / 5000 
+// Section : Performance 5/5                  // Bench Diff : -50   / 5000 
 // -------------------------------------------
 // Section : General Settings 1/3             // Bench Diff : +100  / 5000
 // Section : General Settings 2/3             // Bench Diff : +0    / 5000
@@ -324,50 +324,50 @@ Settings Index :
 
 Cookies Settings :
 ------------------
-Using different web services without cookies is impossible and cookies settings in a browser are very important when it come to privacy, in Librefox the settings are locked to avoid unwanted changes in such important setting, but they can be easily changed in `mozilla.cfg` under `User Settings : Cookies settings`
+Using different web services without cookies is impossible and cookie settings in a browser are very important when it come to privacy, in Librefox the settings are locked to avoid unwanted changes in such an important setting, but they can be easily changed in `mozilla.cfg` under `User Settings : Cookies settings`.
 
 Tracking Protection :
 ---------------------
-Firefox now integrate a tracking protection feature (based on disconnect.me) it's a light list content blocking, listing can not be edited, this feature is disabled in Librefox. it's recommended to use ublock instead. This feature is disabled :
+Firefox now integrates a tracking protection feature (based on disconnect.me) it's a small content blocking list, the listing can not be edited, this feature is disabled in Librefox. It's recommended to use uBlock Origin instead. This feature is disabled :
 
-- Until it evolve and integrate at least list editing
-- Because double filtering (this + ublock) is not suitable for performances.
+- Until it evolves and integrates at least list editing.
+- Because double filtering (this + ublock) is not suitable for performance.
 
-You can however easily enable this feature in `mozilla.cfg` under `User Settings : Track Protection` (just comment active lines with `//` or remove the section).
+You can however easily enable this feature in `mozilla.cfg` under `User Settings : Track Protection` (just comment active lines with `//` or remove the entire section).
 
 Comparing Changes And Updates :
 -------------------------------
-If you want to compare changes over updates or if you already have a `user.js`/`mozilla.cfg`/`policies.json`. consider using [Compare-UserJS](https://github.com/claustromaniac/Compare-UserJS), an amazing tool to compare user.js files and output the diffs in detailed breakdown, developed by gHack's very own resident cat, [claustromaniac](https://github.com/claustromaniac) :cat:
+If you want to compare changes over updates or if you already have a `user.js`/`mozilla.cfg`/`policies.json`. consider using [Compare-UserJS](https://github.com/claustromaniac/Compare-UserJS), it's an amazing tool to compare user.js files and output the diffs in detailed breakdown, developed by gHack's very own resident cat, [claustromaniac](https://github.com/claustromaniac) :cat:
 
-Usage : If not on windows install [PowerShell](https://github.com/PowerShell/PowerShell) then for example `pwsh Compare-UserJS.ps1 mozilla.cfg user.js` (Warning that PowerShell connect to MS sometimes)
+Usage : If not on windows install [PowerShell](https://github.com/PowerShell/PowerShell) then (for example) `pwsh Compare-UserJS.ps1 mozilla.cfg user.js` (Warning that PowerShell connects to Microsoft sometimes)
 
 Documentation :
 ---------------
 
-**Local-settings.js** : Defaulting firefox settings 
+**Local-settings.js** : Defaulting Firefox settings 
 
-**Mozilla.cfg** : Locking firefox settings for security, privacy & prevent settings changes 
+**Mozilla.cfg** : Locking Firefox settings for security, privacy & prevent setting changes 
 
-**Policies.json** : The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems (the settings availables with `policies.json` are limited right now because this is a new feature of firefox)
+**Policies.json** : The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems (the settings availables with `policies.json` are limited right now because this is a new feature of Firefox)
 
-**Bench diff** : Impact on the performances of firefox can be a gain or a loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
+**Bench diff** : Impact on the performance of firefox can be a gain or a loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
                
-**lockPref** : Locked preference can not be changed on firefox, nor by extensions, can only be changed here
+**lockPref** : Locked preference can not be changed on Firefox, nor by extensions, they can only be changed here.
 
 **Section** : Description of the settings section separated by ">>>..."
 
-**Defaulting VS Enforcing** : Default settings value are changed in `local-settings.js` and enforced settings are changed in `mozilla.cfg`, defaulted setting can be changed by the user in the browser while enforced settings are locked and can not be changed within the browser.
+**Defaulting VS Enforcing** : Default settings value are changed in `local-settings.js` and enforced settings are changed in `mozilla.cfg`, defaulted settings can be changed by the user in the browser while enforced settings are locked and can not be changed within the browser.
 
 Librefox Dark Theme :
 ---------------------
-Librefox provide a classic dark theme extension ([Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)) but also a purified version of ShadowFox available under [dark-theme directory](https://github.com/intika/Librefox-Firefox/tree/master/dark-theme) to install it just copy the directory chrome to your firefox profile directory and reboot firefox, this will expand the dark theme to internal pages like settings pages.
+Librefox provides a classic dark theme extension ([Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)) but also a purified version of ShadowFox available under [dark-theme directory](https://github.com/intika/Librefox-Firefox/tree/master/dark-theme) to install it just copy the directory chrome to your Firefox profile directory and then reboot firefox, this will expand the dark theme to internal pages like settings pages.
 
 Tuning Librefox :
 ------------------
 
 **Restart Button :**
 
-One simple solution is to bookmark `about:restartrequired` or `about:profiles` ... when restart is needed open that page and click "normal restart". You can even go further and add the bookmarks links to your icons bar and rename the link to an emty text (you will then have a direct icon to `about:profiles` and a 2 clicks reboot)
+One simple solution is to bookmark `about:restartrequired` or `about:profiles` ... when restart is needed open that page and click "normal restart". You can even go further and add the bookmarks links to your icons bar and rename the link to an empty text (you will then have a direct icon to `about:profiles` and a 2 clicks reboot)
 
 ![capture](https://user-images.githubusercontent.com/6892180/48963055-bd914000-ef82-11e8-8ea4-a58e56f5c4a4.png)
 ... 
@@ -378,9 +378,9 @@ One simple solution is to bookmark `about:restartrequired` or `about:profiles` .
 
 **Linux Fix Text Colors :**
 
-On linux when using a dark desktop theme firefox could display white text over white background or black text on black input on some sites or addons, this is fixed in Librefox with `lockPref("ui.use_standins_for_native_colors", true);`.
+On Linux when using a dark desktop theme Firefox could display white text over white background or black text on black input on some sites or addons, this is fixed in Librefox with `lockPref("ui.use_standins_for_native_colors", true);`.
 
-If `ui.use_standins_for_native_colors` is not enough to fix everything you can fix this issue with an other additional solution by using the following values in `about:config` (you need to have Adwaita theme installed) [more details](https://github.com/DmitriK/darkContrast#text-contrast-for-dark-themes) (Note that this is not needed with default Librefox settings as it is already fixed)
+If `ui.use_standins_for_native_colors` is not enough to fix everything you can fix this issue with an other additional solution by using the following values in `about:config` (you need to have Adwaita theme installed) [more details](https://github.com/DmitriK/darkContrast#text-contrast-for-dark-themes) (Note that this is not needed with the default Librefox settings as it is already fixed)
 ```
 widget.content.allow-gtk-dark-theme;false
 widget.chrome.allow-gtk-dark-theme;false
@@ -392,12 +392,12 @@ Other Addons :
 
 **Other privacy addons :**
 - [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp) : Block http traffic and/or redirect it to https (Excellent remplacment for the unrecommended https-everywhere)
-- [Google-Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/) : Open all google sites on a container
-- [Facebook-Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/) : Open all facebook sites on a container
-- [Request-Blocker](https://addons.mozilla.org/en-US/firefox/addon/request-blocker-we/) : Host style blocking sites
-- [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) : Makes a lot of web ressources available locally to improve privacy 
-- [Dont-Track-Me-Google](https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/) : Cleaning google search result links  
-- [Canvas-Blocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/) : Prevent some fingerprinting techniques (This should not be used with browser plugs addon as it provide similar features)  
+- [Google-Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/) : Open all Google sites in a container
+- [Facebook-Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/) : Open all Facebook sites in a container
+- [Request-Blocker](https://addons.mozilla.org/en-US/firefox/addon/request-blocker-we/) : Hosts style blocking sites
+- [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) : Makes a lot of web resources available locally to improve privacy 
+- [Dont-Track-Me-Google](https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/) : Cleaning Google search result links  
+- [Canvas-Blocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/) : Prevent some fingerprinting techniques (This should not be used with browser plugins addon as it provide similar features)  
 - [Cookie-Quick-Manager](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/) : View and edit cookies
 - [Mozilla-Multi-Account-Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) : Manage containers and assign sites to specific container
 - [Switch-Containers](https://addons.mozilla.org/en-US/firefox/addon/switch-container/) : Switching container for the current tab easily
@@ -405,9 +405,9 @@ Other Addons :
 - [Smart-Referer](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/) : Manage referer with a button (Send referers only when staying on the same domain.)
 
 **Other useful addons :**
-- [Dormancy](https://addons.mozilla.org/en-US/firefox/addon/dormancy/) : Unload tab after a certain time, useful for performances when opening a lot of tabs 
-- [Add Custom Search Engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/) : Cutomize your search engine 
-- [ProxySwitcheroo](https://addons.mozilla.org/en-US/firefox/addon/proxyswitcheroo/) : Applying proxy settings in a click
+- [Dormancy](https://addons.mozilla.org/en-US/firefox/addon/dormancy/) : Unload tab after a certain time, useful for performance when opening a lot of tabs 
+- [Add Custom Search Engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/) : Customize your search engine 
+- [ProxySwitcheroo](https://addons.mozilla.org/en-US/firefox/addon/proxyswitcheroo/) : Apply proxy settings in a click
 - [UndoCloseTabButton](https://addons.mozilla.org/en-US/firefox/addon/undoclosetabbutton/) : Reopen last closed tab
 - [Advanced Github Notifier](https://addons.mozilla.org/en-US/firefox/addon/advanced-github-notifier/) : Github notifications
 - [Shortkeys](https://addons.mozilla.org/en-US/firefox/addon/shortkeys/) : Add custom shortkeys
@@ -415,17 +415,17 @@ Other Addons :
 
 **Librefox Addons For ESR And Tor :**
 - [Librefox HTTP Watcher ESR - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-tor-mod/) : Change the url bar color on http and onion sites (to green/red)
-- [Librefox NoHTTP - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/nohttp-librefox-mod-for-tor/) : Block http traffic and/or redirect it to https (Excellent remplacment for the unrecommended https-everywhere)
+- [Librefox NoHTTP - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/nohttp-librefox-mod-for-tor/) : Block http traffic and/or redirect it to https (Excellent replacement for the unrecommended https-everywhere)
 
 Tor Compatibility :
 -------------------
-Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled in v2 for user toriffying/proxifying their whole connection).
+Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled in v2 for user toriffying/proxifying their entire connection).
 
 Tor compatibility may change.
 
 DRM Compatibility :
 -------------------
-Digital rights management (DRM) is enforced off by default (this is needed for netflix and similar); you can enable it with the following instructions :
+Digital rights management (DRM) is enforced off by default (this is needed for Netflix and similar); you can enable it with the following instructions :
 - Open `mozilla.cfg`
 - Under the section `Section : User Settings`
 - Comment the active lines with `// ` under the subsection `User Settings : DRM/CDM - Main`
@@ -439,7 +439,7 @@ For ESR users if you opt for `Librefox HTTP Watcher` you need to use this versio
 
 Building And Packaging :
 ------------------------
-Librefox is applied to a built version of firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
+Librefox is applied to a built version of Firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
 
 **Linux :**
 
