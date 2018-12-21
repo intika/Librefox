@@ -12,7 +12,7 @@ Librefox : Mainstream Firefox With Freedom [![Tweet](https://img.shields.io/twit
 
 This project aims to fix privacy and security issues related to Firefox without forking the project.
 
-Librefox uses [gHacks-User.js](https://github.com/ghacksuserjs/ghacks-user.js) and [Pyllyukko-User.js](https://github.com/pyllyukko/user.js/), more than 500 additional privacy/security/performance settings, patches, Librefox-Addons (optional) and a cleaned bundle of Firefox (updater, crashreporter and Firefox's integrated addons that don't respect privacy are removed).
+Librefox uses more than 500 privacy/security/performance settings ([gHacks](https://github.com/ghacksuserjs/ghacks-user.js) and additional options), patches, Librefox-Addons (optional) and a cleaned bundle of Firefox (updater, crashreporter and Firefox's integrated addons that don't respect privacy are removed).
 
 Features :
 ----------
@@ -20,7 +20,6 @@ Features :
 - Updated Firefox : because this project is not a fork, it is kept updated with the latest Firefox version.
 - Extensions Firewall : limit internet access for extensions ([firewall-test-feature](https://github.com/intika/Librefox-Firefox/#extensions-firewall-))
 - IJWY (I Just Want You To Shut Up) : embedded server links and other calling home functions are removed ([zero unauthorized connection by default](https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-))
-- User Settings : Librefox uses an updated version of [gHacks-User.js](https://github.com/ghacksuserjs/ghacks-user.js) and [Pyllyukko-User.js](https://github.com/pyllyukko/user.js/).
 - Settings Protection : important settings are enforced/locked within `mozilla.cfg` and `policies.json`, those settings cannot be changed by addons/updates/Firefox or unwanted/accidental manipulation; To change those settings you can easily do it by editing `mozilla.cfg` and `policies.json`.
 - Librefox Addons : set of optional Librefox extensions
 - Statistics Disabled : telemetry and similar functions are disabled
