@@ -7,7 +7,7 @@
 
 ---
 
-Librefox : Mainstream Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20mainstream%20firefox%20with%20a%20better%20privacy%2C%20security%20and%20performance&url=https://github.com/intika/Librefox-Firefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
+Librefox : Mainstream Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20mainstream%20firefox%20with%20a%20better%20privacy%20and%20security&url=https://github.com/intika/Librefox-Firefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
 ----------------------------------------
 
 This project aims to fix privacy and security issues related to Firefox without forking the project.
