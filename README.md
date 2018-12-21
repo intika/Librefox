@@ -2,24 +2,36 @@
 <a href="https://github.com/intika/Librefox-Firefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Firefox-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
 </p>
 <p align="center">
-<a href="https://github.com/intika/Librefox-Firefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-+%20150-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-9-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
+<a href="https://github.com/intika/Librefox-Firefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-%20OpenDesktop-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/badge/PR-3-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-12-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
 </p>
 
 ---
 
-Librefox : Official Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20official%20firefox%20with%20a%20better%20privacy%2C%20security%20and%20performance&url=https://github.com/intika/Librefox-Firefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
+Librefox : Mainstream Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20mainstream%20firefox%20with%20a%20better%20privacy%2C%20security%20and%20performance&url=https://github.com/intika/Librefox-Firefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
 ----------------------------------------
 
-This project aims to fix privacy and security issues related to Firefox without losing performance nor forking the project. It uses `local-settings.js`, `mozilla.cfg` and `policies.json`.
+This project aims to fix privacy and security issues related to Firefox without forking the project.
+
+Librefox uses [gHacks-User.js](https://github.com/ghacksuserjs/ghacks-user.js) and [Pyllyukko-User.js](https://github.com/pyllyukko/user.js/), more than 500 additional privacy/security/performance settings, patches, Librefox-Addons (optional) and a cleaned bundle of Firefox (updater, crashreporter and Firefox's integrated addons that don't respect privacy are removed).
 
 Features :
 ----------
-Librefox uses [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings, additional privacy, performance settings and a cleaned bundle of Firefox (updater, crashreporter and integrated addons that don't respect privacy are removed) to provide:
 
-- Performance
-- Security
-- Privacy
-
+- Updated Firefox : because this project is not a fork, it is kept updated with the latest Firefox version.
+- Extensions Firewall : limit internet access for extensions ([firewall-test-feature](https://github.com/intika/Librefox-Firefox/#extensions-firewall-))
+- IJWY (I Just Want You To Shut Up) : embedded server links and other calling home functions are removed ([zero unauthorized connection by default](https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-))
+- User Settings : Librefox uses an updated version of [gHacks-User.js](https://github.com/ghacksuserjs/ghacks-user.js) and [Pyllyukko-User.js](https://github.com/pyllyukko/user.js/).
+- Settings Protection : important settings are enforced/locked within `mozilla.cfg` and `policies.json`, those settings cannot be changed by addons/updates/Firefox or unwanted/accidental manipulation; To change those settings you can easily do it by editing `mozilla.cfg` and `policies.json`.
+- Librefox Addons : set of optional Librefox extensions
+- Statistics Disabled : telemetry and similar functions are disabled
+- Tested Settings : settings are performance aware 
+- ESR and Tor version (Librefox TBB Beta) 
+- Tor Librefox Addons : adapted Librefox extensions for TBB 
+- Multi-platform (Windows/Linux/Mac/and soon Android)
+- Dark theme (classic and advanced)
+- Recommended and *code reviewed* addons list
+- Community-Driven
+- And much more... 
 ---
 
 Index :
@@ -27,8 +39,6 @@ Index :
 <pre>
 <a href="https://github.com/intika/Librefox-Firefox/#features-"
 >> Librefox : Features ............................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#key-features-v2x-"
->> Librefox : Key Features v2.x ...................................................... </a>
 <a href="https://github.com/intika/Librefox-Firefox/#download-"
 >> Librefox : Download ............................................................... </a>
 <a href="https://github.com/intika/Librefox-Firefox/#capture-"
@@ -91,21 +101,41 @@ Download :
 ----------
 Official builds with Librefox.
 
-(Project was renamed to Librefox on v2)
+**Linux :**
 
-- [Privafox-1.8-Firefox-Linux-63.0.3.tar.bz2](https://github.com/intika/Librefox-Firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 321152189184ca9e2b3500a0aa5c5c47aff5999f
+- [Librefox-2.1-Firefox-Linux-64.0.0-x64.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x64.tar.xz) - 45.1 MB - SHA1 : 1d25c606e08e6ad2e674abf3032255902067a81d
 
-- [Privafox-1.8-Firefox-Windows-63.0.3.zip](https://github.com/intika/Librefox-Firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Windows-63.0.3.zip) - 60.3 MB - SHA1 : 4dba7913435d5517f4e10f7b55aa395e5088b143
+- [Librefox-2.1-Firefox-Linux-64.0.0-x32.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x32.tar.xz) - 47.1 MB - SHA1 : 531ec9b6e1e763d7e13f6b7ce96640c26b7a85f5
 
-- [Privafox-1.8-Firefox-Mac-63.0.3.dmg](https://github.com/intika/Librefox-Firefox/releases/download/Privafox-v1.8-v63.0.3/Privafox-1.8-Firefox-Mac-63.0.3.dmg) - 60.5 MB - SHA1 : e693b9141098456a419ed7fb71f4b8c42001cde9
+- [Librefox-2.1-Firefox-Linux-60.4.0-x64-ESR.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-60.4.0-x64-ESR.tar.xz) - 40.3 MB - SHA1 : 1522f48aaf6189021beb6cbad0e4875c75e6e9c0
 
-Beta/alpha releases (soon)
+- [Librefox-2.1-Firefox-Linux-60.4.0-x32-ESR.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-60.4.0-x32-ESR.tar.xz) - 42.2 MB - SHA1 : 9b1608a1c96ac71942b71b012d960f1958a23c24
 
-- Librefox-2.0B-Firefox-Linux-63.0.3.tar.bz2[](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.0B-v63.0.3/Librefox-2.0B-Firefox-Linux-63.0.3.tar.bz2) - 51.8 MB - SHA1 : 321152189184ca9e2b3500a0aa5c5c47aff5999f
+- [Librefox-2.1-Tor-Linux-v8.0.4-x64-Beta.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x64-Beta.tar.xz) - 71.6 MB - SHA1 : de33e586c2701fc62e023081af0d51c7829efc26
 
-- Librefox-2.0B-Firefox-Windows-63.0.3.zip[](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.0B-v63.0.3/Librefox-2.0B-Firefox-Windows-63.0.3.zip) - 60.3 MB - SHA1 : 4dba7913435d5517f4e10f7b55aa395e5088b143
+- [Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.tar.xz) - 73.0 MB - SHA1 : 970628ef040eff3122a4e869ce3db6ffb2a060f5
 
-- Librefox-2.0B-Firefox-Mac-63.0.3.dmg[](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.0B-v63.0.3/Librefox-2.0B-Firefox-Mac-63.0.3.dmg) - 60.5 MB - SHA1 : e693b9141098456a419ed7fb71f4b8c42001cde9
+**Mac :**
+
+- [Librefox-2.1-Firefox-Mac-64.0.0-x64.dmg](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-64.0.0-x64.dmg) - 67.3 MB - SHA1 : 3193c77f86aa1344de5430be8d5aeb304e3be10e
+
+- [Librefox-2.1-Firefox-Mac-60.4.0-x64-ESR.dmg](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0-x64-ESR.dmg) - 57.7 MB - SHA1 : 0435746f1a41e699ee586f651e54974ae0e9044b
+
+- [Librefox-2.1-Tor-Linux-v8.0.4-x64-Beta.dmg](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.dmg) - 64.1 MB - SHA1 : 42047b39ecdb188552a36450adba058247a86edc
+
+**Windows :**
+
+- [Librefox-2.1-Firefox-Win-64.0.0-x64.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x64.zip) - 60.8 MB - SHA1 : 0fe4804e99b6147a00ff83f1f99d1ba09663c7ca
+
+- [Librefox-2.1-Firefox-Win-64.0.0-x32.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x32.zip) - 58.3 MB - SHA1 : 721da788f47701b2ae3d1de13d91efc01ffa990e
+
+- [Librefox-2.1-Firefox-Win-60.4.0-x64-ESR.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-60.4.0-x64-ESR.zip) - 51.1 MB - SHA1 : 333eff737a31cd0791bd758e9adfc6f1401e1091
+
+- [Librefox-2.1-Firefox-Win-60.4.0-x32-ESR.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-60.4.0-x32-ESR.zip) - 47.6 MB - SHA1 : 80c4c6e8351a7cc03f6b290aa26d68d89cbeedc7
+
+- [Librefox-2.1-Tor-Win-v8.0.4-x64-Beta.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x64-Beta.zip) - 66.3 MB - SHA1 : 0b36604d01b480044de9be730b6bc59fb58b293f
+
+- [Librefox-2.1-Tor-Win-v8.0.4-x32-Beta.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x32-Beta.zip) - 69.2 MB - SHA1 : 2180f4d9d8afeeff4c50a3fe74b6df89281b2d3b
 
 Capture :
 ---------
@@ -119,21 +149,21 @@ Librefox addons are not bundled and need to be installed manually
 
 - [Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/) : Dark theme
 - [Librefox HTTP Watcher](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-red-flag/) : Change the url bar color on HTTP sites  
-- [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/) : Add a reload button to the URL bar
+- [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/) : Add a reload button to URL bar
 
 Recommended Addons :
 --------------------
-Recommended addons are not bundeled and need to be installed manually
+Recommended addons are not bundled and need to be installed manually
 
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/) : Block all cookies and only allow authorized sites 
 - [First Party Isolation](https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/) : Enable/Disable FPI with the click of a button
-- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/) : Spoof UserAgent OS (Linux/Windows/Mac)
+- [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/) : Spoof a different UserAgent OS Linux/Windows/Mac
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/) : Sets of settings to prevent fingerprinting and security issues
 - [uBock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin) : Block web advertisement and tracking 
 
 Recommended Addons Settings :
 -----------------------------
-`uBlock` : Additional filters are available here: https://filterlists.com/ (don't surcharge it to avoid performance loss)
+`uBlock` : Additional filters are availables here: https://filterlists.com/ (don't surcharge it to avoid performance loss)
 
 `Browser Plugs Privacy Firewall` : Keep settings light to make `privacy.resistFingerprinting` efficient because too much customization will lead to uniqueness and therefore easy fingerprinting. 
 ```
@@ -144,17 +174,6 @@ Recommended Addons Settings :
   - Privacy / Font / Randomize
   - Privacy / Font / Enable protection for font and glyph fingerprinting
 ```
-Key Features v2.x :
--------------------
-- Updated [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) settings
-- Enforcing/Defaulting Settings (Cannot/Can be changed within firefox)
-- "IJWY To Shut Up" Settings ([details](https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-))
-- Limit internet access for extensions ([test-feature](https://github.com/intika/Librefox-Firefox/#extensions-firewall-))
-- Performance aware settings
-- Disable telemetry 
-- Disable call 
-...
-
 Reviewing Extensions Code :
 ---------------------------
 Recommended extensions code have been reviewed for potential unwanted behaviour... reviewed version are available under [extensions](https://github.com/intika/Librefox-Firefox/tree/master/extensions) directory.
@@ -173,8 +192,8 @@ To enable the feature and block the network for all the extensions open `mozilla
 
 Available native network restriction settings for addons :
 
-- Restricted domains list : `extensions.webextensions.restrictedDomains` this is a list of restricted domains that will be used to block some hosts for all the extensions, firefox uses this setting to block extensions from accessing mozilla's domains/sites, by default in Librefox this setting is set to allow extensions to access all the web (You can edit that list to match your needs or to block a specific domain, note that the domain name has to be 'exact' (for instance facebook.com will only block facebook.com not mobile.facebook.com) 
-- Content security policy : `extensions.webextensions.base-content-security-policy` and `extensions.webextensions.default-content-security-policy` the later settings can be redefined/changed within an extension so it's not efficient for firewall purposes. CSP settings are used in firefox as an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware; In short: CSP settings block and allow certain domains under certain circumstances and thus could be used to firewall the extensions ([CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp))
+- Restricted domains list : `extensions.webextensions.restrictedDomains` this is a list of restricted domains that will be used to block some hosts for all the extensions, Firefox uses this setting to block extensions from accessing mozilla's domains/sites, by default in Librefox this setting is set to allow extensions to access all the web (You can edit that list to match your needs or to block a specific domain, note that the domain name has to be 'exact' (for instance facebook.com will only block facebook.com not mobile.fabcebook.com) 
+- Content security policy : `extensions.webextensions.base-content-security-policy` and `extensions.webextensions.default-content-security-policy` the later settings can be redefined/changed within an extension so it's not efficient for a firewall purpose. CSP settings are used in Firefox as an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware; In short: CSP settings block and allow certain domains under certain circumstances and thus could be used to firewall the extensions ([CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp))
 
 **Wiki - Blocking a domain :**
 
@@ -197,7 +216,7 @@ Check `debug-check-todo.log` for additional info about future version and resear
 
 IJWY (I Just Want You To Shut Up) :
 -----------------------------------
-This is a set of settings that aim to remove all the server links embedded in Firefox and other calling home functions in the purpose of blocking un-needed connections. The objective is zero unauthorized connections (ping/telemetry/Mozilla/Google...).
+This is a set of settings that aim to remove all the server links embedded in Firefox and other calling home functions in the purpose of blocking un-needed connections. The objective is zero unauthorized connection (ping/telemetry/Mozilla/Google...).
 
 Changelog :
 -----------
@@ -226,7 +245,7 @@ Apply Librefox Manually :
 
 Edit Locked Settings :
 ----------------------
-Just edit `mozilla.cfg`, save and restart Firefox.
+Just edit `mozilla.cfg`, save and restart Librefox.
 
 Browser Tests : Security/Fingerprint : 
 ----------------------------------------------
@@ -258,7 +277,9 @@ About :
 
 **Donation :** Paypal : intikadev (at) gmail.com
 
-**Based on :** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to all of them
+**Based on :** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to everyone.
+
+**Contributors :** @Thorin-Oakenpants @claustromaniac @earthlng @brainscar @Eloston @dimqua @pyllyukko @anchev @antuketot76 big thanks to everyone (and all others i forget to mention).
 
 Librefox Roadmap : 
 ------------------
@@ -269,7 +290,7 @@ Librefox Roadmap :
 - Advertisement for the project to reach more users ?
 
 **Todo for future versions of Librefox (this may change) :**
-- Improve HD-video playback performance.
+- Improve HD-video playback performance
 - Testing compatibility on those [sites](https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies) and adjust the related settings.
 - Review un-reviewed addons code (dont-track-me-google/decentraleyes/canvasblocker/temporary-containers/switch-container/smart-referer)
 
@@ -282,16 +303,16 @@ Settings Index :
 //
 // -----------------------------------------------------------------------
 // Section : User settings                    // Bench Diff : +0    / 5000
-// Section : Defaulting Settings              // Bench Diff : ???   / 5000
+// Section : Defaulting Settings              // Bench Diff : +0    / 5000
 // -------------------------------------------
 // Section : Controversial                    // Bench Diff : +0    / 5000
 // Section : Firefox Fingerprint              // Bench Diff : +0    / 5000
 // Section : Locale/Time                      // Bench Diff : +0    / 5000
 // Section : Ghacks-user Selection            // Bench Diff : +100  / 5000
-// Section : Extensions Manager               // Bench Diff : ???   / 5000
-// Section : IJWY To Shut Up                  // Bench Diff : ???   / 5000
-// Section : Microsoft Windows                // Bench Diff : ???   / 5000
-// Section : Firefox ESR60.x                  // Bench Diff : ???   / 5000
+// Section : Extensions Manager               // Bench Diff : +0    / 5000
+// Section : IJWY To Shut Up                  // Bench Diff : +0    / 5000
+// Section : Microsoft Windows                // Bench Diff : +0    / 5000
+// Section : Firefox ESR60.x                  // Bench Diff : +0    / 5000
 // -------------------------------------------
 // Section : Security 1/3                     // Bench Diff : +0    / 5000
 // Section : Security 2/3                     // Bench Diff : +0    / 5000
@@ -307,8 +328,8 @@ Settings Index :
 // Section : General Settings 2/3             // Bench Diff : +0    / 5000
 // Section : General Settings 3/3             // Bench Diff : -40   / 5000
 // -------------------------------------------
-// Section : Disabled - ON/OFF                // Bench Diff : ???   / 5000
-// Section : Disabled - Deprecated Active     // Bench Diff : ???   / 5000
+// Section : Disabled - ON/OFF                // Bench Diff : +0    / 5000
+// Section : Disabled - Deprecated Active     // Bench Diff : +0    / 5000
 // Section : Disabled - Deprecated Inactive   // Bench Diff : +0    / 5000
 // -----------------------------------------------------------------------
 
@@ -350,7 +371,7 @@ Documentation :
 
 **Policies.json** : The policies.json is cross-platform compatible, making it preferred method for enterprise environments that have workstations running various operating systems (the settings availables with `policies.json` are limited right now because this is a new feature of Firefox)
 
-**Bench diff** : Impact on the performance of firefox can be a gain or a loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
+**Bench diff** : Impact on the performance of Firefox can be a gain or a loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss
                
 **lockPref** : Locked preference can not be changed on Firefox, nor by extensions, they can only be changed here.
 
@@ -358,9 +379,11 @@ Documentation :
 
 **Defaulting VS Enforcing** : Default settings value are changed in `local-settings.js` and enforced settings are changed in `mozilla.cfg`, defaulted settings can be changed by the user in the browser while enforced settings are locked and can not be changed within the browser.
 
+**About:config** : http://kb.mozillazine.org/About:config_entries
+
 Librefox Dark Theme :
 ---------------------
-Librefox provides a classic dark theme extension ([Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)) but also a purified version of ShadowFox available under [dark-theme directory](https://github.com/intika/Librefox-Firefox/tree/master/dark-theme) to install it just copy the directory chrome to your Firefox profile directory and then reboot firefox, this will expand the dark theme to internal pages like settings pages.
+Librefox provides a classic dark theme extension ([Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)) but also a purified version of ShadowFox available under [dark-theme directory](https://github.com/intika/Librefox-Firefox/tree/master/dark-theme) to install it just copy the directory chrome to your Firefox profile directory and then reboot Firefox, this will expand the dark theme to internal pages like settings pages.
 
 Tuning Librefox :
 ------------------
@@ -421,7 +444,7 @@ Tor Compatibility :
 -------------------
 Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled in v2 for user toriffying/proxifying their entire connection).
 
-Tor compatibility may change.
+Currently Librefox-TBB is in beta test, Tor compatibility may change. 
 
 DRM Compatibility :
 -------------------
@@ -430,7 +453,7 @@ Digital rights management (DRM) is enforced off by default (this is needed for N
 - Under the section `Section : User Settings`
 - Comment the active lines with `// ` under the subsection `User Settings : DRM/CDM - Main`
 - Comment the active lines with `// ` under the subsection `User Settings : DRM/CDM - Widevine`
-- Restart firefox then open `about:preferences` and enable `Play DRM...` under general section
+- Restart Firefox then open `about:preferences` and enable `Play DRM...` under general section
 - Firefox will download Widevine and enable it (under `about:addons` plugins section) you can force the download by clicking `Check for updates` under the tools button
 
 Librefox ESR :
@@ -512,3 +535,6 @@ Librefox is applied to a built version of Firefox, you can [build it](https://de
 - Copy `policies.json` to `Firefox/Firefox.app/Contents/Ressources/distribution/`
 - Unmount the dmg file 
 - Compress it with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac) 
+
+
+

@@ -4,7 +4,7 @@ Todo Checks I/II :
 Todo Checks II/II :
 -------------------
 
-- Complete bench tests
+- Complete bench tests on all 0 values
 
 - Check the mozilla perf addon https://perf-html.io/
 
@@ -26,6 +26,52 @@ Addons Code To Checks :
 - https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/ 
 - https://addons.mozilla.org/en-US/firefox/addon/switch-container/
 - https://addons.mozilla.org/en-US/firefox/addon/smart-referer/
+
+Build Notes :
+-------------
+
+- Compress tar.xz
+
+    tar cfJ <archive.tar.xz> <files>
+
+- Files to remove :  
+
+    crash-reporter...
+    crash-reporter...
+    removed-files
+    update...
+    update...
+    update...
+    browser/feature/webcomp...
+    browser/feature/webcomp...
+    browser/feature/...
+
+- Tor files to remove :  
+
+    Classic removal plus 
+    https-everywhere addon 
+    profile.meek-http-helper... 
+
+- Patching release :
+
+    >browser.omni.ja.chrome.browser.content.browser.preferences.in-content.privacy.origin (patch with winrar)
+    Tor : patch mozilla.cfg
+    
+- Tor windows : 
+
+    Install it to desktop then get the files 
+    (Only the lnk file is a new file compared to compressed version)
+    remove lnk file
+    add link.vbs
+    add bat file
+    
+- Tor mac :
+
+    Under mac, mount and extract all content to a folder
+    Copy by command .DS_Store (from dmg to folder)
+    run "codesign --remove-signature Tor\ Browser.app". 
+    With disk utils, create a dmg from a folder (nocompression rw) 
+    We are converting iso-dmg to dmg...
 
 Missing features : 
 ------------------

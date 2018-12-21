@@ -8,8 +8,6 @@
     "DisableFirefoxStudies": true,
     "DisablePocket": true,
     "DisableProfileImport": true,
-    "OverridePostUpdatePage": ""
-    "OverrideFirstRunPage": ""
     "DisableSetDesktopBackground": true,
     "DisableSystemAddonUpdate": true,
     "DisableTelemetry": true

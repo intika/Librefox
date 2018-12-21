@@ -33,7 +33,7 @@ v2.1 :
 - Defaulting HW Settings instead of enforcing them
 - Improve HD Video playback 
 - Gathering infos/code for firewalling extensions 
-- Correct some grammar mistakes
+- Correct some grammar mistakes, thanks to @mikroskeem 
 - Update to firefox v64 
 - Adding extension firewall feature 
 - Fix referer blocking twitter and many other sites
@@ -51,6 +51,8 @@ v2.1 :
 - Adding release x64 mac
 - Adding release x64 esr mac
 - Adding release x64 esr mac
+- Add tor compatibility & patches
+- Grammar mistakes, thanks to @brainscar
 
 v1.8 :
 ------
