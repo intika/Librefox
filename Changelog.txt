@@ -1,6 +1,11 @@
 Librefox Firefox - Chagelog :
 -----------------------------
 
+v2.2 :  
+------
+- README.md update
+- Policy update
+
 v2.1 :  
 ------
 - Project renamed to Librefox
