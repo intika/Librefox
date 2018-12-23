@@ -1,25 +1,25 @@
 <p align="center">
-<a href="https://github.com/intika/Librefox-Firefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Browser-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
+<a href="https://github.com/intika/Librefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Browser-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
 </p>
 <p align="center">
-<a href="https://github.com/intika/Librefox-Firefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-%20OpenDesktop-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/badge/PR-3-green.svg"></a> <a href="https://github.com/intika/Librefox-Firefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-14-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
+<a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-%20OpenDesktop-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/badge/PR-3-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-14-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
 </p>
 
 ---
 
-Librefox : Mainstream Firefox With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20mainstream%20firefox%20with%20a%20better%20privacy%20and%20security&url=https://github.com/intika/Librefox-Firefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
+Librefox : Browse With Freedom [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Librefox%2C%20browse%20with%20freedom&url=https://github.com/intika/Librefox&via=intika&hashtags=firefox,librefox,browser,privacy,developers)
 ----------------------------------------
 
-This project aims to fix privacy and security issues related to Firefox without forking the project.
+This project aims at enforcing privacy and security of Firefox without forking the project.
 
 Librefox uses more than 500 privacy/security/performance settings ([gHacks](https://github.com/ghacksuserjs/ghacks-user.js) and additional options), patches, Librefox-Addons (optional) and a cleaned bundle of Firefox (updater, crashreporter and Firefox's integrated addons that don't respect privacy are removed).
 
 Features :
 ----------
 
-- Updated Firefox : because this project is not a fork, it is kept updated with the latest Firefox version.
-- Extensions Firewall : limit internet access for extensions ([firewall-test-feature](https://github.com/intika/Librefox-Firefox/#extensions-firewall-))
-- IJWY (I Just Want You To Shut Up) : embedded server links and other calling home functions are removed ([zero unauthorized connection](https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-) by default).
+- Updated Browser : because this project is not a fork, it is kept updated with the latest Firefox version.
+- Extensions Firewall : limit internet access for extensions ([firewall-test-feature](https://github.com/intika/Librefox/#extensions-firewall-))
+- IJWY (I Just Want You To Shut Up) : embedded server links and other calling home functions are removed ([zero unauthorized connection](https://github.com/intika/Librefox/#ijwy-i-just-want-you-to-shut-up-) by default).
 - User Settings Update : gHacks/pyllyukko base is kept up to date.
 - Settings Protection : important settings are enforced/locked within `mozilla.cfg` and `policies.json`, those settings cannot be changed by addons/updates/Firefox or unwanted/accidental manipulation; To change those settings you can easily do it by editing `mozilla.cfg` and `policies.json`.
 - Librefox Addons : set of optional Librefox extensions
@@ -37,61 +37,61 @@ Features :
 Index :
 -------
 <pre>
-<a href="https://github.com/intika/Librefox-Firefox/#features-"
+<a href="https://github.com/intika/Librefox/#features-"
 >> Librefox : Features ............................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#download-"
+<a href="https://github.com/intika/Librefox/#download-"
 >> Librefox : Download ............................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#capture-"
+<a href="https://github.com/intika/Librefox/#capture-"
 >> Librefox : Capture ................................................................ </a>
-<a href="https://github.com/intika/Librefox-Firefox/#librefox-addons-"
+<a href="https://github.com/intika/Librefox/#librefox-addons-"
 >> Addons : Librefox Addons .......................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#recommended-addons-"
+<a href="https://github.com/intika/Librefox/#recommended-addons-"
 >> Addons : Recommended Addons ....................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#recommended-addons-settings-"
+<a href="https://github.com/intika/Librefox/#recommended-addons-settings-"
 >> Addons : Recommended Addons Settings .............................................. </a>
-<a href="https://github.com/intika/Librefox-Firefox/#reviewing-extensions-code-"
+<a href="https://github.com/intika/Librefox/#reviewing-extensions-code-"
 >> Addons : Reviewing Addons Source Code ............................................. </a>
-<a href="https://github.com/intika/Librefox-Firefox/#other-addons-"
+<a href="https://github.com/intika/Librefox/#other-addons-"
 >> Addons : Other Useful Addons Listing .............................................. </a>
-<a href="https://github.com/intika/Librefox-Firefox/#extensions-firewall-"
+<a href="https://github.com/intika/Librefox/#extensions-firewall-"
 >> Wiki : Extensions Network Firewall ................................................ </a>
-<a href="https://github.com/intika/Librefox-Firefox/#ijwy-i-just-want-you-to-shut-up-"
+<a href="https://github.com/intika/Librefox/#ijwy-i-just-want-you-to-shut-up-"
 >> Wiki : IJWY (I Just Want You To Shut Up) .......................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#edit-locked-settings-"
+<a href="https://github.com/intika/Librefox/#edit-locked-settings-"
 >> Wiki : Edit Locked Settings ....................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#settings-index-"
+<a href="https://github.com/intika/Librefox/#settings-index-"
 >> Wiki : Settings Index ............................................................. </a>
-<a href="https://github.com/intika/Librefox-Firefox/#cookies-settings-"
+<a href="https://github.com/intika/Librefox/#cookies-settings-"
 >> Wiki : Cookies Settings ........................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#tracking-protection-"
+<a href="https://github.com/intika/Librefox/#tracking-protection-"
 >> Wiki : Tracking Protection ........................................................ </a>
-<a href="https://github.com/intika/Librefox-Firefox/#comparing-changes-and-updates-"
+<a href="https://github.com/intika/Librefox/#comparing-changes-and-updates-"
 >> Wiki : Comparing Changes And Updates .............................................. </a>
-<a href="https://github.com/intika/Librefox-Firefox/#documentation-"
+<a href="https://github.com/intika/Librefox/#documentation-"
 >> Wiki : Documentation .............................................................. </a>
-<a href="https://github.com/intika/Librefox-Firefox/#librefox-dark-theme-"
+<a href="https://github.com/intika/Librefox/#librefox-dark-theme-"
 >> Wiki : Librefox Dark Theme ........................................................ </a>
-<a href="https://github.com/intika/Librefox-Firefox/#tuning-librefox--"
+<a href="https://github.com/intika/Librefox/#tuning-librefox--"
 >> Wiki : Tuning Librefox ............................................................ </a>
-<a href="https://github.com/intika/Librefox-Firefox/#librefox-esr-"
+<a href="https://github.com/intika/Librefox/#librefox-esr-"
 >> Wiki : Librefox ESR ............................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#tor-compatibility-"
+<a href="https://github.com/intika/Librefox/#tor-compatibility-"
 >> Wiki : Tor Compatibility .......................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#drm-compatibility-"
+<a href="https://github.com/intika/Librefox/#drm-compatibility-"
 >> Wiki : DRM Compatibility .......................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#building-and-packaging-"
+<a href="https://github.com/intika/Librefox/#building-and-packaging-"
 >> Wiki : Building And Packaging ..................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#browser-tests--securityfingerprint-"
+<a href="https://github.com/intika/Librefox/#browser-tests--securityfingerprint-"
 >> Browser Tests : Security/Fingerprint .............................................. </a>
-<a href="https://github.com/intika/Librefox-Firefox/#browser-tests--performances-"
+<a href="https://github.com/intika/Librefox/#browser-tests--performances-"
 >> Browser Tests : Performance ....................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#browser-tests--dnsvpnproxy-leak-"
+<a href="https://github.com/intika/Librefox/#browser-tests--dnsvpnproxy-leak-"
 >> Browser Tests : DNS/VPN/Proxy Leak ................................................ </a>
-<a href="https://github.com/intika/Librefox-Firefox/#librefox-roadmap-"
+<a href="https://github.com/intika/Librefox/#librefox-roadmap-"
 >> Infos : Librefox Roadmap .......................................................... </a>
-<a href="https://github.com/intika/Librefox-Firefox/#changelog-"
+<a href="https://github.com/intika/Librefox/#changelog-"
 >> Infos : Changelog ................................................................. </a>
-<a href="https://github.com/intika/Librefox-Firefox/#about-"
+<a href="https://github.com/intika/Librefox/#about-"
 >> Infos : About ..................................................................... </a>
 </pre>
 
@@ -100,44 +100,44 @@ Download :
 
 **Linux :**
 
-- [Librefox-2.1-Firefox-Linux-64.0.0-x64.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x64.tar.xz) - 45.1 MB - SHA1 : 1d25c606e08e6ad2e674abf3032255902067a81d
+- [Librefox-2.1-Linux-64.0.0-x64.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x64.tar.xz) - 45.1 MB - SHA1 : 1d25c606e08e6ad2e674abf3032255902067a81d
 
-- [Librefox-2.1-Firefox-Linux-64.0.0-x32.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x32.tar.xz) - 47.1 MB - SHA1 : 531ec9b6e1e763d7e13f6b7ce96640c26b7a85f5
+- [Librefox-2.1-Linux-64.0.0-x32.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x32.tar.xz) - 47.1 MB - SHA1 : 531ec9b6e1e763d7e13f6b7ce96640c26b7a85f5
 
-- [Librefox-2.1-Firefox-Linux-60.4.0-x64-ESR.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-60.4.0-x64-ESR.tar.xz) - 40.3 MB - SHA1 : 1522f48aaf6189021beb6cbad0e4875c75e6e9c0
+- [Librefox-2.1-Linux-60.4.0-x64-ESR.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-60.4.0-x64-ESR.tar.xz) - 40.3 MB - SHA1 : 1522f48aaf6189021beb6cbad0e4875c75e6e9c0
 
-- [Librefox-2.1-Firefox-Linux-60.4.0-x32-ESR.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-60.4.0-x32-ESR.tar.xz) - 42.2 MB - SHA1 : 9b1608a1c96ac71942b71b012d960f1958a23c24
+- [Librefox-2.1-Linux-60.4.0-x32-ESR.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-60.4.0-x32-ESR.tar.xz) - 42.2 MB - SHA1 : 9b1608a1c96ac71942b71b012d960f1958a23c24
 
-- [Librefox-2.1-Tor-Linux-v8.0.4-x64-Beta.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x64-Beta.tar.xz) - 71.6 MB - SHA1 : de33e586c2701fc62e023081af0d51c7829efc26
+- [Librefox-2.1-TBB-Linux-v8.0.4-x64-Beta.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x64-Beta.tar.xz) - 71.6 MB - SHA1 : de33e586c2701fc62e023081af0d51c7829efc26
 
-- [Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.tar.xz](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.tar.xz) - 73.0 MB - SHA1 : 970628ef040eff3122a4e869ce3db6ffb2a060f5
+- [Librefox-2.1-TBB-Linux-v8.0.4-x32-Beta.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.tar.xz) - 73.0 MB - SHA1 : 970628ef040eff3122a4e869ce3db6ffb2a060f5
 
 **Windows :**
 
-- [Librefox-2.1-Firefox-Win-64.0.0-x64.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x64.zip) - 60.8 MB - SHA1 : 0fe4804e99b6147a00ff83f1f99d1ba09663c7ca
+- [Librefox-2.1-Win-64.0.0-x64.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x64.zip) - 60.8 MB - SHA1 : 0fe4804e99b6147a00ff83f1f99d1ba09663c7ca
 
-- [Librefox-2.1-Firefox-Win-64.0.0-x32.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x32.zip) - 58.3 MB - SHA1 : 721da788f47701b2ae3d1de13d91efc01ffa990e
+- [Librefox-2.1-Win-64.0.0-x32.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x32.zip) - 58.3 MB - SHA1 : 721da788f47701b2ae3d1de13d91efc01ffa990e
 
-- [Librefox-2.1-Firefox-Win-60.4.0-x64-ESR.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-60.4.0-x64-ESR.zip) - 51.1 MB - SHA1 : 333eff737a31cd0791bd758e9adfc6f1401e1091
+- [Librefox-2.1-Win-60.4.0-x64-ESR.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-60.4.0-x64-ESR.zip) - 51.1 MB - SHA1 : 333eff737a31cd0791bd758e9adfc6f1401e1091
 
-- [Librefox-2.1-Firefox-Win-60.4.0-x32-ESR.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-60.4.0-x32-ESR.zip) - 47.6 MB - SHA1 : 80c4c6e8351a7cc03f6b290aa26d68d89cbeedc7
+- [Librefox-2.1-Win-60.4.0-x32-ESR.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-60.4.0-x32-ESR.zip) - 47.6 MB - SHA1 : 80c4c6e8351a7cc03f6b290aa26d68d89cbeedc7
 
-- [Librefox-2.1-Tor-Win-v8.0.4-x64-Beta.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x64-Beta.zip) - 66.3 MB - SHA1 : 0b36604d01b480044de9be730b6bc59fb58b293f
+- [Librefox-2.1-TBB-Win-v8.0.4-x64-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x64-Beta.zip) - 66.3 MB - SHA1 : 0b36604d01b480044de9be730b6bc59fb58b293f
 
-- [Librefox-2.1-Tor-Win-v8.0.4-x32-Beta.zip](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x32-Beta.zip) - 69.2 MB - SHA1 : 2180f4d9d8afeeff4c50a3fe74b6df89281b2d3b
+- [Librefox-2.1-TBB-Win-v8.0.4-x32-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x32-Beta.zip) - 69.2 MB - SHA1 : 2180f4d9d8afeeff4c50a3fe74b6df89281b2d3b
 
 **Mac :**
 
-- [Librefox-2.1-Firefox-Mac-64.0.0-x64.dmg](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-64.0.0-x64.dmg) - 67.3 MB - SHA1 : 3193c77f86aa1344de5430be8d5aeb304e3be10e
+- [Librefox-2.1-Mac-64.0.0-x64.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-64.0.0-x64.dmg) - 67.3 MB - SHA1 : 3193c77f86aa1344de5430be8d5aeb304e3be10e
 
-- [Librefox-2.1-Firefox-Mac-60.4.0-x64-ESR.dmg](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0-x64-ESR.dmg) - 57.7 MB - SHA1 : 0435746f1a41e699ee586f651e54974ae0e9044b
+- [Librefox-2.1-Mac-60.4.0-x64-ESR.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0-x64-ESR.dmg) - 57.7 MB - SHA1 : 0435746f1a41e699ee586f651e54974ae0e9044b
 
-- [Librefox-2.1-Tor-Linux-v8.0.4-x64-Beta.dmg](https://github.com/intika/Librefox-Firefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.dmg) - 64.1 MB - SHA1 : 42047b39ecdb188552a36450adba058247a86edc
+- [Librefox-2.1-TBB-Linux-v8.0.4-x64-Beta.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.dmg) - 64.1 MB - SHA1 : 42047b39ecdb188552a36450adba058247a86edc
 
 Capture :
 ---------
 <p align="center">
-  <img width="650" src="https://raw.githubusercontent.com/intika/Librefox-Firefox/master/capture.png">
+  <img width="650" src="https://raw.githubusercontent.com/intika/Librefox/master/capture.png">
 </p>
 
 Librefox Addons :
@@ -173,7 +173,7 @@ Recommended Addons Settings :
 ```
 Reviewing Extensions Code :
 ---------------------------
-Recommended extensions code have been reviewed for potential unwanted behaviour... reviewed version are available under [extensions](https://github.com/intika/Librefox-Firefox/tree/master/extensions) directory.
+Recommended extensions code have been reviewed for potential unwanted behaviour... reviewed version are available under [extensions](https://github.com/intika/Librefox/tree/master/extensions) directory.
 
 Extensions Firewall :
 ---------------------
@@ -210,7 +210,7 @@ This is a set of settings that aim to remove all the server links embedded in Fi
 
 Changelog :
 -----------
-Available in the [releases page](https://github.com/intika/Librefox-Firefox/releases)
+Available in the [releases page](https://github.com/intika/Librefox/releases)
 
 Edit Locked Settings :
 ----------------------
@@ -334,7 +334,7 @@ Usage : If not on windows install [PowerShell](https://github.com/PowerShell/Pow
 Documentation :
 ---------------
 
-**Mozilla.cfg** : Locking and defaulting Firefox settings for security, privacy and performance.
+**Mozilla.cfg** : Locking and defaulting Librefox settings for security, privacy and performance.
 
 **Policies.json** : Policies for enterprise environments (the settings availables with `policies.json` are limited right now because this is a new feature of Firefox).
 
@@ -350,7 +350,7 @@ Documentation :
 
 Librefox Dark Theme :
 ---------------------
-Librefox provides a classic dark theme extension ([Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)) but also a purified version of ShadowFox available under [dark-theme directory](https://github.com/intika/Librefox-Firefox/tree/master/dark-theme) to install it just copy the directory chrome to your Firefox profile directory and then restart Firefox, this will expand the dark theme to internal pages like settings pages.
+Librefox provides a classic dark theme extension ([Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)) but also a purified version of ShadowFox available under [dark-theme directory](https://github.com/intika/Librefox/tree/master/dark-theme) to install it just copy the directory chrome to your Librefox profile directory and then restart Librefox, this will expand the dark theme to internal pages like settings pages.
 
 Tuning Librefox :
 ------------------
@@ -368,7 +368,7 @@ One simple solution is to bookmark `about:restartrequired` or `about:profiles` .
 
 **Linux Fix Text Colors :**
 
-On Linux when using a dark desktop theme Firefox could display white text over white background or black text on black input on some sites or addons, this is fixed in Librefox with `lockPref("ui.use_standins_for_native_colors", true);`.
+On Linux when using a dark desktop theme Librefox could display white text over white background or black text on black input on some sites or addons, this is fixed in Librefox with `lockPref("ui.use_standins_for_native_colors", true);`.
 
 If `ui.use_standins_for_native_colors` is not enough to fix everything you can fix this issue with an other additional solution by using the following values in `about:config` (you need to have Adwaita theme installed) [more details](https://github.com/DmitriK/darkContrast#text-contrast-for-dark-themes) (Note that this is not needed with the default Librefox settings as it is already fixed)
 ```
@@ -434,7 +434,7 @@ Currently Librefox is applied to a built version of Firefox, you can [build it](
 **Linux :**
 
 - Extract [firefox-63.0.3.tar.bz2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/linux-x86_64/en-US/firefox-63.0.3.tar.bz2)
-- `git clone https://github.com/intika/Librefox-Firefox.git`
+- `git clone https://github.com/intika/Librefox.git`
 - Copy `mozilla.cfg` to `firefox/` 
 - Copy `local-settings.js` to `firefox/defaults/pref/`
 - Create a folder `firefox/distribution/`
@@ -456,7 +456,7 @@ Currently Librefox is applied to a built version of Firefox, you can [build it](
 **Windows :**
 
 - Extract [Firefox Setup 63.0.3.exe](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/win64/en-US/Firefox%20Setup%2063.0.3.exe) (Can be done by launching it, files are extracted to `%tmp%`)
-- `git clone https://github.com/intika/Librefox-Firefox.git`
+- `git clone https://github.com/intika/Librefox.git`
 - Copy `mozilla.cfg` to `core/` 
 - Copy `local-settings.js` to `core/defaults/pref/`
 - Create a folder `core/distribution/` 
@@ -479,9 +479,9 @@ Currently Librefox is applied to a built version of Firefox, you can [build it](
 
 - Require a mac
 - Decompressing [Firefox 63.0.3.dmg](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/mac/en-US/Firefox%2063.0.3.dmg) with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac)
-- `git clone https://github.com/intika/Librefox-Firefox.git`
-- Rename the decomrpessed Firefox-63.0.3.dmg to Librefox-Firefox-63.0.3.dmg
-- Mount Librefox-Firefox-63.0.3.dmg 
+- `git clone https://github.com/intika/Librefox.git`
+- Rename the decomrpessed Firefox-63.0.3.dmg to Librefox-63.0.3.dmg
+- Mount Librefox-63.0.3.dmg 
 - Replace `Firefox/Firefox.app/.background/background.png` with the one from this git
 - Remove the directory `Firefox/Firefox.app/Contents/_CodeSignature`
 - Remove the directory `Firefox/Firefox.app/Contents/MacOS/plugin-container.app/Contents/_CodeSignature` (this one does not seem to be required)
@@ -502,6 +502,4 @@ Currently Librefox is applied to a built version of Firefox, you can [build it](
 - Copy `policies.json` to `Firefox/Firefox.app/Contents/Ressources/distribution/`
 - Unmount the dmg file 
 - Compress it with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac) 
-
-
 
