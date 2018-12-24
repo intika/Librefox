@@ -409,7 +409,7 @@ Other Addons:
 
 Tor Compatibility:
 ------------------
-We do not recommend connecting over Tor on Librefox classic version use instead Librefox-Tor version if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled since v2 on all Librefox versions for user toriffying/proxifying their entire connection).
+We do not recommend connecting over Tor on Librefox classic version (because of the missing Librefox-Tor-Addons, they are only included in the tor version for obvious reasons), use instead Librefox-Tor version if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled since v2 on all Librefox versions for user toriffying/proxifying their entire connection).
 
 Currently Librefox-TBB is in beta test, Tor compatibility may change. 
 
