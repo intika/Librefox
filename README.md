@@ -132,7 +132,7 @@ Download :
 
 - [Librefox-2.1-Mac-60.4.0-x64-ESR.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0-x64-ESR.dmg) - 57.7 MB - SHA1 : 0435746f1a41e699ee586f651e54974ae0e9044b
 
-- [Librefox-2.1-TBB-Linux-v8.0.4-x64-Beta.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.dmg) - 64.1 MB - SHA1 : 42047b39ecdb188552a36450adba058247a86edc
+- [Librefox-2.1-TBB-Linux-v8.0.4-x64-Beta.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Mac-v8.0.4-x64-Beta.dmg) - 64.1 MB - SHA1 : 42047b39ecdb188552a36450adba058247a86edc
 
 Capture :
 ---------
