@@ -477,6 +477,14 @@ Currently Librefox is applied to a built version of Firefox, you can [build it](
 
 **Mac :**
 
+```
+# start by downloading a Firefox.dmg (e.g. FF Developer Edition)
+cd /path/to/Librefox
+packaging/package_macos.sh ~/Downloads/Firefox.dmg --install
+```
+
+Alternatively, you can package Librefox manually:
+
 - Require a mac
 - Decompressing [Firefox 63.0.3.dmg](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/mac/en-US/Firefox%2063.0.3.dmg) with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac)
 - `git clone https://github.com/intika/Librefox.git`
