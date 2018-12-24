@@ -2,7 +2,7 @@
 <a href="https://github.com/intika/Librefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Browser-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
 </p>
 <p align="center">
-<a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-%20OpenDesktop-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls?q=is%3Apr+is%4Aclosed"><img src="https://img.shields.io/badge/PR-3-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-16-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
+<a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-%20OpenDesktop-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-5-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-16-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
 </p>
 
 ---
@@ -37,61 +37,61 @@ Features:
 Index:
 ------
 <pre>
-<a href="https://github.com/intika/Librefox/#features-"
+<a href="https://github.com/intika/Librefox/#features"
 >> Librefox: Features ............................................................... </a>
-<a href="https://github.com/intika/Librefox/#download-"
+<a href="https://github.com/intika/Librefox/#download"
 >> Librefox: Download ............................................................... </a>
-<a href="https://github.com/intika/Librefox/#capture-"
+<a href="https://github.com/intika/Librefox/#capture"
 >> Librefox: Capture ................................................................ </a>
-<a href="https://github.com/intika/Librefox/#librefox-addons-"
+<a href="https://github.com/intika/Librefox/#librefox-addons"
 >> Addons: Librefox Addons .......................................................... </a>
-<a href="https://github.com/intika/Librefox/#recommended-addons-"
+<a href="https://github.com/intika/Librefox/#recommended-addons"
 >> Addons: Recommended Addons ....................................................... </a>
-<a href="https://github.com/intika/Librefox/#recommended-addons-settings-"
+<a href="https://github.com/intika/Librefox/#recommended-addons-settings"
 >> Addons: Recommended Addons Settings .............................................. </a>
-<a href="https://github.com/intika/Librefox/#reviewing-extensions-code-"
+<a href="https://github.com/intika/Librefox/#reviewing-extensions-code"
 >> Addons: Reviewing Addons Source Code ............................................. </a>
-<a href="https://github.com/intika/Librefox/#other-addons-"
+<a href="https://github.com/intika/Librefox/#other-addons"
 >> Addons: Other Useful Addons Listing .............................................. </a>
-<a href="https://github.com/intika/Librefox/#extensions-firewall-"
+<a href="https://github.com/intika/Librefox/#extensions-firewall"
 >> Wiki: Extensions Network Firewall ................................................ </a>
-<a href="https://github.com/intika/Librefox/#ijwy-i-just-want-you-to-shut-up-"
+<a href="https://github.com/intika/Librefox/#ijwy-i-just-want-you-to-shut-up"
 >> Wiki: IJWY (I Just Want You To Shut Up) .......................................... </a>
-<a href="https://github.com/intika/Librefox/#edit-locked-settings-"
+<a href="https://github.com/intika/Librefox/#edit-locked-settings"
 >> Wiki: Edit Locked Settings ....................................................... </a>
-<a href="https://github.com/intika/Librefox/#settings-index-"
+<a href="https://github.com/intika/Librefox/#settings-index"
 >> Wiki: Settings Index ............................................................. </a>
-<a href="https://github.com/intika/Librefox/#cookies-settings-"
+<a href="https://github.com/intika/Librefox/#cookies-settings"
 >> Wiki: Cookies Settings ........................................................... </a>
-<a href="https://github.com/intika/Librefox/#tracking-protection-"
+<a href="https://github.com/intika/Librefox/#tracking-protection"
 >> Wiki: Tracking Protection ........................................................ </a>
-<a href="https://github.com/intika/Librefox/#comparing-changes-and-updates-"
+<a href="https://github.com/intika/Librefox/#comparing-changes-and-updates"
 >> Wiki: Comparing Changes And Updates .............................................. </a>
-<a href="https://github.com/intika/Librefox/#documentation-"
+<a href="https://github.com/intika/Librefox/#documentation"
 >> Wiki: Documentation .............................................................. </a>
-<a href="https://github.com/intika/Librefox/#librefox-dark-theme-"
+<a href="https://github.com/intika/Librefox/#librefox-dark-theme"
 >> Wiki: Librefox Dark Theme ........................................................ </a>
-<a href="https://github.com/intika/Librefox/#tuning-librefox--"
+<a href="https://github.com/intika/Librefox/#tuning-librefox"
 >> Wiki: Tuning Librefox ............................................................ </a>
-<a href="https://github.com/intika/Librefox/#librefox-esr-"
+<a href="https://github.com/intika/Librefox/#librefox-esr"
 >> Wiki: Librefox ESR ............................................................... </a>
-<a href="https://github.com/intika/Librefox/#tor-compatibility-"
+<a href="https://github.com/intika/Librefox/#tor-compatibility"
 >> Wiki: Tor Compatibility .......................................................... </a>
-<a href="https://github.com/intika/Librefox/#drm-compatibility-"
+<a href="https://github.com/intika/Librefox/#drm-compatibility"
 >> Wiki: DRM Compatibility .......................................................... </a>
-<a href="https://github.com/intika/Librefox/#building-and-packaging-"
+<a href="https://github.com/intika/Librefox/#building-and-packaging"
 >> Wiki: Building And Packaging ..................................................... </a>
-<a href="https://github.com/intika/Librefox/#browser-tests--securityfingerprint-"
+<a href="https://github.com/intika/Librefox/#browser-tests--securityfingerprint"
 >> Browser Tests: Security/Fingerprint .............................................. </a>
-<a href="https://github.com/intika/Librefox/#browser-tests--performances-"
+<a href="https://github.com/intika/Librefox/#browser-tests--performances"
 >> Browser Tests: Performance ....................................................... </a>
-<a href="https://github.com/intika/Librefox/#browser-tests--dnsvpnproxy-leak-"
+<a href="https://github.com/intika/Librefox/#browser-tests--dnsvpnproxy-leak"
 >> Browser Tests: DNS/VPN/Proxy Leak ................................................ </a>
-<a href="https://github.com/intika/Librefox/#librefox-roadmap-"
+<a href="https://github.com/intika/Librefox/#librefox-roadmap"
 >> Infos: Librefox Roadmap .......................................................... </a>
-<a href="https://github.com/intika/Librefox/#changelog-"
+<a href="https://github.com/intika/Librefox/#changelog"
 >> Infos: Changelog ................................................................. </a>
-<a href="https://github.com/intika/Librefox/#about-"
+<a href="https://github.com/intika/Librefox/#about"
 >> Infos: About ..................................................................... </a>
 </pre>
 
