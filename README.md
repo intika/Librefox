@@ -146,7 +146,7 @@ Librefox addons are not bundled and need to be installed manually
 
 - [Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/): Dark theme
 - [Librefox HTTP Watcher](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-red-flag/): Change the url bar color on HTTP sites  
-- [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/): Add a reload button to URL bar
+- [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/): Add a reload button to URL-bar instead of the toolbar
 
 Recommended Addons:
 -------------------
