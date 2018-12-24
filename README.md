@@ -409,7 +409,7 @@ Other Addons:
 
 Tor Compatibility:
 ------------------
-Same as [gHacks](https://github.com/ghacksuserjs/ghacks-user.js) recommendations, we do not recommend connecting over Tor on Librefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled in v2 for user toriffying/proxifying their entire connection).
+We do not recommend connecting over Tor on Librefox classic version use instead Librefox-Tor version if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled since v2 on all Librefox versions for user toriffying/proxifying their entire connection).
 
 Currently Librefox-TBB is in beta test, Tor compatibility may change. 
 
