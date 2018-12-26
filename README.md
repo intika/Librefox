@@ -12,7 +12,7 @@ Librefox: Browse With Freedom [![Tweet](https://img.shields.io/twitter/url/http/
 
 This project aims at enforcing privacy and security of Firefox without forking the project.
 
-Librefox uses more than 500 privacy/security/performance settings ([gHacks](https://github.com/ghacksuserjs/ghacks-user.js) and additional options), patches, Librefox-Addons (optional) and a cleaned bundle of Firefox (updater, crashreporter and Firefox's integrated addons that don't respect privacy are removed).
+Librefox uses more than 500 privacy/security/performance settings, patches, Librefox-Addons (optional) and a cleaned bundle of Firefox (updater, crashreporter and Firefox's integrated addons that don't respect privacy are removed).
 
 Features:
 ---------
@@ -244,11 +244,9 @@ About:
 ------
 **Author:** Intika - intika@librefox.org
 
-**Donation:** [Paypal - support@librefox.org](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=support@librefox.org&lc=US&item_name=Donation+To+Librefox&currency_code=USD) if you like it you can offer me a coffee :)
+**Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [User.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
 
-**Based on:** [User.js](https://github.com/pyllyukko/user.js/), [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) and [Ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) big thanks to everyone.
-
-**Contributors:** @Thorin-Oakenpants @claustromaniac @earthlng @brainscar @Eloston @dimqua @pyllyukko @anchev @antuketot76 @nhynes @maxidor big thanks to everyone (and all others i forget to mention).
+**Acknowledgment:** Special thanks to the ghacks-user team for allowing the usage of their work, @brainscar, @Eloston, @dimqua, @pyllyukko, @Atavic, @anchev, @antuketot76, @nhynes, @maxidor, ghacks.net (Martin Brinkmann), and all the others i forget to mention.
 
 Librefox Roadmap: 
 -----------------
