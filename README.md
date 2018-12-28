@@ -216,27 +216,23 @@ Changelog
 ---------
 Available in the [releases page](https://github.com/intika/Librefox/releases)
 
-Installation instructions
+Installation Instructions
 --------------------------
-**WARNING:** in the current state of the project Librefox is replacing Firefox (because currently Librefox is a patched Firefox version), therefore if you already have a Firefox profile, that profile will be used and temporary files (cookies and current session) will be removed, make sure to copy your current Firefox's profile before using Librefox.
-Using Librefox simultaneously with Firefox is possilbe through different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so.
-**Future Librefox version** will be independant from Firefox and therefore solve this issue. 
+**WARNING:** in the current state of the project Librefox is replacing Firefox (because currently Librefox is a patched Firefox version), therefore if you already have a Firefox profile, that profile will be used and temporary files (cookies and current session) will be removed, make sure to backup your current Firefox's profile before using Librefox.
+Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so (don't install Librefox in this case use it directly from the extracted directory). **Future Librefox version** will be independant from Firefox and therefore solve this issue. 
 
 **Win**
-- Download the zip file according to your architecture (x64/x32)
-- Extract the zip file
+- Download the zip file according to your architecture (x64/x32) and extract it
 - You can use directly Librefox by running 'extracted-file/core/firefox.exe'
 - You can as well install/replace your current Firefox by running setup.exe
 
 **Linux**
-- Download the tar.xz file according to your architecture (x64/x32)
-- Extract the tar.xz file 
+- Download the tar.xz file according to your architecture (x64/x32) and extract it
 - You can use directly Librefox by running 'extracted-file/firefox'
 - You can as well create a shortcut to 'extracted-file/firefox' to open Librefox easily, from the desktop for instance. 
 
 **Mac**
-- Download the dmg package 
-- Open the package 
+- Download the dmg package and open it
 - Open the application before installing it (check if it fit your need)
 - Copy the Librefox-Firefox to applications directory
 
