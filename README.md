@@ -100,43 +100,26 @@ Index
 Download
 --------
 
-Please consider reading the **[installation instructions](#installation-instructions)** before using Librefox
+**Important:** This is a temporary version, awaiting a correct build of the project, Librefox is distributed as a configuration files for Firefox. To apply Librefox configuration to Firefox extract the compressed file to Firefox's installation directory ([detailed installation instructions](#installation-instructions)).
 
 **Linux**
 
-- [Librefox-2.1-Linux-64.0.0-x64.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x64.tar.xz) - 45.1 MB - SHA1: 1d25c606e08e6ad2e674abf3032255902067a81d
+- [Librefox-2.1-Firefox-Linux-64.0.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0.zip) - 39.0 KB - SHA1: 8219426e8aa621251ee5c5549447a7553ecf3688
 
-- [Librefox-2.1-Linux-64.0.0-x32.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x32.tar.xz) - 47.1 MB - SHA1: 531ec9b6e1e763d7e13f6b7ce96640c26b7a85f5
-
-- [Librefox-2.1-Linux-60.4.0-x64-ESR.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-60.4.0-x64-ESR.tar.xz) - 40.3 MB - SHA1: 1522f48aaf6189021beb6cbad0e4875c75e6e9c0
-
-- [Librefox-2.1-Linux-60.4.0-x32-ESR.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-60.4.0-x32-ESR.tar.xz) - 42.2 MB - SHA1: 9b1608a1c96ac71942b71b012d960f1958a23c24
-
-- [Librefox-2.1-TBB-Linux-v8.0.4-x64-Beta.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x64-Beta.tar.xz) - 71.6 MB - SHA1: de33e586c2701fc62e023081af0d51c7829efc26
-
-- [Librefox-2.1-TBB-Linux-v8.0.4-x32-Beta.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.tar.xz) - 73.0 MB - SHA1: 970628ef040eff3122a4e869ce3db6ffb2a060f5
+- [Librefox-2.1-Tor-Linux-v8.0.4-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-Beta.zip) - 61.3 KB - SHA1: 12ee68d52b2e0404cd491022b916d876e90ffbbe
 
 **Windows**
 
-- [Librefox-2.1-Win-64.0.0-x64.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x64.zip) - 60.8 MB - SHA1: 0fe4804e99b6147a00ff83f1f99d1ba09663c7ca
+- [Librefox-2.1-Windows-64.0.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Windows-64.0.0.zip) - 39.0 KB - SHA1: 9ea178ddce1e4df505becbdd2f2bf50ab3c0baca
 
-- [Librefox-2.1-Win-64.0.0-x32.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x32.zip) - 58.3 MB - SHA1: 721da788f47701b2ae3d1de13d91efc01ffa990e
-
-- [Librefox-2.1-Win-60.4.0-x64-ESR.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-60.4.0-x64-ESR.zip) - 51.1 MB - SHA1: 333eff737a31cd0791bd758e9adfc6f1401e1091
-
-- [Librefox-2.1-Win-60.4.0-x32-ESR.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-60.4.0-x32-ESR.zip) - 47.6 MB - SHA1: 80c4c6e8351a7cc03f6b290aa26d68d89cbeedc7
-
-- [Librefox-2.1-TBB-Win-v8.0.4-x64-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x64-Beta.zip) - 66.3 MB - SHA1: 0b36604d01b480044de9be730b6bc59fb58b293f
-
-- [Librefox-2.1-TBB-Win-v8.0.4-x32-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x32-Beta.zip) - 69.2 MB - SHA1: 2180f4d9d8afeeff4c50a3fe74b6df89281b2d3b
+- [Librefox-2.1-Tor-Windows-v8.0.4-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Windows-v8.0.4-Beta.zip) - 61.3 KB - SHA1: df4340a76556b454ddb175f466f9812ad728ac39
 
 **Mac**
 
-- [Librefox-2.1-Mac-64.0.0-x64.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-64.0.0-x64.dmg) - 67.3 MB - SHA1: 3193c77f86aa1344de5430be8d5aeb304e3be10e
+- [Librefox-2.1-Mac-60.4.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0.zip) - 39.0 KB - SHA1: e86c5182aa702c93f26c619a56acbd31251b1037
 
-- [Librefox-2.1-Mac-60.4.0-x64-ESR.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0-x64-ESR.dmg) - 57.7 MB - SHA1: 0435746f1a41e699ee586f651e54974ae0e9044b
+- [Librefox-2.1-Tor-Mac-v8.0.4.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Mac-v8.0.4-Beta.zip) - 59.7 KB - SHA1: 1a70da6bf4f17dcd10a8494f0323a21b22ec7c15
 
-- [Librefox-2.1-TBB-Linux-v8.0.4-x64-Beta.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Mac-v8.0.4-x64-Beta.dmg) - 64.1 MB - SHA1: 42047b39ecdb188552a36450adba058247a86edc
 
 Capture
 -------
@@ -218,23 +201,27 @@ Available in the [releases page](https://github.com/intika/Librefox/releases)
 
 Installation Instructions
 --------------------------
-**WARNING:** in the current state of the project Librefox is replacing Firefox (because currently Librefox is a patched Firefox version), therefore if you already have a Firefox profile, that profile will be used and temporary files will be removed (cookies and current session), make sure to backup your current Firefox's profile before using Librefox.
-Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so (don't install Librefox in this case, use it directly from the extracted directory). **Future Librefox version** will be independant from Firefox and therefore solve this issue. 
+**WARNING:** in the current state of the project Librefox is a set of configuration files for Firefox (awaiting a correct build of the project), therefore if you already have a Firefox profile, that profile will be used and temporary files will be removed (cookies and current session), make sure to backup your current Firefox's profile before using Librefox.
+Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so. **Future Librefox version** will be independant from Firefox and therefore solve this issue. 
 
 **Windows**
-- Download the zip file according to your architecture (x64/x32) and extract it
-- You can use directly Librefox by running 'extracted-file/core/firefox.exe'
-- You can as well install/replace your current Firefox by running setup.exe
+- Download and install the last version of Firefox [x32 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/win32/en-US/Firefox%20Setup%2064.0.exe) or [x64 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/win64/en-US/Firefox%20Setup%2064.0.exe)
+- Download [Librefox](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Windows-64.0.0.zip) zip file and extract it
+- Locate Firefox's installation directory (where the firefox.exe is located) `C:\Program Files\Mozilla Firefox\` or `C:\Program Files (x86)\Mozilla Firefox\` or `Tor-Install-Directory\Browser\`
+- Copy the extracted Librefox files to the install directory
 
 **Linux**
-- Download the tar.xz file according to your architecture (x64/x32) and extract it
-- You can use directly Librefox by running 'extracted-file/firefox'
-- You can as well create a shortcut to 'extracted-file/firefox' to open Librefox easily.
+- Download and extract the last version of Firefox [x32 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/linux-i686/en-US/firefox-64.0.tar.bz2) or [x64 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/linux-x86_64/en-US/firefox-64.0.tar.bz2)
+- Download [Librefox](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0.zip) zip file and extract it
+- Copy the extracted Librefox files to the newly downloaded `firefox` directory
+- You can use directly Librefox by running 'firefox/firefox'
+- You can as well create a shortcut to 'firefox/firefox' to open Librefox easily.
 
 **Mac**
-- Download the dmg package and open it
-- Open the application before installing it (check if it fit your need)
-- Copy the Librefox-Firefox to applications directory
+- Download and install the [last version of Firefox](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/mac/en-US/Firefox%2064.0.dmg)
+- Download [Librefox](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0.zip) zip file and extract it
+- Locate Firefox's installation directory (`Applications/Firefox.app/Contents/Resources/` or `Applications/Tor Browser.app/Contents/Resources/`)
+- Copy the extracted files to the install directory
 
 Edit Locked Settings
 --------------------
@@ -462,85 +449,15 @@ For ESR users if you opt for `Librefox HTTP Watcher` you need to use this versio
 
 Building And Packaging
 ----------------------
-Currently Librefox is applied to a built version of Firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
 
 **Linux**
 
-- Extract [firefox-63.0.3.tar.bz2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/linux-x86_64/en-US/firefox-63.0.3.tar.bz2)
-- `git clone https://github.com/intika/Librefox.git`
-- Copy `mozilla.cfg` to `firefox/` 
-- Copy `local-settings.js` to `firefox/defaults/pref/`
-- Create a folder `firefox/distribution/`
-- Copy `policies.json` to `firefox/distribution/`
-- Delete the following files and then compress the package (tar.bz2)
-``` 
-    firefox/browser/features/aushelper@mozilla.org.xpi
-    firefox/browser/features/firefox@getpocket.com.xpi
-    firefox/browser/features/onboarding@mozilla.org.xpi
-    firefox/browser/features/webcompat-reporter@mozilla.org.xpi
-    firefox/browser/features/webcompat@mozilla.org.xpi
-    firefox/update-settings.ini
-    firefox/updater.ini
-    firefox/updater
-    firefox/crashreporter.ini
-    firefox/crashreporter
-``` 
+- `Build instruction will be updated soon`
 
 **Windows**
 
-- Extract [Firefox Setup 63.0.3.exe](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/win64/en-US/Firefox%20Setup%2063.0.3.exe) (Can be done by launching it, files are extracted to `%tmp%`)
-- `git clone https://github.com/intika/Librefox.git`
-- Copy `mozilla.cfg` to `core/` 
-- Copy `local-settings.js` to `core/defaults/pref/`
-- Create a folder `core/distribution/` 
-- Copy `policies.json` to `core/distribution/`
-- Delete the following files and then compress the package (zip)
-``` 
-    core/browser/features/aushelper@mozilla.org.xpi
-    core/browser/features/firefox@getpocket.com.xpi
-    core/browser/features/onboarding@mozilla.org.xpi
-    core/browser/features/webcompat-reporter@mozilla.org.xpi
-    core/browser/features/webcompat@mozilla.org.xpi
-    core/update-settings.ini
-    core/updater.ini
-    core/updater.exe
-    core/crashreporter.ini
-    core/crashreporter.exe
-``` 
+- `Build instruction will be updated soon`
 
 **Mac**
 
-```
-# start by downloading a Firefox.dmg (e.g. FF Developer Edition)
-cd /path/to/Librefox
-packaging/package_macos.sh ~/Downloads/Firefox.dmg --install
-```
-
-Alternatively, you can package Librefox manually:
-
-- Require a mac
-- Decompressing [Firefox 63.0.3.dmg](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/mac/en-US/Firefox%2063.0.3.dmg) with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac)
-- `git clone https://github.com/intika/Librefox.git`
-- Rename the decomrpessed Firefox-63.0.3.dmg to Librefox-63.0.3.dmg
-- Mount Librefox-63.0.3.dmg 
-- Replace `Firefox/Firefox.app/.background/background.png` with the one from this git
-- Remove the directory `Firefox/Firefox.app/Contents/_CodeSignature`
-- Remove the directory `Firefox/Firefox.app/Contents/MacOS/plugin-container.app/Contents/_CodeSignature` (this one does not seem to be required)
-- Run `codesign --remove-signature Firefox.app` (This basically remove the signature from `Firefox/Firefox.app/Contents/MacOS/firefox`)
-- Remove the directory `Firefox/Firefox.app/Contents/MacOS/crashreporter.app/`
-- Remove the directory `Firefox/Firefox.app/Contents/MacOS/updater.app/`
-- Remove `Firefox/Firefox.app/Contents/Library/LaunchServices/org.mozilla.updater`
-- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/aushelper@mozilla.org.xpi`
-- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/firefox@getpocket.com.xpi`
-- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/onboarding@mozilla.org.xpi`
-- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/webcompat-reporter@mozilla.org.xpi`
-- Remove `Firefox/Firefox.app/Contents/Ressources/browser/features/webcompat@mozilla.org.xpi`
-- Remove `Firefox/Firefox.app/Contents/Ressources/update-settings.ini`
-- Remove `Firefox/Firefox.app/Contents/Ressources/updater.ini`
-- Copy `mozilla.cfg` to `Firefox/Firefox.app/Contents/Ressources/` 
-- Copy `local-settings.js` to `Firefox/Firefox.app/Contents/Ressources/defaults/pref/`
-- Create a folder `Firefox/Firefox.app/Contents/Ressources/distribution/` 
-- Copy `policies.json` to `Firefox/Firefox.app/Contents/Ressources/distribution/`
-- Unmount the dmg file 
-- Compress it with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac) 
-
+- `Build instruction will be updated soon`
