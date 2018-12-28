@@ -270,11 +270,7 @@ About
 
 **Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [User.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
 
-<p hidden>**Donation:** [Paypal - support@librefox.org](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=support@librefox.org&lc=US&item_name=Donation+To+Librefox&currency_code=USD) if you like it you can offer me a coffee :)</p>
-
-**Acknowledgment** 
-
-Special thanks to:
+**Acknowledgment** special thanks to:
 - The Mozilla team for their amazing work on Firefox
 - The gHacks-User team for allowing the usage of their work
 - gHacks.net (Martin Brinkmann) for writing on Librefox
