@@ -100,25 +100,25 @@ Index
 Download
 --------
 
-**Important:** This is a temporary version, awaiting a correct build of the project, Librefox is distributed as a configuration files for Firefox. To apply Librefox configuration to Firefox extract the compressed file to Firefox's installation directory ([detailed installation instructions](#installation-instructions)).
+**Important notice: this is a temporary version**, awaiting a correct build of the project, Librefox is distributed as a configuration files for Firefox. To apply Librefox configuration to Firefox extract the compressed file to Firefox's installation directory ([detailed installation instructions](#installation-instructions)). **Future Librefox version** will be independant from Firefox and therefore solve this issue.
 
 **Linux**
 
-- [Librefox-2.1-Firefox-Linux-64.0.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0.zip) - 39.0 KB - SHA1: 8219426e8aa621251ee5c5549447a7553ecf3688
+- [Librefox-2.1-Firefox-Linux-64.0.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0.zip) - 40.0 KB - SHA1: a6f36d4c55c096f7e67c7cbf500ebb0fca9a0d2a
 
-- [Librefox-2.1-Tor-Linux-v8.0.4-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-Beta.zip) - 61.3 KB - SHA1: 12ee68d52b2e0404cd491022b916d876e90ffbbe
+- [Librefox-2.1-Tor-Linux-v8.0.4-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-Beta.zip) - 62.3 KB - SHA1: 43fe17592565bb2c5802dd48c9746a3f12d7dd1a
 
 **Windows**
 
-- [Librefox-2.1-Windows-64.0.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Windows-64.0.0.zip) - 39.0 KB - SHA1: 9ea178ddce1e4df505becbdd2f2bf50ab3c0baca
+- [Librefox-2.1-Windows-64.0.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Windows-64.0.0.zip) - 40.0 KB - SHA1: a0fba18cc79c95bde483fdb7cd91c1171bc5b7bf
 
-- [Librefox-2.1-Tor-Windows-v8.0.4-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Windows-v8.0.4-Beta.zip) - 61.3 KB - SHA1: df4340a76556b454ddb175f466f9812ad728ac39
+- [Librefox-2.1-Tor-Windows-v8.0.4-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Windows-v8.0.4-Beta.zip) - 62.3 KB - SHA1: c72787e009d1a264ae53f4d76d0ffc464cfef7eb
 
 **Mac**
 
-- [Librefox-2.1-Mac-60.4.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0.zip) - 39.0 KB - SHA1: e86c5182aa702c93f26c619a56acbd31251b1037
+- [Librefox-2.1-Mac-60.4.0.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0.zip) - 40.0 KB - SHA1: 467e56a4fcf4e99a1a66377d9f0221cdcd748748
 
-- [Librefox-2.1-Tor-Mac-v8.0.4.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Mac-v8.0.4-Beta.zip) - 59.7 KB - SHA1: 1a70da6bf4f17dcd10a8494f0323a21b22ec7c15
+- [Librefox-2.1-Tor-Mac-v8.0.4.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Mac-v8.0.4-Beta.zip) - 60.7 KB - SHA1: 4c3d848d6d43e28ad7ddfb3d3e2e26ca590c950b
 
 
 Capture
@@ -201,7 +201,7 @@ Available in the [releases page](https://github.com/intika/Librefox/releases)
 
 Installation Instructions
 --------------------------
-**WARNING:** in the current state of the project Librefox is a set of configuration files for Firefox (awaiting a correct build of the project), therefore if you already have a Firefox profile, that profile will be used and temporary files will be removed (cookies and current session), make sure to backup your current Firefox's profile before using Librefox.
+**Notice:** in the current state of the project Librefox is a set of configuration files for Firefox (awaiting a correct build of the project), therefore if you already have a Firefox profile, that profile will be used and temporary files will be removed (cookies and current session), make sure to backup your current Firefox's profile before using Librefox.
 Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so. **Future Librefox version** will be independant from Firefox and therefore solve this issue. 
 
 **Windows**
