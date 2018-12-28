@@ -100,7 +100,7 @@ Index
 Download
 --------
 
-Please consider reading **[installation instructions](#installation-instructions)** before using Librefox
+Please consider reading the **[installation instructions](#installation-instructions)** before using Librefox
 
 **Linux**
 
