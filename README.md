@@ -266,13 +266,15 @@ Browser Tests - DNS/VPN/Proxy Leak
 
 About
 -----
-**Author:** Intika (from Liege/Belgium), contact: intika@librefox.org
-
 **License:** [Mozilla Public License 2.0](https://github.com/intika/Librefox/blob/master/License.txt)
 
-**Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [pyllyukko-user.js](https://github.com/pyllyukko/user.js/) and [privaconf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
-
 **Inspired from:** [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
+
+**Author:** Intika (from Liege/Belgium), contact: intika@librefox.org
+
+**Donation:** [Paypal - support@librefox.org](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=support@librefox.org&lc=US&item_name=Donation+To+Librefox&currency_code=USD) if you like it you can offer me a coffee :)
+
+**Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [pyllyukko-user.js](https://github.com/pyllyukko/user.js/) and [privaconf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
 
 **Acknowledgment**, special thanks to:
 - The Mozilla team for their amazing work on Firefox
