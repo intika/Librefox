@@ -14,12 +14,12 @@ This project aims at enforcing privacy and security of Firefox without forking t
 
 Librefox uses more than 500 privacy/security/performance settings, patches, Librefox-Addons (optional) and a cleaned bundle of Firefox (updater, crashreporter and Firefox's integrated addons that don't respect privacy are removed).
 
-Features:
----------
+Features
+--------
 
 - Updated browser: because this project is not a fork, it is kept updated with the latest Firefox version.
-- Extensions firewall: limit internet access for extensions ([firewall-test-feature](https://github.com/intika/Librefox/#extensions-firewall-))
-- IJWY (I Just Want You To Shut Up): embedded server links and other calling home functions are removed ([zero unauthorized connection](https://github.com/intika/Librefox/#ijwy-i-just-want-you-to-shut-up-) by default).
+- Extensions firewall: limit internet access for extensions ([firewall-test-feature](#extensions-firewall))
+- IJWY (I Just Want You To Shut Up): embedded server links and other calling home functions are removed ([zero unauthorized connection](#ijwy-i-just-want-you-to-shut-up) by default).
 - User settings updates: gHacks/pyllyukko base is kept up to date.
 - Settings protection: important settings are enforced/locked within `mozilla.cfg` and `policies.json`, those settings cannot be changed by addons/updates/Firefox or unwanted/accidental manipulation; To change those settings you can easily do it by editing `mozilla.cfg` and `policies.json`.
 - Librefox-addons: set of optional Librefox extensions
@@ -34,8 +34,9 @@ Features:
 - And much more... 
 ---
 
-Index:
-------
+Index
+-----
+
 <pre>
 <a href="https://github.com/intika/Librefox/#features"
 >> Librefox: Features ............................................................... </a>
@@ -95,10 +96,10 @@ Index:
 >> Infos: About ..................................................................... </a>
 </pre>
 
-Download:
----------
+Download
+--------
 
-**Linux:**
+**Linux**
 
 - [Librefox-2.1-Linux-64.0.0-x64.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0-x64.tar.xz) - 45.1 MB - SHA1: 1d25c606e08e6ad2e674abf3032255902067a81d
 
@@ -112,7 +113,7 @@ Download:
 
 - [Librefox-2.1-TBB-Linux-v8.0.4-x32-Beta.tar.xz](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Linux-v8.0.4-x32-Beta.tar.xz) - 73.0 MB - SHA1: 970628ef040eff3122a4e869ce3db6ffb2a060f5
 
-**Windows:**
+**Windows**
 
 - [Librefox-2.1-Win-64.0.0-x64.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Win-64.0.0-x64.zip) - 60.8 MB - SHA1: 0fe4804e99b6147a00ff83f1f99d1ba09663c7ca
 
@@ -126,7 +127,7 @@ Download:
 
 - [Librefox-2.1-TBB-Win-v8.0.4-x32-Beta.zip](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Win-v8.0.4-x32-Beta.zip) - 69.2 MB - SHA1: 2180f4d9d8afeeff4c50a3fe74b6df89281b2d3b
 
-**Mac:**
+**Mac**
 
 - [Librefox-2.1-Mac-64.0.0-x64.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-64.0.0-x64.dmg) - 67.3 MB - SHA1: 3193c77f86aa1344de5430be8d5aeb304e3be10e
 
@@ -134,22 +135,25 @@ Download:
 
 - [Librefox-2.1-TBB-Linux-v8.0.4-x64-Beta.dmg](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Tor-Mac-v8.0.4-x64-Beta.dmg) - 64.1 MB - SHA1: 42047b39ecdb188552a36450adba058247a86edc
 
-Capture:
---------
+Capture
+-------
+
 <p align="center">
   <img width="650" src="https://raw.githubusercontent.com/intika/Librefox/master/capture.png">
 </p>
 
-Librefox Addons:
-----------------
+Librefox Addons
+---------------
+
 Librefox addons are not bundled and need to be installed manually
 
 - [Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/): Dark theme
 - [Librefox HTTP Watcher](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-red-flag/): Change the url bar color on HTTP sites  
 - [Librefox Reload Button](https://addons.mozilla.org/en-US/firefox/addon/librefox-reload-button-url-bar/): Add a reload button to URL-bar instead of the toolbar
 
-Recommended Addons:
--------------------
+Recommended Addons
+------------------
+
 Recommended addons are not bundled and need to be installed manually
 
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/): Block all cookies and only allow authorized sites 
@@ -158,8 +162,9 @@ Recommended addons are not bundled and need to be installed manually
 - [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/): Sets of settings to prevent fingerprinting and security issues
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin): Block web advertisement and tracking 
 
-Recommended Addons Settings:
-----------------------------
+Recommended Addons Settings
+---------------------------
+
 `uBlock`: Additional filters are availables here: https://filterlists.com/ (don't surcharge it to avoid performance loss)
 
 `Browser Plugs Privacy Firewall`: Keep settings light to make `privacy.resistFingerprinting` efficient because too much customization will lead to uniqueness and therefore easy fingerprinting. 
@@ -171,53 +176,60 @@ Recommended Addons Settings:
   - Privacy / Font / Randomize
   - Privacy / Font / Enable protection for font and glyph fingerprinting
 ```
-Reviewing Extensions Code:
---------------------------
+
+Reviewing Extensions Code
+-------------------------
+
 Recommended extensions code have been reviewed for potential unwanted behaviour... reviewed version are available under [extensions](https://github.com/intika/Librefox/tree/master/extensions) directory.
 
-Extensions Firewall:
---------------------
-**Extensions Firewall - Description:**
+Extensions Firewall
+-------------------
+
+**Extensions Firewall - Description**
 
 *This is a test experiment feature and it is disabled by default !!!* A new section `Extensions Manager` is added to manage addons globally (and addons networking in the subsection `Extensions Firewalling`). Firewalling the network for addons is doable, but it requires a considerable amount of additional work in Librefox to make it usable through a button or in a per addon basis (this may or may not be added in a future version, it also could be abandoned as it is a test feature). Currently you can block a list of domains or block the whole network for all the extensions.
 
-**Extensions Firewall - The Settings:**
+**Extensions Firewall - The Settings**
 
 Available native network restriction settings for addons:
 
 - Restricted domains list: `extensions.webextensions.restrictedDomains` this is a list of restricted domains that will be used to block some hosts for all the extensions, Firefox uses this setting to block extensions from accessing mozilla's domains/sites, by default in Librefox this setting is set to allow extensions to access all the web (You can edit that list to match your needs or to block a specific domain, note that the domain name has to be 'exact' (for instance facebook.com will only block facebook.com not mobile.fabcebook.com) 
 - Content security policy: `extensions.webextensions.base-content-security-policy` and `extensions.webextensions.default-content-security-policy` the later settings can be redefined/changed within an extension so it's not efficient for a firewall purpose. CSP settings are used in Firefox as an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware; In short: CSP settings block and allow certain domains under certain circumstances and thus could be used to firewall the extensions ([CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp))
 
-**Extensions Firewall - Blocking A Domain:**
+**Extensions Firewall - Blocking A Domain**
 
 Edit the restricted domains setting as follow under the `about:config` page:
 
 - Restricted Domains Setting: `extensions.webextensions.restrictedDomains` Value: `ExactDomains1,ExactDomains2,ExactDomains3` etc.
     
-**Extensions Firewall - Blocking The Network:**
+**Extensions Firewall - Blocking The Network**
 
 To enable the feature and block the network for all the extensions open `mozilla.cfg` search for `Enable-Firewall-Feature-In-The-Next-Line` and remove the `//` in the next line.
 
 Note that this will block the network access for all the extensions and a lot of extensions needs to be connected in order to work. In the current version of Librefox you can block the network for all the extensions or allow it for all of them, a future version may provide additional features like "per addon" setting (By default Librefox allows networking for extensions).
 
-**Extensions Firewall - More Infos:**
+**Extensions Firewall - More Infos**
 
 Check `debug-check-todo.log` for additional info about future version and researches about the subject. Also check [CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp).
 
-IJWY (I Just Want You To Shut Up):
-----------------------------------
+IJWY (I Just Want You To Shut Up)
+---------------------------------
+
 This is a set of settings that aim to remove all the server links embedded in Firefox and other calling home functions in the purpose of blocking un-needed connections. The objective is zero unauthorized connection (ping/telemetry/Mozilla/Google...).
 
-Changelog:
-----------
+Changelog
+---------
+
 Available in the [releases page](https://github.com/intika/Librefox/releases)
 
-Edit Locked Settings:
----------------------
+Edit Locked Settings
+--------------------
+
 Just edit `mozilla.cfg`, save and restart Librefox.
 
-Browser Tests - Security/Fingerprint: 
--------------------------------------
+Browser Tests - Security/Fingerprint
+------------------------------------
+
 Firefox 60 and `privacy.resistFingerprinting` are relatively new, please give it some time to be more widely used and thus less finger-printable; If you are using a different site to analyze your browser make sure to read and understand what the test is about.
 
 - [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
@@ -230,39 +242,46 @@ Firefox 60 and `privacy.resistFingerprinting` are relatively new, please give it
 - [Browser-Storage-Abuser](https://demo.agektmr.com/storage/)
 - [Service-Workers-Push-Test](https://gauntface.github.io/simple-push-demo/)
 
-Browser Tests - Performances:
------------------------------
+Browser Tests - Performances
+----------------------------
+
 Performance tests can be done here [LVP Octane](https://intika.github.io/lvp-octane/), it needs to be launched alone with other applications closed and with no other activity but the benchmark, also it's recommended to launch it many times and then calculate the average.
 
-Browser Tests - DNS/VPN/Proxy Leak:
------------------------------------
+Browser Tests - DNS/VPN/Proxy Leak
+----------------------------------
+
 - [IPLeak](https://ipleak.net/)
 - [Tenta-Test](https://tenta.com/test/)
 - [IP-Browserleaks](https://browserleaks.com/ip)
 
-About:
-------
+About
+-----
+
 **Author:** Intika - intika@librefox.org
 
 **Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [User.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
 
 **Acknowledgment:** Special thanks to the ghacks-user team for allowing the usage of their work, @brainscar, @Eloston, @dimqua, @pyllyukko, @Atavic, @anchev, @antuketot76, @nhynes, @maxidor, ghacks.net (Martin Brinkmann), and all the others i forget to mention.
 
-Librefox Roadmap: 
------------------
-**Objectives for future versions of Librefox (this may change):**
+Librefox Roadmap
+----------------
+
+**Objectives for future versions of Librefox (this may change)**
+
 - Develop an all-in-one Librefox addon to rule them all ? (Normal & Tor Version… this would simplify Librefox)
 - Develop an easy to use firewall system for extensions (button/hosts/allow/deny/per-addon)
 - Update checker extension (feature in the full extension ?)
 - Advertisement for the project to reach more users ?
 
-**Todo for future versions of Librefox (this may change):**
+**Todo for future versions of Librefox (this may change)**
+
 - Improve HD-video playback performance
 - Testing compatibility on those [sites](https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies) and adjust the related settings.
 - Review un-reviewed addons code (dont-track-me-google/decentraleyes/canvasblocker/temporary-containers/switch-container/smart-referer)
 
-Settings Index:
----------------
+Settings Index
+--------------
+
 ```
 // ==============================
 // Index mozilla.cfg .......... :
@@ -310,12 +329,14 @@ Settings Index:
 
 ```
 
-Cookies Settings:
------------------
+Cookies Settings
+----------------
+
 Using different web services without cookies is impossible and cookie settings in a browser are very important when it come to privacy, in Librefox the settings are locked to avoid unwanted changes in such an important setting, but they can be easily changed in `mozilla.cfg` under `User Settings: Cookies settings`.
 
-Tracking Protection:
---------------------
+Tracking Protection
+-------------------
+
 Firefox now integrates a tracking protection feature (based on disconnect.me) it's a small content blocking list, the listing can not be edited, this feature is disabled in Librefox. It's recommended to use uBlock Origin instead. This feature is disabled:
 
 - Until it evolves and integrates at least list editing.
@@ -323,14 +344,15 @@ Firefox now integrates a tracking protection feature (based on disconnect.me) it
 
 You can however easily enable this feature in `mozilla.cfg` under `User Settings: Track Protection` (just comment active lines with `//` or remove the entire section).
 
-Comparing Changes And Updates:
-------------------------------
+Comparing Changes And Updates
+-----------------------------
+
 If you want to compare changes over updates or if you already have a `user.js`/`mozilla.cfg`/`policies.json`. consider using [Compare-UserJS](https://github.com/claustromaniac/Compare-UserJS), it's an amazing tool to compare user.js files and output the diffs in detailed breakdown, developed by gHack's very own resident cat, [claustromaniac](https://github.com/claustromaniac) :cat:
 
 Usage: If not on windows install [PowerShell](https://github.com/PowerShell/PowerShell) then (for example) `pwsh Compare-UserJS.ps1 mozilla.cfg user.js` (Warning that PowerShell connects to Microsoft sometimes).
 
-Documentation:
---------------
+Documentation
+-------------
 
 **Mozilla.cfg**: Locking and defaulting Librefox settings for security, privacy and performance.
 
@@ -346,25 +368,26 @@ Documentation:
 
 **About:config**: http://kb.mozillazine.org/About:config_entries.
 
-Librefox Dark Theme:
---------------------
+Librefox Dark Theme
+-------------------
+
 Librefox provides a classic dark theme extension ([Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)) but also a purified version of ShadowFox available under [dark-theme directory](https://github.com/intika/Librefox/tree/master/dark-theme) to install it just copy the directory chrome to your Librefox profile directory and then restart Librefox, this will expand the dark theme to internal pages like settings pages.
 
-Tuning Librefox:
------------------
+Tuning Librefox
+---------------
 
-**Restart Button:**
+**Restart Button**
 
 One simple solution is to bookmark `about:restartrequired` or `about:profiles` ... when restart is needed open that page and click "normal restart". You can even go further and add the bookmarks links to your icons bar and rename the link to an empty text (you will then have a direct icon to `about:profiles` and a 2 clicks restart).
 
 ![capture](https://user-images.githubusercontent.com/6892180/48963055-bd914000-ef82-11e8-8ea4-a58e56f5c4a4.png)
 ... 
 
-**Alternative Dark Theme:**
+**Alternative Dark Theme**
 
 <a href="https://github.com/overdodactyl/ShadowFox" target="_blank"><img height=80px src="https://raw.githubusercontent.com/overdodactyl/ShadowFox/master/.github/Screenshots/header.png"></a>
 
-**Linux Fix Text Colors:**
+**Linux Fix Text Colors**
 
 On Linux when using a dark desktop theme Librefox could display white text over white background or black text on black input on some sites or addons, this is fixed in Librefox with `lockPref("ui.use_standins_for_native_colors", true);`.
 
@@ -375,10 +398,11 @@ widget.chrome.allow-gtk-dark-theme;false
 widget.content.gtk-theme-override;Adwaita:light
 ```
 
-Other Addons:
--------------
+Other Addons
+------------
 
-**Other privacy addons:**
+**Other privacy addons**
+
 - [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp): Block http traffic and/or redirect it to https (Excellent remplacment for the unrecommended https-everywhere)
 - [Google-Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/): Open all Google sites in a container
 - [Facebook-Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/): Open all Facebook sites in a container
@@ -392,7 +416,8 @@ Other Addons:
 - [Temporary-Containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/): Maximizing and automating container potential 
 - [Smart-Referer](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/): Manage referer with a button (Send referers only when staying on the same domain.)
 
-**Other useful addons:**
+**Other useful addons**
+
 - [Dormancy](https://addons.mozilla.org/en-US/firefox/addon/dormancy/): Unload tab after a certain time, useful for performance when opening a lot of tabs 
 - [Add Custom Search Engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/): Customize your search engine 
 - [ProxySwitcheroo](https://addons.mozilla.org/en-US/firefox/addon/proxyswitcheroo/): Apply proxy settings in a click
@@ -405,14 +430,16 @@ Other Addons:
 - [Librefox HTTP Watcher ESR - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-tor-mod/): Change the url bar color on http and onion sites (to green/red)
 - [Librefox NoHTTP - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/nohttp-librefox-mod-for-tor/): Block http traffic and/or redirect it to https (Excellent replacement for the unrecommended https-everywhere)
 
-Tor Compatibility:
-------------------
+Tor Compatibility
+-----------------
+
 We do not recommend connecting over Tor on Librefox classic version (because of the missing Librefox-Tor-Addons, they are only included in the tor version for obvious reasons), use instead Librefox-Tor version if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled since v2 on all Librefox versions for user toriffying/proxifying their entire connection).
 
 Currently Librefox-TBB is in beta test, Tor compatibility may change. 
 
-DRM Compatibility:
-------------------
+DRM Compatibility
+-----------------
+
 Digital rights management (DRM) is enforced off by default (this is needed for Netflix and similar); you can enable it with the following instructions:
 - Open `mozilla.cfg`
 - Under the section `Section: User Settings`
@@ -421,15 +448,17 @@ Digital rights management (DRM) is enforced off by default (this is needed for N
 - Restart Firefox then open `about:preferences` and enable `Play DRM...` under general section
 - Firefox will download Widevine and enable it (under `about:addons` plugins section) you can force the download by clicking `Check for updates` under the tools button
 
-Librefox ESR:
--------------
+Librefox ESR
+------------
+
 For ESR users if you opt for `Librefox HTTP Watcher` you need to use this version [Librefox HTTP Watcher ESR - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-tor-mod/)
 
-Building And Packaging:
------------------------
+Building And Packaging
+----------------------
+
 Currently Librefox is applied to a built version of Firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
 
-**Linux:**
+**Linux**
 
 - Extract [firefox-63.0.3.tar.bz2](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/linux-x86_64/en-US/firefox-63.0.3.tar.bz2)
 - `git clone https://github.com/intika/Librefox.git`
@@ -451,7 +480,7 @@ Currently Librefox is applied to a built version of Firefox, you can [build it](
     firefox/crashreporter
 ``` 
 
-**Windows:**
+**Windows**
 
 - Extract [Firefox Setup 63.0.3.exe](https://download-installer.cdn.mozilla.net/pub/firefox/releases/63.0.3/win64/en-US/Firefox%20Setup%2063.0.3.exe) (Can be done by launching it, files are extracted to `%tmp%`)
 - `git clone https://github.com/intika/Librefox.git`
@@ -473,7 +502,7 @@ Currently Librefox is applied to a built version of Firefox, you can [build it](
     core/crashreporter.exe
 ``` 
 
-**Mac:**
+**Mac**
 
 ```
 # start by downloading a Firefox.dmg (e.g. FF Developer Edition)
@@ -508,4 +537,3 @@ Alternatively, you can package Librefox manually:
 - Copy `policies.json` to `Firefox/Firefox.app/Contents/Ressources/distribution/`
 - Unmount the dmg file 
 - Compress it with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac) 
-
