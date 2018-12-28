@@ -2,6 +2,7 @@
   "policies": {
     "AppUpdateURL": "",
     "DisableAppUpdate": true,
+    "OverridePostUpdatePage": "",
     "DisableMasterPasswordCreation": true,
     "DisableFeedbackCommands": true,
     "DisableFirefoxAccounts": true,

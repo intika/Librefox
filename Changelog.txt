@@ -1,10 +1,11 @@
 Librefox Firefox - Chagelog :
 -----------------------------
 
-v2.2 :  
-------
-- README.md update
+vMaster :  
+---------
+- Various README update
 - Policy update
+- Prettify README
 
 v2.1 :  
 ------

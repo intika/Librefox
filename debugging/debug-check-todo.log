@@ -1,33 +1,7 @@
-Todo Checks I/II :
-------------------
+Todo Checks :
+-------------
 
-Todo Checks II/II :
--------------------
-
-- Policy update - check PR
-
-- Complete bench tests on all 0 values
-
-- Check the mozilla perf addon https://perf-html.io/
-
-- Update build instructions
-
-- Youtube hd videos hanging (with indexedDB disabled and other...)
-
-- Review un-reviewed addons code
-
-- Testing compatibility on those sites
-  https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies
-
-Addons Code To Checks :
------------------------
-
-- https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/
-- https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/
-- https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/
-- https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/ 
-- https://addons.mozilla.org/en-US/firefox/addon/switch-container/
-- https://addons.mozilla.org/en-US/firefox/addon/smart-referer/
+- This section is migrated to github issues
 
 Build Notes :
 -------------

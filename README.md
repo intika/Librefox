@@ -2,7 +2,7 @@
 <a href="https://github.com/intika/Librefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Browser-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
 </p>
 <p align="center">
-<a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Downloads-%20OpenDesktop-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-5-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-16-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
+<a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Download-%20Librefox-green.svg"></a> <a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-6-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-32-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
 </p>
 
 ---
@@ -18,8 +18,8 @@ Features
 --------
 
 - Updated browser: because this project is not a fork, it is kept updated with the latest Firefox version.
-- Extensions firewall: limit internet access for extensions ([firewall-test-feature](#extensions-firewall))
-- IJWY (I Just Want You To Shut Up): embedded server links and other calling home functions are removed ([zero unauthorized connection](#ijwy-i-just-want-you-to-shut-up) by default).
+- Extensions firewall: limit internet access for extensions ([firewall-test-feature](#extensions-firewall-))
+- IJWY (I Just Want You To Shut Up): embedded server links and other calling home functions are removed ([zero unauthorized connection](#ijwy-i-just-want-you-to-shut-up-) by default).
 - User settings updates: gHacks/pyllyukko base is kept up to date.
 - Settings protection: important settings are enforced/locked within `mozilla.cfg` and `policies.json`, those settings cannot be changed by addons/updates/Firefox or unwanted/accidental manipulation; To change those settings you can easily do it by editing `mozilla.cfg` and `policies.json`.
 - Librefox-addons: set of optional Librefox extensions
@@ -36,68 +36,71 @@ Features
 
 Index
 -----
-
 <pre>
-<a href="https://github.com/intika/Librefox/#features"
+<a href="#features"
 >> Librefox: Features ............................................................... </a>
-<a href="https://github.com/intika/Librefox/#download"
+<a href="#download"
 >> Librefox: Download ............................................................... </a>
-<a href="https://github.com/intika/Librefox/#capture"
+<a href="#capture"
 >> Librefox: Capture ................................................................ </a>
-<a href="https://github.com/intika/Librefox/#librefox-addons"
+<a href="#librefox-addons"
 >> Addons: Librefox Addons .......................................................... </a>
-<a href="https://github.com/intika/Librefox/#recommended-addons"
+<a href="#recommended-addons"
 >> Addons: Recommended Addons ....................................................... </a>
-<a href="https://github.com/intika/Librefox/#recommended-addons-settings"
+<a href="#recommended-addons-settings"
 >> Addons: Recommended Addons Settings .............................................. </a>
-<a href="https://github.com/intika/Librefox/#reviewing-extensions-code"
+<a href="#reviewing-extensions-code"
 >> Addons: Reviewing Addons Source Code ............................................. </a>
-<a href="https://github.com/intika/Librefox/#other-addons"
+<a href="#other-addons"
 >> Addons: Other Useful Addons Listing .............................................. </a>
-<a href="https://github.com/intika/Librefox/#extensions-firewall"
+<a href="#installation-instructions"
+>> Wiki: Installation Instructions .................................................. </a>
+<a href="#extensions-firewall"
 >> Wiki: Extensions Network Firewall ................................................ </a>
-<a href="https://github.com/intika/Librefox/#ijwy-i-just-want-you-to-shut-up"
+<a href="#ijwy-i-just-want-you-to-shut-up"
 >> Wiki: IJWY (I Just Want You To Shut Up) .......................................... </a>
-<a href="https://github.com/intika/Librefox/#edit-locked-settings"
+<a href="#edit-locked-settings"
 >> Wiki: Edit Locked Settings ....................................................... </a>
-<a href="https://github.com/intika/Librefox/#settings-index"
+<a href="#settings-index"
 >> Wiki: Settings Index ............................................................. </a>
-<a href="https://github.com/intika/Librefox/#cookies-settings"
+<a href="#cookies-settings"
 >> Wiki: Cookies Settings ........................................................... </a>
-<a href="https://github.com/intika/Librefox/#tracking-protection"
+<a href="#tracking-protection"
 >> Wiki: Tracking Protection ........................................................ </a>
-<a href="https://github.com/intika/Librefox/#comparing-changes-and-updates"
+<a href="#comparing-changes-and-updates"
 >> Wiki: Comparing Changes And Updates .............................................. </a>
-<a href="https://github.com/intika/Librefox/#documentation"
+<a href="#documentation"
 >> Wiki: Documentation .............................................................. </a>
-<a href="https://github.com/intika/Librefox/#librefox-dark-theme"
+<a href="#librefox-dark-theme"
 >> Wiki: Librefox Dark Theme ........................................................ </a>
-<a href="https://github.com/intika/Librefox/#tuning-librefox"
+<a href="#tuning-librefox"
 >> Wiki: Tuning Librefox ............................................................ </a>
-<a href="https://github.com/intika/Librefox/#librefox-esr"
+<a href="#librefox-esr"
 >> Wiki: Librefox ESR ............................................................... </a>
-<a href="https://github.com/intika/Librefox/#tor-compatibility"
+<a href="#tor-compatibility"
 >> Wiki: Tor Compatibility .......................................................... </a>
-<a href="https://github.com/intika/Librefox/#drm-compatibility"
+<a href="#drm-compatibility"
 >> Wiki: DRM Compatibility .......................................................... </a>
-<a href="https://github.com/intika/Librefox/#building-and-packaging"
+<a href="#building-and-packaging"
 >> Wiki: Building And Packaging ..................................................... </a>
-<a href="https://github.com/intika/Librefox/#browser-tests--securityfingerprint"
+<a href="#browser-tests--securityfingerprint"
 >> Browser Tests: Security/Fingerprint .............................................. </a>
-<a href="https://github.com/intika/Librefox/#browser-tests--performances"
+<a href="#browser-tests--performances"
 >> Browser Tests: Performance ....................................................... </a>
-<a href="https://github.com/intika/Librefox/#browser-tests--dnsvpnproxy-leak"
+<a href="#browser-tests--dnsvpnproxy-leak"
 >> Browser Tests: DNS/VPN/Proxy Leak ................................................ </a>
-<a href="https://github.com/intika/Librefox/#librefox-roadmap"
+<a href="#librefox-roadmap"
 >> Infos: Librefox Roadmap .......................................................... </a>
-<a href="https://github.com/intika/Librefox/#changelog"
+<a href="#changelog"
 >> Infos: Changelog ................................................................. </a>
-<a href="https://github.com/intika/Librefox/#about"
+<a href="#about"
 >> Infos: About ..................................................................... </a>
 </pre>
 
 Download
 --------
+
+**Important:** Please consider reading [installation instructions](#installation-instructions) before using Librefox
 
 **Linux**
 
@@ -137,14 +140,12 @@ Download
 
 Capture
 -------
-
 <p align="center">
   <img width="650" src="https://raw.githubusercontent.com/intika/Librefox/master/capture.png">
 </p>
 
 Librefox Addons
 ---------------
-
 Librefox addons are not bundled and need to be installed manually
 
 - [Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/): Dark theme
@@ -153,7 +154,6 @@ Librefox addons are not bundled and need to be installed manually
 
 Recommended Addons
 ------------------
-
 Recommended addons are not bundled and need to be installed manually
 
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/): Block all cookies and only allow authorized sites 
@@ -164,7 +164,6 @@ Recommended addons are not bundled and need to be installed manually
 
 Recommended Addons Settings
 ---------------------------
-
 `uBlock`: Additional filters are availables here: https://filterlists.com/ (don't surcharge it to avoid performance loss)
 
 `Browser Plugs Privacy Firewall`: Keep settings light to make `privacy.resistFingerprinting` efficient because too much customization will lead to uniqueness and therefore easy fingerprinting. 
@@ -176,15 +175,12 @@ Recommended Addons Settings
   - Privacy / Font / Randomize
   - Privacy / Font / Enable protection for font and glyph fingerprinting
 ```
-
 Reviewing Extensions Code
 -------------------------
-
 Recommended extensions code have been reviewed for potential unwanted behaviour... reviewed version are available under [extensions](https://github.com/intika/Librefox/tree/master/extensions) directory.
 
 Extensions Firewall
 -------------------
-
 **Extensions Firewall - Description**
 
 *This is a test experiment feature and it is disabled by default !!!* A new section `Extensions Manager` is added to manage addons globally (and addons networking in the subsection `Extensions Firewalling`). Firewalling the network for addons is doable, but it requires a considerable amount of additional work in Librefox to make it usable through a button or in a per addon basis (this may or may not be added in a future version, it also could be abandoned as it is a test feature). Currently you can block a list of domains or block the whole network for all the extensions.
@@ -214,22 +210,42 @@ Check `debug-check-todo.log` for additional info about future version and resear
 
 IJWY (I Just Want You To Shut Up)
 ---------------------------------
-
 This is a set of settings that aim to remove all the server links embedded in Firefox and other calling home functions in the purpose of blocking un-needed connections. The objective is zero unauthorized connection (ping/telemetry/Mozilla/Google...).
 
 Changelog
 ---------
-
 Available in the [releases page](https://github.com/intika/Librefox/releases)
+
+Installation instructions
+--------------------------
+**WARNING:** in the current state of the project Librefox is replacing Firefox (because currently Librefox is a patched Firefox version), therefore if you already have a Firefox profile, that profile will be used and temporary files (cookies and current session) will be removed, make sure to copy your current Firefox's profile before using Librefox.
+Using Librefox simultaneously with Firefox is possilbe through different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so.
+**Future Librefox version** will be independant from Firefox and therefore solve this issue. 
+
+**Win**
+- Download the zip file according to your architecture (x64/x32)
+- Extract the zip file
+- You can use directly Librefox by running 'extracted-file/core/firefox.exe'
+- You can as well install/replace your current Firefox by running setup.exe
+
+**Linux**
+- Download the tar.xz file according to your architecture (x64/x32)
+- Extract the tar.xz file 
+- You can use directly Librefox by running 'extracted-file/firefox'
+- You can as well create a shortcut to 'extracted-file/firefox' to open Librefox easily, from the desktop for instance. 
+
+**Mac**
+- Download the dmg package 
+- Open the package 
+- Open the application before installing it (check if it fit your need)
+- Copy the Librefox-Firefox to applications directory
 
 Edit Locked Settings
 --------------------
-
 Just edit `mozilla.cfg`, save and restart Librefox.
 
-Browser Tests - Security/Fingerprint
+Browser Tests - Security/Fingerprint 
 ------------------------------------
-
 Firefox 60 and `privacy.resistFingerprinting` are relatively new, please give it some time to be more widely used and thus less finger-printable; If you are using a different site to analyze your browser make sure to read and understand what the test is about.
 
 - [SSLLabs](https://www.ssllabs.com/ssltest/viewMyClient.html)
@@ -244,44 +260,48 @@ Firefox 60 and `privacy.resistFingerprinting` are relatively new, please give it
 
 Browser Tests - Performances
 ----------------------------
-
 Performance tests can be done here [LVP Octane](https://intika.github.io/lvp-octane/), it needs to be launched alone with other applications closed and with no other activity but the benchmark, also it's recommended to launch it many times and then calculate the average.
 
 Browser Tests - DNS/VPN/Proxy Leak
 ----------------------------------
-
 - [IPLeak](https://ipleak.net/)
 - [Tenta-Test](https://tenta.com/test/)
 - [IP-Browserleaks](https://browserleaks.com/ip)
 
 About
 -----
-
 **Author:** Intika - intika@librefox.org
 
 **Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [User.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
 
-**Acknowledgment:** Special thanks to the ghacks-user team for allowing the usage of their work, @brainscar, @Eloston, @dimqua, @pyllyukko, @Atavic, @anchev, @antuketot76, @nhynes, @maxidor, ghacks.net (Martin Brinkmann), and all the others i forget to mention.
+<p hidden>**Donation:** [Paypal - support@librefox.org](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=support@librefox.org&lc=US&item_name=Donation+To+Librefox&currency_code=USD) if you like it you can offer me a coffee :)</p>
 
-Librefox Roadmap
+**Acknowledgment** 
+
+Special thanks to:
+- The Mozilla team for their amazing work on Firefox
+- The gHacks-User team for allowing the usage of their work
+- gHacks.net (Martin Brinkmann) for writing on Librefox
+- All users that are encouraging this project by starring it
+- And everyone who is helping this project: @brainscar, @Eloston, @dimqua, @pyllyukko, @Atavic, @anchev, @antuketot76, @nhynes, @maxidor, @samuel8941, @shaynem, @szepeviktor, and all the others i forget to mention.
+
+Librefox Roadmap 
 ----------------
-
 **Objectives for future versions of Librefox (this may change)**
-
 - Develop an all-in-one Librefox addon to rule them all ? (Normal & Tor Version… this would simplify Librefox)
 - Develop an easy to use firewall system for extensions (button/hosts/allow/deny/per-addon)
+- Develop an advanced settings page
+- Fix legal mozilla issue
 - Update checker extension (feature in the full extension ?)
 - Advertisement for the project to reach more users ?
 
 **Todo for future versions of Librefox (this may change)**
-
 - Improve HD-video playback performance
 - Testing compatibility on those [sites](https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies) and adjust the related settings.
 - Review un-reviewed addons code (dont-track-me-google/decentraleyes/canvasblocker/temporary-containers/switch-container/smart-referer)
 
 Settings Index
 --------------
-
 ```
 // ==============================
 // Index mozilla.cfg .......... :
@@ -331,12 +351,10 @@ Settings Index
 
 Cookies Settings
 ----------------
-
 Using different web services without cookies is impossible and cookie settings in a browser are very important when it come to privacy, in Librefox the settings are locked to avoid unwanted changes in such an important setting, but they can be easily changed in `mozilla.cfg` under `User Settings: Cookies settings`.
 
 Tracking Protection
 -------------------
-
 Firefox now integrates a tracking protection feature (based on disconnect.me) it's a small content blocking list, the listing can not be edited, this feature is disabled in Librefox. It's recommended to use uBlock Origin instead. This feature is disabled:
 
 - Until it evolves and integrates at least list editing.
@@ -346,7 +364,6 @@ You can however easily enable this feature in `mozilla.cfg` under `User Settings
 
 Comparing Changes And Updates
 -----------------------------
-
 If you want to compare changes over updates or if you already have a `user.js`/`mozilla.cfg`/`policies.json`. consider using [Compare-UserJS](https://github.com/claustromaniac/Compare-UserJS), it's an amazing tool to compare user.js files and output the diffs in detailed breakdown, developed by gHack's very own resident cat, [claustromaniac](https://github.com/claustromaniac) :cat:
 
 Usage: If not on windows install [PowerShell](https://github.com/PowerShell/PowerShell) then (for example) `pwsh Compare-UserJS.ps1 mozilla.cfg user.js` (Warning that PowerShell connects to Microsoft sometimes).
@@ -370,7 +387,6 @@ Documentation
 
 Librefox Dark Theme
 -------------------
-
 Librefox provides a classic dark theme extension ([Librefox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/librefox-dark-theme/)) but also a purified version of ShadowFox available under [dark-theme directory](https://github.com/intika/Librefox/tree/master/dark-theme) to install it just copy the directory chrome to your Librefox profile directory and then restart Librefox, this will expand the dark theme to internal pages like settings pages.
 
 Tuning Librefox
@@ -402,7 +418,6 @@ Other Addons
 ------------
 
 **Other privacy addons**
-
 - [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp): Block http traffic and/or redirect it to https (Excellent remplacment for the unrecommended https-everywhere)
 - [Google-Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/): Open all Google sites in a container
 - [Facebook-Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/): Open all Facebook sites in a container
@@ -417,7 +432,6 @@ Other Addons
 - [Smart-Referer](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/): Manage referer with a button (Send referers only when staying on the same domain.)
 
 **Other useful addons**
-
 - [Dormancy](https://addons.mozilla.org/en-US/firefox/addon/dormancy/): Unload tab after a certain time, useful for performance when opening a lot of tabs 
 - [Add Custom Search Engine](https://addons.mozilla.org/en-US/firefox/addon/add-custom-search-engine/): Customize your search engine 
 - [ProxySwitcheroo](https://addons.mozilla.org/en-US/firefox/addon/proxyswitcheroo/): Apply proxy settings in a click
@@ -426,20 +440,18 @@ Other Addons
 - [Shortkeys](https://addons.mozilla.org/en-US/firefox/addon/shortkeys/): Add custom shortkeys
 - [Tabboo](https://addons.mozilla.org/en-US/firefox/addon/tabboo-session-manager/): Session manager
 
-**Librefox Addons For ESR And Tor:**
+**Librefox Addons For ESR And Tor**
 - [Librefox HTTP Watcher ESR - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-tor-mod/): Change the url bar color on http and onion sites (to green/red)
 - [Librefox NoHTTP - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/nohttp-librefox-mod-for-tor/): Block http traffic and/or redirect it to https (Excellent replacement for the unrecommended https-everywhere)
 
 Tor Compatibility
 -----------------
-
 We do not recommend connecting over Tor on Librefox classic version (because of the missing Librefox-Tor-Addons, they are only included in the tor version for obvious reasons), use instead Librefox-Tor version if your threat model calls for it, or for accessing hidden services (Thus said tor settings have been enabled since v2 on all Librefox versions for user toriffying/proxifying their entire connection).
 
 Currently Librefox-TBB is in beta test, Tor compatibility may change. 
 
 DRM Compatibility
 -----------------
-
 Digital rights management (DRM) is enforced off by default (this is needed for Netflix and similar); you can enable it with the following instructions:
 - Open `mozilla.cfg`
 - Under the section `Section: User Settings`
@@ -450,12 +462,10 @@ Digital rights management (DRM) is enforced off by default (this is needed for N
 
 Librefox ESR
 ------------
-
 For ESR users if you opt for `Librefox HTTP Watcher` you need to use this version [Librefox HTTP Watcher ESR - Tor MoD](https://addons.mozilla.org/en-US/firefox/addon/librefox-http-watcher-tor-mod/)
 
 Building And Packaging
 ----------------------
-
 Currently Librefox is applied to a built version of Firefox, you can [build it](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions) or use the [version provided by mozilla](https://ftp.mozilla.org/pub/firefox/releases/63.0.3/)
 
 **Linux**
@@ -537,3 +547,4 @@ Alternatively, you can package Librefox manually:
 - Copy `policies.json` to `Firefox/Firefox.app/Contents/Ressources/distribution/`
 - Unmount the dmg file 
 - Compress it with tools like (hdiutils/dropdmg/disk-utilities/ultraiso/transmac) 
+
