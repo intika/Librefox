@@ -100,7 +100,7 @@ Index
 Download
 --------
 
-**Important notice: this is a temporary version**, awaiting a correct build of the project, Librefox is distributed as a configuration files for Firefox. To apply Librefox configuration to Firefox extract the compressed file to Firefox's installation directory ([detailed installation instructions](#installation-instructions)). **Future Librefox version** will be independant from Firefox and therefore will solve this issue.
+**Important notice: this is a temporary version**, awaiting a correct build of the project, Librefox is distributed as a configuration files for Firefox. To apply Librefox configuration to Firefox extract the compressed file to Firefox's installation directory ([detailed installation instructions](#installation-instructions)). **[Future](https://github.com/intika/Librefox/issues/55) Librefox version** will be independant from Firefox and therefore will solve this issue.
 
 **Linux**
 
@@ -202,7 +202,7 @@ Available in the [releases page](https://github.com/intika/Librefox/releases)
 Installation Instructions
 --------------------------
 **Notice:** in the current state of the project Librefox is a set of configuration files for Firefox (awaiting a correct build of the project), therefore if you already have a Firefox profile, that profile will be used and temporary files will be removed (cookies and current session), make sure to backup your current Firefox's profile before using Librefox.
-Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so. **Future Librefox version** will be independant from Firefox and therefore will solve this issue. 
+Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so. **[Future](https://github.com/intika/Librefox/issues/55) Librefox version** will be independant from Firefox and therefore will solve this issue. 
 
 **Windows**
 - Download and install the last version of Firefox [x32 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/win32/en-US/Firefox%20Setup%2064.0.exe) or [x64 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/win64/en-US/Firefox%20Setup%2064.0.exe)
