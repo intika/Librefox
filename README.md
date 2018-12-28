@@ -270,7 +270,7 @@ About
 
 **License:** [Mozilla Public License 2.0](https://github.com/intika/Librefox/blob/master/License.txt)
 
-**Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [pyllyukko-user.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
+**Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [pyllyukko-user.js](https://github.com/pyllyukko/user.js/) and [privaconf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
 
 **Inspired from:** [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
 
