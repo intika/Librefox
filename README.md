@@ -218,7 +218,7 @@ Available in the [releases page](https://github.com/intika/Librefox/releases)
 
 Installation Instructions
 --------------------------
-**WARNING:** in the current state of the project Librefox is replacing Firefox (because currently Librefox is a patched Firefox version), therefore if you already have a Firefox profile, that profile will be used and temporary files (cookies and current session) will be removed, make sure to backup your current Firefox's profile before using Librefox.
+**WARNING:** in the current state of the project Librefox is replacing Firefox (because currently Librefox is a patched Firefox version), therefore if you already have a Firefox profile, that profile will be used and temporary files will be removed (cookies and current session), make sure to backup your current Firefox's profile before using Librefox.
 Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so (don't install Librefox in this case, use it directly from the extracted directory). **Future Librefox version** will be independant from Firefox and therefore solve this issue. 
 
 **Windows**
@@ -266,16 +266,20 @@ Browser Tests - DNS/VPN/Proxy Leak
 
 About
 -----
-**Author:** Intika - intika@librefox.org
+**Author:** Intika (from Liege/Belgium), contact: intika@librefox.org
 
-**Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [User.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
+**License:** [Mozilla Public License 2.0](https://github.com/intika/Librefox/blob/master/License.txt)
 
-**Acknowledgment** special thanks to:
+**Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [pyllyukko-user.js](https://github.com/pyllyukko/user.js/) and [PrivaConf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
+
+**Inspired from:** [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
+
+**Acknowledgment**, special thanks to:
 - The Mozilla team for their amazing work on Firefox
 - The gHacks-User team for allowing the usage of their work
-- gHacks.net (Martin Brinkmann) for writing on Librefox
+- Martin Brinkmann (gHacks.net) for writing on Librefox
 - All users that are encouraging this project by starring it
-- And everyone who is helping this project: @brainscar, @Eloston, @dimqua, @pyllyukko, @Atavic, @anchev, @antuketot76, @nhynes, @maxidor, @samuel8941, @shaynem, @szepeviktor, and all the others i forget to mention.
+- And everyone who is helping this project: @brainscar, @Eloston, @dimqua, @Atavic, @antuketot76, @nhynes, @maxidor, @samuel8941, @shaynem, @szepeviktor, and all the others i forget to mention.
 
 Librefox Roadmap 
 ----------------
@@ -283,14 +287,12 @@ Librefox Roadmap
 - Develop an all-in-one Librefox addon to rule them all ? (Normal & Tor Version… this would simplify Librefox)
 - Develop an easy to use firewall system for extensions (button/hosts/allow/deny/per-addon)
 - Develop an advanced settings page
-- Fix legal mozilla issue
+- Fix mozilla legal issue
 - Update checker extension (feature in the full extension ?)
 - Advertisement for the project to reach more users ?
 
 **Todo for future versions of Librefox (this may change)**
-- Improve HD-video playback performance
-- Testing compatibility on those [sites](https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies) and adjust the related settings.
-- Review un-reviewed addons code (dont-track-me-google/decentraleyes/canvasblocker/temporary-containers/switch-container/smart-referer)
+- Listed under [issues](https://github.com/intika/Librefox/issues/) section
 
 Settings Index
 --------------
