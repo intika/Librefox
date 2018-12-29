@@ -2,7 +2,7 @@
 <a href="https://github.com/intika/Librefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Browser-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
 </p>
 <p align="center">
-<a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Download-%20Librefox-green.svg"></a> <a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-6-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-32-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
+<a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Download-%20Librefox-green.svg"></a> <a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-8-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-34-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
 </p>
 
 ---
@@ -202,7 +202,7 @@ Available in the [releases page](https://github.com/intika/Librefox/releases)
 Installation Instructions
 --------------------------
 **Notice:** in the current state of the project Librefox is a set of configuration files for Firefox (awaiting a correct build of the project), therefore if you already have a Firefox profile, that profile will be used and temporary files will be removed (cookies and current session), make sure to backup your current Firefox's profile before using Librefox.
-Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so. **[Future](https://github.com/intika/Librefox/issues/55) Librefox version** will be independant from Firefox and therefore will solve this issue. 
+Using Librefox simultaneously with Firefox is possilbe through a different profile you can follow [this wiki](https://www.ghacks.net/2008/05/29/run-multiple-firefox-profiles-simultaneously/) to do so. **[Future](https://github.com/intika/Librefox/issues/55) Librefox version** will be independent from Firefox and therefore will solve this issue. 
 
 **Windows**
 - Download and install the last version of Firefox [x32 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/win32/en-US/Firefox%20Setup%2064.0.exe) or [x64 release](https://download-installer.cdn.mozilla.net/pub/firefox/releases/64.0/win64/en-US/Firefox%20Setup%2064.0.exe)
@@ -267,8 +267,9 @@ About
 - The Mozilla team for their amazing work on Firefox
 - The gHacks-User team for allowing the usage of their work
 - Martin Brinkmann (gHacks.net) for writing on Librefox
-- All users that are encouraging this project by starring it
-- And everyone who is helping this project: @brainscar, @Eloston, @dimqua, @Atavic, @antuketot76, @nhynes, @maxidor, @samuel8941, @shaynem, @szepeviktor, and all the others i forget to mention.
+- All the stargazers (users that are encouraging this project by starring it)
+- All the contributors: @brainscar, @nhynes, @yoasif, @szepeviktor, @theel0ja
+- And everyone who is helping this project: @Eloston, @dimqua, @Atavic, @antuketot76, @maxidor, @samuel8941, @shaynem, @elypter, and all the others i forget to mention.
 
 Librefox Roadmap 
 ----------------
