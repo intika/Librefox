@@ -2,7 +2,7 @@
 <a href="https://github.com/intika/Librefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Browser-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
 </p>
 <p align="center">
-<a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Download-%20Librefox-green.svg"></a> <a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-8-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-35-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
+<a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Download-%20Librefox-green.svg"></a> <a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-8-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-36-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
 </p>
 
 ---
@@ -222,6 +222,9 @@ Using Librefox simultaneously with Firefox is possilbe through a different profi
 - Download [Librefox](https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0.zip) zip file and extract it
 - Locate Firefox's installation directory (`Applications/Firefox.app/Contents/Resources/` or `Applications/Tor Browser.app/Contents/Resources/`)
 - Copy the extracted files to the install directory
+
+**Uninstall**
+- To uninstall, just remove the files you added to your Firefox's install directory (to know what are the files to remove just check the downloaded Librefox zip file)
 
 Edit Locked Settings
 --------------------
