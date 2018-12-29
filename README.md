@@ -224,7 +224,7 @@ Using Librefox simultaneously with Firefox is possilbe through a different profi
 - Copy the extracted files to the install directory
 
 **Uninstall**
-- To uninstall, just remove the files you added to your Firefox's install directory (to know what are the files to remove just check the downloaded Librefox zip file)
+- To uninstall, just remove the files you added to your Firefox's install directory (to know what are the files to remove just check the downloaded Librefox zip file) then restart Firefox.
 
 Edit Locked Settings
 --------------------
