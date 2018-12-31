@@ -100,7 +100,7 @@ Index
 Download
 --------
 
-**Important notice: this is a temporary version**, awaiting a correct build of the project, Librefox is distributed as a configuration files for Firefox. To apply Librefox configuration to Firefox extract the compressed file to Firefox's installation directory ([detailed installation instructions](#installation-instructions)). **[Future](https://github.com/intika/Librefox/issues/55) Librefox version** will have its own trademark and therefore this issue will be solved.
+**Important notice: this is a temporary version**, awaiting a correct build of the project, Librefox is distributed as a configuration files for Firefox. To apply Librefox configuration to Firefox extract the compressed file to Firefox's installation directory ([detailed installation instructions](#installation-instructions)). **Future Librefox version** will have its own trademark and therefore this [issue](https://github.com/intika/Librefox/issues/55) will be solved.
 
 **Linux**
 
