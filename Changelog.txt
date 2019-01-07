@@ -1,11 +1,13 @@
 Librefox Firefox - Chagelog :
 -----------------------------
 
-vMaster :  
----------
+v2.2 :  
+------
 - Various README update
 - Policy update
 - Prettify README
+- Update debug-notes
+- Fix Devtools on ESR
 
 v2.1 :  
 ------

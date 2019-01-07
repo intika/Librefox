@@ -1,10 +1,6 @@
-Todo Checks :
--------------
-
-- This section is migrated to github issues
-
-Build Notes :
--------------
+========================================================================================================================
+Build Notes v2 :
+========================================================================================================================
 
 - Compress tar.xz
 
@@ -49,33 +45,9 @@ Build Notes :
     With disk utils, create a dmg from a folder (nocompression rw) 
     We are converting iso-dmg to dmg...
 
-Missing features : 
-------------------
-
-- Openh264 ? Uses WebRTC (Disabled...)
-  Used to decode h264 for video call or some other... 
-  Does not seem to be really needed. 
-  Manual install >>> https://support.mozilla.org/en-US/questions/1029174
-  
-Notes & Futur Dev :
--------------------
-
-- Update checker extension (Feature in full one)
-
-- Extensions : Make a all-in-one Librefox Ext ? (Normal & Tor Version)
-               > No http
-               > HTTP Watcher
-               > Reload Button
-               > Cookie Master
-               > Google Container
-               > Facebook Container
-               > First Party Isolation
-               > User Agent Platform Spoofer
-               > Browser Plugs Simplified
-               > And others ???
-  
+========================================================================================================================
 JS Note & Debugging :
----------------------
+========================================================================================================================
 
 // ----------
 // CSP Note :

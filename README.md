@@ -2,7 +2,7 @@
 <a href="https://github.com/intika/Librefox/"><img width="727" src="https://img.shields.io/badge/Librefox-Browser-lightgray.svg?logo=appveyor&longCache=true&style=popout"></a>
 </p>
 <p align="center">
-<a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Download-%20Librefox-green.svg"></a> <a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-8-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-36-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
+<a href="https://www.opendesktop.org/p/1275853/" target="_blank"><img src="https://img.shields.io/badge/Download-%20Librefox-green.svg"></a> <a href="https://github.com/intika/Librefox/releases"><img src="https://img.shields.io/badge/Version-2.1--64.0-green.svg"></a> <a href="https://github.com/intika/Librefox/commits/master"><img src="https://img.shields.io/badge/Maintained%20%3F-Yes-green.svg"></a> <a href="https://github.com/intika/Librefox/pulls"><img src="https://img.shields.io/badge/PR-9-green.svg"></a> <a href="https://github.com/intika/Librefox/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/badge/Solved%20Issues-49-green.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank"><img src="https://img.shields.io/badge/License-Mozilla--MLP2-blue.svg"></a> <a href="https://www.mozilla.org/en-US/MPL/" target="_blank"><img src="https://badges.frapsoft.com/os/v2/open-source.png?v=103"></a>
 </p>
 
 ---
@@ -83,11 +83,11 @@ Index
 >> Wiki: DRM Compatibility .......................................................... </a>
 <a href="#building-and-packaging"
 >> Wiki: Building And Packaging ..................................................... </a>
-<a href="#browser-tests--securityfingerprint"
+<a href="#browser-tests---securityfingerprint"
 >> Browser Tests: Security/Fingerprint .............................................. </a>
-<a href="#browser-tests--performances"
+<a href="#browser-tests---performances"
 >> Browser Tests: Performance ....................................................... </a>
-<a href="#browser-tests--dnsvpnproxy-leak"
+<a href="#browser-tests---dnsvpnproxy-leak"
 >> Browser Tests: DNS/VPN/Proxy Leak ................................................ </a>
 <a href="#librefox-roadmap"
 >> Infos: Librefox Roadmap .......................................................... </a>
@@ -189,7 +189,7 @@ Note that this will block the network access for all the extensions and a lot of
 
 **Extensions Firewall - More Infos**
 
-Check `debug-check-todo.log` for additional info about future version and researches about the subject. Also check [CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp).
+Check `debug-notes.log` for additional info about future version and researches about the subject. Also check [CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp).
 
 IJWY (I Just Want You To Shut Up)
 ---------------------------------
@@ -271,8 +271,8 @@ About
 - The gHacks-User team for allowing the usage of their work
 - Martin Brinkmann (gHacks.net) for writing on Librefox
 - All the stargazers (users that are encouraging this project by starring it)
-- All the contributors: @brainscar, @nhynes, @yoasif, @szepeviktor, @theel0ja
-- And everyone who is helping this project: @Eloston, @dimqua, @Atavic, @antuketot76, @maxidor, @anchev, @samuel8941, @shaynem, @elypter, and all the others i forget to mention.
+- All the contributors: @brainscar, @nhynes, @yoasif, @szepeviktor, @theel0ja, @atbanpc, @AnXh3L0, @samuel8941, @shaynem, @elypter, @colbycdev
+- And everyone who is helping this project: @Eloston, @dimqua, @Atavic, @antuketot76, @maxidor, @anchev, @ribatamu, and all the others i forget to mention.
 
 Librefox Roadmap 
 ----------------
