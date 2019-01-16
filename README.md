@@ -19,7 +19,7 @@ Features
 
 - Updated browser: because this project is not a fork, it is kept updated with the latest Firefox version.
 - Extensions firewall: limit internet access for extensions ([firewall-test-feature](#extensions-firewall-))
-- IJWY (I Just Want You To Shut Up): embedded server links and other calling home functions are removed ([zero unauthorized connection](#ijwy-i-just-want-you-to-shut-up-) by default).
+- IJWY (I Just Want You To Shut Up): embedded server links and other calling home functions are removed ([zero unauthorized connection](#ijwy-i-just-want-you-to-shut-up) by default).
 - User settings updates: gHacks/pyllyukko base is kept up to date.
 - Settings protection: important settings are enforced/locked within `mozilla.cfg` and `policies.json`, those settings cannot be changed by addons/updates/Firefox or unwanted/accidental manipulation; To change those settings you can easily do it by editing `mozilla.cfg` and `policies.json`.
 - Librefox-addons: set of optional Librefox extensions
