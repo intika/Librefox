@@ -8,5 +8,3 @@ user_pref("extensions.enabledAddons", "librefox.http.watcher.tor%40intika.be:2.8
 
 // Icons arrangement
 user_pref("browser.uiCustomization.state", '{"placements":{"widget-overflow-fixed-list":[],"nav-bar":["back-button","forward-button","stop-reload-button","urlbar-container","downloads-button","_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action","_efd1ce61-97d1-4b4f-a378-67d0d41d858d_-browser-action","torbutton-button"],"toolbar-menubar":["menubar-items"],"TabsToolbar":["tabbrowser-tabs","new-tab-button","alltabs-button"],"PersonalToolbar":["personal-bookmarks"],"PanelUI-contents":["home-button","edit-controls","zoom-controls","new-window-button","save-page-button","print-button","bookmarks-menu-button","history-panelmenu","find-button","preferences-button","add-ons-button","developer-button","https-everywhere-button"],"addon-bar":["addonbar-closebutton","status-bar"]},"seen":["developer-button","_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action"],"dirtyAreaCache":["PersonalToolbar","nav-bar","TabsToolbar","toolbar-menubar"],"currentVersion":14,"newElementCount":3}');
- 
-

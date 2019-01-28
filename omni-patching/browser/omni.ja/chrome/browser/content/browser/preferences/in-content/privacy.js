@@ -1746,7 +1746,7 @@ var gPrivacyPane = {
     });
 
     // set initial values
-      
+
     // Librefox
     if (Services.prefs.prefIsLocked("browser.safebrowsing.downloads.enabled")) {
         enableSafeBrowsing.setAttribute("disabled", "true");

@@ -1,7 +1,7 @@
 Librefox Firefox - Chagelog :
 -----------------------------
 
-v2.2 :  
+v2.2 :
 ------
 - Various README update
 - Policy update
@@ -9,17 +9,17 @@ v2.2 :
 - Update debug-notes
 - Fix Devtools on ESR
 
-v2.1 :  
+v2.1 :
 ------
 - Project renamed to Librefox
 - Reorganizing settings
-- Adding section "Extensions Firewall" (block internet for extensions) 
-  Only requested domain with permission are allowed 
+- Adding section "Extensions Firewall" (block internet for extensions)
+  Only requested domain with permission are allowed
   This is an alpha test feature
 - Adding section "IJWY To Shut Up" (I Want You To Shut Up)
   Objective, zero unauthorized connection (ping/telemetry/mozilla/google...)
-- Fix debugger disabled 
-- Added more documentations 
+- Fix debugger disabled
+- Added more documentations
 - Defaulting moved to mozilla.cfg
 - Update safebrowsing list
 - Add ESR60x support and section
@@ -39,23 +39,23 @@ v2.1 :
 - Fixing twitter and some extensions not working
 - Defaulting offline website data on clear dialog
 - Defaulting HW Settings instead of enforcing them
-- Improve HD Video playback 
-- Gathering infos/code for firewalling extensions 
-- Correct some grammar mistakes, thanks to @mikroskeem 
-- Update to firefox v64 
-- Adding extension firewall feature 
+- Improve HD Video playback
+- Gathering infos/code for firewalling extensions
+- Correct some grammar mistakes, thanks to @mikroskeem
+- Update to firefox v64
+- Adding extension firewall feature
 - Fix referer blocking twitter and many other sites
 - Adding IJWY v64 settings
 - Moving some debug notes from mozilla.cfg to debug-check-todo.log
 - Fix incompatibility with Compare-UserJS.ps1
 - Cleanning with Compare-UserJS.ps1
 - Adding 15 differents releases
-- Adding release x32/x64 linux 
-- Adding release x32/x64 esr linux 
-- Adding release x32/x64 tor linux 
-- Adding release x32/x64 windows 
-- Adding release x32/x64 esr windows 
-- Adding release x32/x64 tor windows 
+- Adding release x32/x64 linux
+- Adding release x32/x64 esr linux
+- Adding release x32/x64 tor linux
+- Adding release x32/x64 windows
+- Adding release x32/x64 esr windows
+- Adding release x32/x64 tor windows
 - Adding release x64 mac
 - Adding release x64 esr mac
 - Adding release x64 esr mac
@@ -75,7 +75,7 @@ v1.8 :
 - Defaulting history (Setting default values for history)
 - Defaulting proxy (Setting default values for proxy)
 - Fixing mac build plugin container
-    
+
 v1.5 :
 ------
 - Adding mac release
@@ -89,7 +89,7 @@ v1.5 :
 - Remove crashreporter bin
 - Remove integrated xpis
 - Cleaning settings
-    
+
 v1.2 :
 ------
 - Partial settings cleaning
