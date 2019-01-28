@@ -2,8 +2,8 @@
 
 // Extensions
 
-// This policy controls the installation, uninstallation and locking of extensions. 
-// Locked extensions cannot be disabled or uninstalled. For Install, you specify a 
+// This policy controls the installation, uninstallation and locking of extensions.
+// Locked extensions cannot be disabled or uninstalled. For Install, you specify a
 // list of URLs or paths. For Uninstall and Locked, you specify extension IDs.
 
 
@@ -45,4 +45,3 @@
         "Remove": ["Twitter", "Wikipedia (en)"]
     }
 }
-  

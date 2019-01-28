@@ -2,13 +2,13 @@
 +++ privacy.patched.js	2018-12-11 17:08:48.076552654 +0100
 @@ -1746,6 +1746,11 @@
      });
- 
+
      // set initial values
-+      
++
 +    // Librefox
 +    if (Services.prefs.prefIsLocked("browser.safebrowsing.downloads.enabled")) {
 +        enableSafeBrowsing.setAttribute("disabled", "true");
 +    }
- 
+
      enableSafeBrowsing.checked = safeBrowsingPhishingPref.value && safeBrowsingMalwarePref.value;
      if (!enableSafeBrowsing.checked) {

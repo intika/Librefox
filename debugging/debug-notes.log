@@ -6,7 +6,7 @@ Build Notes v2 :
 
     tar cfJ <archive.tar.xz> <files>
 
-- Files to remove :  
+- Files to remove :
 
     crash-reporter...
     crash-reporter...
@@ -18,31 +18,31 @@ Build Notes v2 :
     browser/feature/webcomp...
     browser/feature/...
 
-- Tor files to remove :  
+- Tor files to remove :
 
-    Classic removal plus 
-    https-everywhere addon 
-    profile.meek-http-helper... 
+    Classic removal plus
+    https-everywhere addon
+    profile.meek-http-helper...
 
 - Patching release :
 
     >browser.omni.ja.chrome.browser.content.browser.preferences.in-content.privacy.origin (patch with winrar)
     Tor : patch mozilla.cfg
-    
-- Tor windows : 
 
-    Install it to desktop then get the files 
+- Tor windows :
+
+    Install it to desktop then get the files
     (Only the lnk file is a new file compared to compressed version)
     remove lnk file
     add link.vbs
     add bat file
-    
+
 - Tor mac :
 
     Under mac, mount and extract all content to a folder
     Copy by command .DS_Store (from dmg to folder)
-    run "codesign --remove-signature Tor\ Browser.app". 
-    With disk utils, create a dmg from a folder (nocompression rw) 
+    run "codesign --remove-signature Tor\ Browser.app".
+    With disk utils, create a dmg from a folder (nocompression rw)
     We are converting iso-dmg to dmg...
 
 ========================================================================================================================
@@ -58,7 +58,7 @@ JS Note & Debugging :
 // Content-Security-Policy: default-src <source> <source>;
 // Content-Security-Policy: default-src <source>;
 //
-// default-src is a fallback for : 
+// default-src is a fallback for :
 // - child-src
 // - connect-src
 // - font-src
@@ -78,40 +78,40 @@ JS Note & Debugging :
 // Refers to the empty set; that is, no URLs match. The single quotes are required.
 //
 // 'self'
-// Refers to the origin from which the protected document is being served, 
-// including the same URL scheme and port number. You must include the single quotes. 
-// Some browsers specifically exclude blob and filesystem from source directives. 
+// Refers to the origin from which the protected document is being served,
+// including the same URL scheme and port number. You must include the single quotes.
+// Some browsers specifically exclude blob and filesystem from source directives.
 // Sites needing to allow these content types can specify them using the Data attribute.
 //
 // 'unsafe-inline'
-// Allows the use of inline resources, such as inline <script> elements, javascript: 
+// Allows the use of inline resources, such as inline <script> elements, javascript:
 // URLs, inline event handlers, and inline <style> elements. You must include the single quotes.
 //
 // 'unsafe-eval'
-// Allows the use of eval() and similar methods for creating code from strings. 
+// Allows the use of eval() and similar methods for creating code from strings.
 // You must include the single quotes.
 //
 // <scheme-source>
-// A schema such as 'http:' or 'https:'. The colon is required, single quotes 
+// A schema such as 'http:' or 'https:'. The colon is required, single quotes
 // shouldn't be used. You can also specify data schemas (not recommended).
-// - data:          Allows data: URIs to be used as a content source. This is insecure; 
-//                  An attacker can also inject arbitrary data: URIs. 
+// - data:          Allows data: URIs to be used as a content source. This is insecure;
+//                  An attacker can also inject arbitrary data: URIs.
 //                  Use this sparingly and definitely not for scripts.
 // - mediastream:   Allows mediastream: URIs to be used as a content source.
 // - blob:          Allows blob: URIs to be used as a content source.
 // - filesystem:    Allows filesystem: URIs to be used as a content source.
 //
 // <host-source>
-// Internet hosts by name or IP address, as well as an optional URL scheme and/or port number. 
-// The site's address may include an optional leading wildcard (the asterisk character, '*'), 
-// and you may use a wildcard (again, '*') as the port number, indicating that all 
+// Internet hosts by name or IP address, as well as an optional URL scheme and/or port number.
+// The site's address may include an optional leading wildcard (the asterisk character, '*'),
+// and you may use a wildcard (again, '*') as the port number, indicating that all
 // legal ports are valid for the source.
 // Examples:
 // - http://*.example.com:      Matches all attempts to load from any subdomain of example.com using the http: URL scheme.
 // - mail.example.com:443:      Matches all attempts to access port 443 on mail.example.com.
 // - https://store.example.com: Matches all attempts to access store.example.com using https:.
 //
-// Sources : 
+// Sources :
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/default-src
 
@@ -122,10 +122,10 @@ JS Note & Debugging :
 // Pref : Separate process for protocol
 // defaultPref("extensions.webextensions.protocol.remote", true); //default true
 //
-// Pref : Separate process for protocol extension 
+// Pref : Separate process for protocol extension
 // defaultPref("extensions.webextensions.remote", false); //default true
 //
-// Process remote (separating process) can partially firewall extension by 
+// Process remote (separating process) can partially firewall extension by
 // denying access to some moz-extension (extension internal url like settings page)
 // but this is not reliable not usable for a purpose of firewalling
 // Setting this to false will break moz-extension URI loading
@@ -142,7 +142,7 @@ JS Note & Debugging :
 //
 // "extensions.webextensions.restrictedDomains"
 //
-// gHacks set this to empty ""... this is list of blocked domain for ext.  
+// gHacks set this to empty ""... this is list of blocked domain for ext.
 // Default value :
 // "accounts-static.cdn.mozilla.net,accounts.firefox.com,addons.cdn.mozilla.net,addons.mozilla.org,
 // api.accounts.firefox.com,content.cdn.mozilla.net,content.cdn.mozilla.net,discovery.
@@ -150,11 +150,11 @@ JS Note & Debugging :
 // com,profile.accounts.firefox.com,support.mozilla.org,sync.services.
 // mozilla.com,testpilot.firefox.com"
 //
-// Managed in 
-// AddonManagerWebAPI.cpp  
+// Managed in
+// AddonManagerWebAPI.cpp
 // WebExtensionPolicy.cpp
 //
-// Check function (When fail directly return deny) : 
+// Check function (When fail directly return deny) :
 //
 // WebExtensionPolicy::IsRestrictedURI
 // - Check againt restrictedDomains             (false-allow)       domains->Contains
@@ -163,12 +163,12 @@ JS Note & Debugging :
 // --- Check https/http                         --(false-allow)
 // --- Check SSL                                --(false-allow)
 // --- Allow those domain directly              --(true---deny)
-//     "addons.mozilla.org" 
-//     "discovery.addons.mozilla.org" 
+//     "addons.mozilla.org"
+//     "discovery.addons.mozilla.org"
 //     "testpilot.firefox.com"
 // --- If pref "extensions.webapi.testing"      --(true---deny)
 //     is true, it allow access to other
-//     sites list 
+//     sites list
 // --- Return false                             --(false-allow)
 // - Return false                               (false-allow)
 
@@ -178,13 +178,13 @@ JS Note & Debugging :
 //
 // Other possibility (securefox extension) compare requests to url... filter etc...
 //
-// Other possibility... recompile and make it a native feature... (may be for futur version) 
-// Just invert the code to be !domains->Contains and thus allow only listed domain 
+// Other possibility... recompile and make it a native feature... (may be for futur version)
+// Just invert the code to be !domains->Contains and thus allow only listed domain
 //
 // Other hidden setting
 // int dom.ipc.keepProcessesAlive.extension //hidden settings
 //
-// Conclusion : patching binary "IsRestrictedURI" function OR build own version 
+// Conclusion : patching binary "IsRestrictedURI" function OR build own version
 //              Durable solution is to rebuild... this feature is paused until futur versions
 //
 
@@ -208,7 +208,7 @@ JS Note & Debugging :
 // script-src 'self' moz-extension: blob: filesystem: 'unsafe-eval' 'unsafe-inline';
 // object-src 'self' moz-extension: blob: filesystem:;
 // "
-// 
+//
 // Super Strict Deny Value : "
 // default-src 'none';
 // script-src 'self' moz-extension: blob: filesystem: 'unsafe-eval' 'unsafe-inline';
