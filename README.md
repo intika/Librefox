@@ -172,7 +172,7 @@ Extensions Firewall
 
 Available native network restriction settings for addons:
 
-- Restricted domains list: `extensions.webextensions.restrictedDomains` this is a list of restricted domains that will be used to block some hosts for all the extensions, Firefox uses this setting to block extensions from accessing mozilla's domains/sites, by default in Librefox this setting is set to allow extensions to access all the web (You can edit that list to match your needs or to block a specific domain, note that the domain name has to be 'exact' (for instance facebook.com will only block facebook.com not mobile.fabcebook.com)
+- Restricted domains list: `extensions.webextensions.restrictedDomains` this is a list of restricted domains that will be used to block some hosts for all the extensions, Firefox uses this setting to block extensions from accessing mozilla's domains/sites, by default in Librefox this setting is set to allow extensions to access all the web (You can edit that list to match your needs or to block a specific domain, note that the domain name has to be 'exact' (for instance facebook.com will only block facebook.com not mobile.facebook.com)
 - Content security policy: `extensions.webextensions.base-content-security-policy` and `extensions.webextensions.default-content-security-policy` the later settings can be redefined/changed within an extension so it's not efficient for a firewall purpose. CSP settings are used in Firefox as an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware; In short: CSP settings block and allow certain domains under certain circumstances and thus could be used to firewall the extensions ([CSP Documentations](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), its [sources code](https://code.compassfoundation.io/general/mozilla-central/commit/623a4f866576815dfcbab26323d13b7144806bdf?view=inline&w=1) and [implementation](https://github.com/mozilla/gecko/blob/central/toolkit/components/extensions/ExtensionPolicyService.cpp))
 
 **Extensions Firewall - Blocking A Domain**
@@ -266,7 +266,7 @@ About
 
 **Based on:** [gHacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js), [pyllyukko-user.js](https://github.com/pyllyukko/user.js/) and [privaconf](https://addons.mozilla.org/en-US/firefox/addon/privaconf/) big thanks to everyone.
 
-**Acknowledgment**, special thanks to:
+**Acknowledgement**, special thanks to:
 - The Mozilla team for their amazing work on Firefox
 - The gHacks-User team for allowing the usage of their work
 - Martin Brinkmann (gHacks.net) for writing on Librefox
@@ -359,7 +359,7 @@ Documentation
 
 **Mozilla.cfg**: Locking and defaulting Librefox settings for security, privacy and performance.
 
-**Policies.json**: Policies for enterprise environments (the settings availables with `policies.json` are limited right now because this is a new feature of Firefox).
+**Policies.json**: Policies for enterprise environments (the settings available with `policies.json` are limited right now because this is a new feature of Firefox).
 
 **Bench diff**: Impact on the performance of Librefox, it can be a gain or a loss of performance +100/5000 stand for 2% gained performance and -1500/5000 stand for -30% performance loss.
 
@@ -404,7 +404,7 @@ Other Addons
 ------------
 
 **Other privacy addons**
-- [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp): Block http traffic and/or redirect it to https (Excellent remplacment for the unrecommended https-everywhere)
+- [NoHTTP](https://addons.mozilla.org/en-US/firefox/addon/nohttp): Block http traffic and/or redirect it to https (Excellent replacement for the unrecommended https-everywhere)
 - [Google-Container](https://addons.mozilla.org/en-US/firefox/addon/google-container/): Open all Google sites in a container
 - [Facebook-Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/): Open all Facebook sites in a container
 - [Request-Blocker](https://addons.mozilla.org/en-US/firefox/addon/request-blocker-we/): Hosts style blocking sites
