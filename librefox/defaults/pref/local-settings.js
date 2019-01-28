@@ -1,7 +1,7 @@
 //
 
 // ============================================================================================================================================
-// Privafox-Firefox Version : 2.1
+// Librefox Version : 2.1
 // ==============================
 //
 // Metrics available on mozilla.cfg
@@ -13,7 +13,7 @@
 // Bench Diff : ++/5000
 // >>>>>>>>>>>>>>>>>>>>
 
-// Intika Privafox MoD
+// Librefox MoD
 pref("general.config.filename", "mozilla.cfg");
 
 // Default Firefox
