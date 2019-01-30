@@ -14,6 +14,8 @@ This project aims at enforcing privacy and security of Firefox without forking t
 
 Librefox uses more than 500 privacy/security/performance settings, patches, Librefox-Addons (optional) and a cleaned bundle of Firefox (updater, crashreporter and Firefox's integrated addons that don't respect privacy are removed).
 
+**Librefox is NOT associated with Mozilla or its products.**
+
 Features
 --------
 
