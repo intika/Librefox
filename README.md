@@ -149,7 +149,7 @@ Recommended addons are not bundled and need to be installed manually
 
 Recommended Addons Settings
 ---------------------------
-`uBlock Origin`: Additional filters are availables here: https://filterlists.com/ (don't surcharge it to avoid performance loss)
+`uBlock Origin`: Additional filters are available here: https://filterlists.com/ (don't surcharge it to avoid performance loss)
 
 `Browser Plugs Privacy Firewall`: Keep settings light to make `privacy.resistFingerprinting` efficient because too much customization will lead to uniqueness and therefore easy fingerprinting.
 ```
