@@ -144,7 +144,6 @@ Recommended addons are not bundled and need to be installed manually
 - [Cookie Master](https://addons.mozilla.org/en-US/firefox/addon/cookiemaster/): Block all cookies and only allow authorized sites
 - [First Party Isolation](https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/): Enable/Disable FPI with the click of a button
 - [User Agent Platform Spoofer](https://addons.mozilla.org/en-US/firefox/addon/user-agent-platform-spoofer/): Spoof a different UserAgent OS Linux/Windows/Mac
-- [Browser Plugs Privacy Firewall](https://addons.mozilla.org/en-US/firefox/addon/browser-plugs-privacy-firewall/): Sets of settings to prevent fingerprinting and security issues
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) [+ IDCAC List](https://www.i-dont-care-about-cookies.eu/) [+ Nano-Defender List](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin): Block web advertisement and tracking
 
 Recommended Addons Settings
